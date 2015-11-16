@@ -1,0 +1,90 @@
+sections.page .page-content-sections  section.stream {
+    &.full-screen {
+        min-height: calc(~"100vh - @{FOOTER_HEIGHT}  - @{NAVIGATION_HEIGHT}");
+    }
+    content {
+        .column(12);
+        img {   
+            width: 100%;
+            margin: 1em 0 0 0;
+        }
+        .all-timers-off {
+            color: @ORANGE;
+            font-size: 2.5em;
+            padding-top: 2em;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                font-size: 1em;
+            }
+        }
+        .credit {
+            margin-top: 0;
+            margin-bottom: 1.5em;
+            text-align: right;
+            color: #808080;
+            a {
+                color: inherit !important;
+            }
+        }
+        #register {
+            color: @ORANGE;
+            text-align: center;
+            font-size: 2em;
+            margin-top: -1em;
+            margin-bottom: 1em;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                font-size: 1em;
+            }
+            a {
+                display: inline-block;
+                padding: 4px 8px;
+                color: @ORANGE;
+                &:hover {
+                    color: @DARK_BLUE;
+                    background-color: @ORANGE;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .stream-wrap {
+        display: none;
+        iframe {
+            padding-bottom: 2em;
+            height: 1200px;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { height: 800px; }
+        }
+    }
+    &.stream-teaser {
+        padding-top: 1em;
+        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { padding-top: 0em; }
+        &.first {
+            padding-top: 0;
+            margin-top: -28px;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { margin-top: -38px; }
+        }
+    }
+    &.stream-sign-up {
+        .stream-wrap {
+            iframe {
+                padding-bottom: 0em;
+            }
+        }
+    }
+    &.program-schedule {
+        display: none;
+        content > p { display: none; }
+        .day-wrap { margin-bottom: 0em; }
+        .track.break { display: none; }
+        .list-schedule { display: block; }
+        span.room { display: none; }
+        table.talks-list {
+            .track { display: none; }
+            .track[room="amphitheatre"] { display: block; }
+            padding-bottom: 2em;
+        }
+        @media screen and (min-width: (@SMARTPHONE_MAX_PORTRAIT + 1px)) {
+            table.talks-list { margin-top: 0; }
+            table.header-table { padding-bottom: 1em; }
+        }
+    }
+}

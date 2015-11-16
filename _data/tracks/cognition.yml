@@ -1,0 +1,62 @@
+- title: "Inside Watson: How IBM Is Making Computers Understand Language"
+  description: >
+    For decades, our books, movies and television programmes have portrayed a vision of a future where we can interact with our computers naturally, using our own languages like English. But this still isn't the reality for our day-to-day interactions with most computers. Why do our computers still not understand us?
+    Dale will talk about why this is taking so long, and describe his work as a developer on the IBM Watson project: IBM's latest attempt to move us a little closer towards this vision of computers able to understand questions from people in natural language.  He will explain the architecture behind Watson, and describe the way that Watson answers questions - how it tries to extract the meaning behind a question and uses this to identify and evaluate specific answers. 
+    Watson became better known when it was entered into the US television game show Jeopardy in 2011. Dale will show how Watson has changed since then, and some of the ways the technology has been put to use since.  
+  speakers:
+    - Dale Lane
+  room: amphitheatre
+  time:
+    start: "16:45"
+    finish: "17:45"
+
+- title: "Turning a Chatbot into a Narrative Game: Language Interaction in Event[0]"
+  description: >
+    Event[0] is a first person narrative exploration game where the player has to chat with a computer to get the latter to do what they want. The game is entirely dialogue-based, and the dialogue is made with natural language processing. The chatbot in the game is flawed, just like any chatbot is. This talk will explain how we have managed to turn these flaws into features and turn the AI's rough edges into a meaningful gameplay experience.
+  speakers:
+    - Sergey Mohov
+  room: amphitheatre
+  time:
+    start: "13:45"
+    finish: "14:30"
+
+- title: "Learning from HAL9000's Fatal Mistakes: Integrating Language into Applications (Expert Panel)"
+  description: >
+    ...
+  speakers:
+    - Josh McCoy
+    - Dale Lane
+    - Sergey Mohov
+    - Mitu Khandaker-Kokoris
+  room: laboratories
+  time:
+    start: "14:30"
+    finish: "15:30"
+
+- title: Text Synthesis with Recurrent Neural Networks for Fun and Profit!
+  description: >
+    Recursive Neural Networks are a fascinating tool for content generation. Recently we have seen an explosion of RNN applied to text generation: Generative TedTalks, Bible verses, Hiphop lyrics to name just a few. The talk gives an overview of recent experiments, provides a technical overview of RNNs and elaborates on usage scenarios in games or interactive simulations.
+  room: masterclass
+  time:
+    start: "11:45"
+    finish: "12:30"
+  speakers:
+    - Samim Winiger
+
+- title: Speech Recognition and Voice Synthesis (Workshop)
+  description: >
+    ...
+  room: laboratories
+  speakers:
+    - Alex J. Champandard
+  time:
+    start: "09:45"
+    finish: "11:45"
+
+# - title: Language Interaction in Simulations and Training Scenarios
+#   description: >
+#     ...
+#   room: masterclass
+#   time:
+#     start: "16:00"
+#     finish: "16:45"

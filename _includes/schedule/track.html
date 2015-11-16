@@ -1,0 +1,71 @@
+{% for talk in site.data.tracks[track] %}
+    {% include partials/wip-link.html %}
+    {% if track == "day1" or track == "day2" or track == "day3" %} {% assign link = false %} {% else %} {% assign link = true %} {% endif %}
+
+    {% assign escape = talk.title %}
+    {% include partials/escape-link.html %}
+    {% assign escapedTalkTitle = escaped %}
+
+    <div class="track {{track}} cell-content" time-start="{{talk.time.start}}" time-finish="{{talk.time.finish}}" room="{{talk.room}}">
+        {% if roomsLayout and link %}
+            {% capture tmpUrl %}/track/{{track}}/#{{escapedTalkTitle}}{% endcapture %}
+            <a class="{{wipClass}} talk-cell-wrap" href="{{ tmpUrl | prepend: site.baseurl }}">
+        {% else %}
+            <div class="talk-cell-wrap">
+        {% endif %}
+        <p class="speakers"> 
+            {% assign firstSpeaker = true %}
+            {% assign innerLoop = 0 %}
+            <span class="names-wrap for-{{talk.speakers.size}}-speakers">
+                {% for speaker in talk.speakers %}
+                    {% assign innerLoop = innerLoop | plus:1 %}
+                    {% for s in site.data.people %}
+                        {% if speaker == s.name %}
+                            {% if firstSpeaker %}
+                            {% else %}{% if talk.speakers.size == 2 %}{% if page.name != "lobby-blue.html" %}and{% endif %} {% endif %}{% endif %}
+                            <span class="speaker-name">
+                            {% if talk.speakers.size == 1 %}
+                                {{ s.name }}</span><span class="studio">, {{ s.affiliation.name }}</span>
+                            {% else %}
+                                {{ s.name }}{% if talk.speakers.size > 2 and innerLoop < talk.speakers.size %}{% if page.name != "lobby-blue.html" %},{% endif %} {% endif %}</span>
+                            {% endif %}
+                            {% assign firstSpeaker = false %}
+                        {% endif %} 
+                    {% endfor %}
+                {% endfor %}
+            </span>
+        </p>
+        <p class="title">
+
+        {% if roomsLayout %}
+        {% else %}
+        {% capture tmpUrl %}/track/{{track}}/#{{escapedTalkTitle}}{% endcapture %}
+        <a class="{{wipClass}}" href="{{ tmpUrl | prepend: site.baseurl }}">
+            <span class="time"> {{talk.time.start}} </span>
+        {% endif %}
+        <span class="title"> {{talk.title}} </span>
+             {% if roomsLayout %}
+        {% else %}
+        </a>
+        {% endif %}
+        {% if roomsLayout %}
+        {% else %}
+            <span class="room"> 
+                {% for room in site.data.rooms %}
+                    {% if room.id == talk.room %}
+                        (<span class="room-name">{{room.name}}</span>)
+                    {% endif %}
+                {% endfor %}
+            </span>
+        {% endif %}
+
+        </p>
+
+        {% if roomsLayout %}
+            </a>
+        {% else %}
+            </div>
+        {% endif %}
+    </div>
+
+{% endfor %}

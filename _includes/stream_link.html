@@ -1,0 +1,15 @@
+<div class="stream-data" style="display:none;">
+    {% for day in site.data.stream.days %}
+        <span class="day" date-start="{{day.start}}" date-finish="{{day.finish}}" > </span>
+    {% endfor %}
+</div>
+<div id="stream-button-wrap">
+    <a class="to-stream" href="/stream/" style="text-decoration:none;">
+        <div class="content-wrap">
+            <span class="button">&#9654;</span>
+            <br/>
+            <span class="announcement live"> Now Streaming Live! </span>
+            <span class="announcement check"> Conference Live Stream </span>
+        </div>
+    </a>
+</div>

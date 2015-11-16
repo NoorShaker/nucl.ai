@@ -1,0 +1,15 @@
+- title: "Introduction: Crowd Simulation, Decision Making, Input Devices"
+  speakers:
+    - Michaël Rouillé
+    - Diego Perez
+    - Richard Kogelnig
+  room: amphitheatre
+  time:
+    start: "09:00"
+    finish: "9:45"
+
+- title: "Networking Hour in the Lobby"
+  room: laboratories
+  time:
+    start: "08:45"
+    finish: "9:45"

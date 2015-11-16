@@ -1,0 +1,26 @@
+- id: craft_ai
+  name: "craft ai"
+  homepage: http://craft.ai/
+
+- id: ca
+  name: "Creative Assembly"
+  logo: ca.gif
+  homepage: http://www.creative-assembly.com/jobs/
+  lobby_logo: ca-lobby.png
+
+- id: sproing
+  name: "Sproing"
+  homepage: http://www.sproing.com/
+
+- id: havok
+  name: "Havok"
+  homepage: http://www.havok.com/
+
+- id: unity
+  name: "Unity"
+  homepage: https://unity3d.com/
+
+
+- id: io_interactive
+  name: "Io-Interactive"
+  homepage: http://www.ioi.dk/

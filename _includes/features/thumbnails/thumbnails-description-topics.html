@@ -1,0 +1,43 @@
+{% if lastRow %} {% capture lastRow %}last-row{% endcapture %} {% endif %}
+{% assign descModulo = descIndex | plus:1 | modulo:itemsInRow %}
+
+{% assign escape = desc.title %}
+{% include partials/escape-link.html %}
+{% assign escapedName = escaped %}
+
+
+<item class="description {{lastRow}} animated fadeOutRight" name="{{escapedName}}">
+    <h2 class="thumbnail-title
+        column-{{ descModulo}}
+        {{itemsInRow}}-in-row
+        {% if descModulo == 1 %} column-first 
+        {% elsif descModulo == 0 %} column-last
+        {% elsif itemsInRow == 3 %} column-middle
+        {% endif %}
+    ">
+    {% if desc.disabled %}
+        {{ desc.title }}
+    {% else %}
+        {% capture xp%}/track/{{desc.id}}/{% endcapture %}
+        <a href="{{ tmpUrl | prepend: site.baseurl }}">{{desc.title}}</a>
+    {% endif %}
+    </h2>
+
+    <p>{{desc.description}}</p>
+
+    {% if desc.disabled %}
+    {% else %}
+    {% capture tmpUrl%}/track/{{desc.id}}/{% endcapture %}
+    <a href="{{ tmpUrl | prepend: site.baseurl }}" class="read-more">Click for track details...</a>
+    {% endif %}
+
+    <h3>Keywords</h3>
+    <ul>
+        {% for kw in desc.keywords %} 
+            <li>{{kw}}</li>
+        {% endfor %}
+    </ul>
+    <p class="note">
+        Photo Credit: <a href="{{ desc.credit.url }}" target="_blank">{{ desc.credit.title }}</a>
+    </p>
+</item>

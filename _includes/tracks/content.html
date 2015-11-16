@@ -1,0 +1,245 @@
+{% include tracks/assign.html %}
+{% include tracks/get_track.html %}
+
+{% assign currenttrack = item %}
+
+{% for day in site.data.schedule %}
+    {% assign currentDayIds = forloop.index %}
+    {% for t in day.tracks %}
+        {% if t == item.id %}
+            {% assign date = day.title %}
+            {% assign dayIdx = currentDayIds %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+<section class="tracks-content tracks-text">
+    <grid>
+        <h2>{{item.title}} (Day #{{dayIdx}})</h2>
+
+        {% assign items = site.data.tracks[item.id] %}
+        <content>
+            <h4>{{item.subtitle}}</h4>
+            <p class="intro"><span>Now in its 7th edition, <a href="/">nucl.ai</a> brings together hundreds of developers from creative industries and interactive media to resolve the biggest technical and design problems with Artificial Intelligence.  One of the event's tracks focuses specifically on</span> <b>&ldquo;{{item.title}}&rdquo;</b> <span>for an entire day. ({{date}})</span></p>
+        </content>
+    </grid>
+</section>
+<section class="none"></section>
+<section class="tracks-content tracks-text testimonials single-column-testimonials">
+    <grid>
+        <content>
+            <h3> <span class="tickets-left">{{track.tickets_left}} Day Tickets Left!</span> Attending Companies &amp; Studios</h3>
+            <div class="block">
+                <ul>
+                {% for company in track.companies %}
+                    {% capture modulo %}{{ forloop.index | modulo:2}}{% endcapture %}
+                    {% if modulo != '0' %}
+                    <li>{{ company }}</li>
+                    {% else %}
+                    {% endif%}
+                {% endfor %}
+                </ul>
+            </div>   
+
+            <div class="block">
+                <ul>
+                {% for company in track.companies %}
+                    {% capture modulo %}{{ forloop.index | modulo:2}}{% endcapture %}
+                    {% if modulo == '0' %}
+                    <li>{{ company }}</li>
+                    {% else %}
+                    {% endif%}
+                {% endfor %}
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="block testimonials">
+                    {% assign testimonialsInRow = 1 %}
+                    {% assign testimonialSize = "" %}
+                    {% include testimonials.html %}
+            </div>
+        
+        <br style="clear: both;"/>
+        </content>
+        <br style="clear: both;"/>
+    </grid>
+</section>
+<section class="none"></section>
+<section class="tracks-content tracks-text tickets">
+    <grid>
+        <content>
+        {% for ticket in site.data.track_price %}
+            {% if ticket.date and ticket.date != "" %} {% capture row_class %} long {% endcapture %} {% else %} {% capture row_class %} short {% endcapture %} {% endif %}
+            <item class="ticket-row ticket-price {{row_class}} {{ticket.type}} bigger">
+                {% if ticket.name and ticket.name != "" or ticket.date and ticket.date != "" %} {% capture cell_class %} visible {% endcapture %} {% else %} {% capture cell_class %} invisible {% endcapture %} {% endif %}
+                <div class="name table {{cell_class}}">
+                    <div class="centered-cell">
+                        <p class="name">{{ ticket.name }} </p>
+                        <p class="date small">{{ ticket.date }}</p>
+                    </div>
+                </div>
+                
+                {% if forloop.first == false %}
+                <div class="conference table">
+                {% else %}
+                <div class="conference table titlerow">
+                {% endif %}                    
+                <div class="centered-cell small">
+                        <p>
+                            {{ ticket.conference }}
+                        </p>
+                    </div>
+                </div>
+
+                {% if forloop.first == false %}
+                <div class="all-access table">
+                {% else %}
+                <div class="all-access table titlerow">
+                {% endif %}
+                    <div class="centered-cell small">
+                        <p>
+                            {% if ticket.all_access %}
+                                {{ ticket.all_access }}
+                            {% else %}
+                                -
+                            {% endif %}
+                        </p>
+                    </div>
+                </div>
+
+            </item>
+        {% endfor %}
+        
+        <div class="table-comments wider">
+            <p class="table-comment">
+                <h4>Notes</h4>
+                <ul>
+                    <li>The main amphitheatre (including some talks in this track) are accessible with regular Conference tickets, starting at €119.</li>
+                    <li>Discounts are available for small teams and for those between jobs; email events(at)aigamedev.com for a coupon code.</li>
+                </ul>
+            </p>
+        </div>
+
+            {{track.content}}
+
+            <div class="block">
+            <h3>Keywords</h3>
+            
+            <ul>
+            {% for keyword in track.keywords %}
+                <li>{{ keyword }}</li>
+            {% endfor %}
+            </ul>
+            </div>
+            
+            <div class="block">
+            <h3>Format</h3>
+            
+            <ul>
+                <li>Keynote</li>
+                <li>Presentations</li>
+                <li>Panel Discussion</li>
+                <li>Expert Q&A</li>
+            </ul>
+            </div>
+        </content>
+    </grid>
+</section>
+
+
+<section class="program-schedule track-schedule">
+    <a class="anchor" id="schedule"></a>
+    <grid class="rooms-schedule">
+        {% include tracks/get_track.html %}
+        {% assign roomsLayout = true %}
+        {% include tracks/schedule.html %}
+    </grid>
+    <grid class="list-schedule">
+        {% include tracks/get_track.html %}
+        {% assign roomsLayout = false %}
+        {% include tracks/schedule.html %}
+    </grid>
+</section>
+
+
+{% comment %}
+<section class="tracks-content tracks-text call">
+    <grid>
+        <h2>Call For Presentations</h2>
+        <content>
+            <div class="megaphone-paragraph-wrap">
+            <icon class="megaphone"></icon>
+
+            <p>If you've been working on projects with <b>{{item.title}}</b>, do you have a cool applications to show off?  Did you work on interesting prototypes?  Have you learned something to share with others?  This is your chance to interact with an audience of your peers and make an impact on the field!</p>
+            </div>
+
+            <p><a href="/">nucl.ai</a> welcomes submissions for presentations about AI techniques used in commercial products, ranging from independent games to mobile applications or AAA titles and simulations, even interactive exhibits.  Deep dive post-mortems and technology-specific tutorials about R&amp;D are also ideal.  Out of experience, the best sessions at the event try to balanced design and technology &mdash; and both are of course welcome in 2015.</p>
+
+            <ul>
+            {% for keyword in track.keywords %}
+                <li>{{ keyword }}</li>
+            {% endfor %}
+            </ul>
+
+            <p>If you'd like to participate in this track at <a href="/">nucl.ai</a>, on the topics listed above or any other you find appropriate, then get in touch...  Either submit a proposal <a href="https://docs.google.com/forms/d/171vIIRy1FcOABlRuyC6zJ0zDF6HrM3paNRXz1iEwuio/viewform">via this form</a> or send an email to <tt>&lt;events</tt> at <tt>aigamedev.com&gt;</tt>.  We're looking forward to reading your submission!</p>
+
+            <h3>Submission Deadline April 30th, 2015.</h3>
+        </content>
+    </grid>
+</section>
+{% endcomment %}
+
+{% capture backgroundImg %}/img/tracks/{{item.id}}.png{% endcapture %}
+<section class="program separator" style="background-image: url('{{  backgroundImg | prepend: site.baseurl }}'); background-position: center center;">
+    <a class="anchor" id="presentations"></a>
+</section>
+
+<section class="none separator"></section>
+
+{% if items %}
+<section class="thumbnails-grid tracks-content people left-side-thumbnail" id="track-content">
+    <grid>
+        <h2> Keynotes and Presentations </h2>
+        <content>
+                {% for item in items %}
+
+                {% include partials/wip-link.html %}
+                {% assign escape = item.title %}
+                {% include partials/escape-link.html %}
+                {% assign escapedItemTitle = escaped %}
+
+                <item class="talk {{wipClass}}">
+                    <a class="anchor" id="{{escapedItemTitle}}"></a>
+                    <h3><a class="{{wipClass}}" href="/track/{{currenttrack.id}}#{{escapedItemTitle}}">{{item.title}}</a></h3>
+                    {% assign items = item.speakers %}
+                    {% assign speakersSize = 0 %}
+                    {% for s in item.speakers %} {% assign speakersSize = speakersSize | plus: 1 %}  {% endfor %}  {% comment %} array | size fiter gives always 0 here :| {% endcomment %}
+                    {% if speakersSize > 2 %}
+                        {% assign itemsInRow = 5 %}
+                        {% assign shortBio = false %}
+                    {% else %}
+                        {% assign itemsInRow = 3 %}
+                        {% assign shortBio = true %}
+                    {% endif %}
+
+                    {% assign dataType = "people" %}
+                    <div class="description">
+                    <p >{{item.description}}</p>
+                    </div>
+                    {% assign attachDescription = false %}
+                    {% assign aClass = "scrollable" %}
+                        {% assign disableAll = true %}
+                        <div class="thumbnails thumbnails-{{itemsInRow}}-in-row">
+                        {% include features/thumbnails/thumbnails.html %}
+                    </div>
+                </item>
+            {% endfor %}
+        </content>
+    </grid>
+</section>
+{% endif %}
+
+{% assign disableAll = false %}
+{% assign shortBio = false %}
+{% assign aClass = "" %}
+{% assign titlebar = "Browse Conference Tracks" %}

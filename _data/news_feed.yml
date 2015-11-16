@@ -1,0 +1,47 @@
+- title: "Inside Watson: How IBM Is Making Computers Understand Language"
+  author: Dale Lane (IBM Watson)
+  date: "Apr 29, 2015"
+  link: "/track/cognition/"
+  picture: "/img/tracks/WatsonIBM_1.jpg"
+
+- title: "The AI Systems in Fortnite and its Director"
+  author: John Abercrombie (Epic Games)
+  date: "Apr 25, 2015"
+  link: "/track/systems/"
+  picture: "/img/tracks/Fortnite_1.jpg"
+
+- title: "Tactical Planning with Real-time MCTS in Fable Legends"
+  author: Gwaredd Mountain (Lionhead)
+  date: "Apr 21, 2015"
+  link: "/track/decisions/#tactical-planning-in-fable-legends"
+  picture: "/img/tracks/FableLegends_2.jpg"
+
+- title: "Building the Massive Crowds of Assassin's Creed Unity"
+  author: François Cournoyer and Antoine Fortier (Ubisoft Montreal)
+  date: "Apr 16, 2015"
+  link: "/track/systems/"
+  picture: "/img/tracks/AssassinsCreed_1.jpg"
+
+# - title: "Behavior Trees and Blackboards in EVE ONLINE"
+#   author: Freyr Magnússon (CCP Games)
+#   date: "Apr 13, 2015"
+#   link: "/track/behavior/#behavior-trees-and-blackboards-in-eve-online"
+#   picture: "/img/tracks/alternate.png"
+
+# - title: "Optimizing MCTS for Tactical Coordination in TOTAL WAR: ATILLA"
+#   date: "Apr 11, 2015"
+#   author: Piotr Andruszkiewicz (Creative Assembly)
+#   link: "/track/decisions/#optimizing-mcts-performance-for-tactical-coordination-in-total-war--atilla"
+#   picture: "/img/tracks/behavior.png"
+
+- title: "MotionFields: Road to Next-Gen Animation"
+  date: "Apr 8, 2015"
+  author: Michael Büttner (Ubisoft Toronto)
+  link: "/track/animation/#motionfields---road-to-next-gen-animation"
+  picture: "/img/tracks/animation.png"
+
+- title: "The Evolution of Crowds and AI in Feature Film Animation"
+  date: "Apr 3, 2015"
+  author:  Paul Kanyuk (Pixar Animation Studios)
+  link: "/track/ambient/#the-evolution-of-crowds-and-ai-in-feature-film-animation"
+  picture: "/img/tracks/ambient.png"

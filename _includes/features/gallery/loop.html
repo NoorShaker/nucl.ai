@@ -1,0 +1,37 @@
+{% for item in items %}
+
+    
+        {% capture modulo %}{{ forloop.index | modulo:5 }}{% endcapture %}
+        {% if modulo == "0" %}
+            {% capture iter %}fifth{% endcapture %}
+        {% elsif modulo == "1" %}
+                {% capture iter %}first{% endcapture %}
+        {% else %}
+            {% capture iter %}{% endcapture %}
+        {% endif %}
+
+    {% if forloop.first %}
+        <item class="{{firstItemClass}} {{iter}}" name="{{itme.picture}}">
+        {% capture coverClass %}animated fadeOut{% endcapture %}
+    {% else %}
+        <item class="{{itemClass}} {{iter}}" name="{{item.picture}}">
+        {% capture coverClass %}animated fadeIn{% endcapture %}
+    {% endif %}
+        {% if layout == "slides" or layout == "menu" %}
+        {% if layout == "menu" %} {% capture coverClass %}{% endcapture %} {% endif %}
+        {% if slide.cover %}
+            {% capture cover %}{{ item.cover }}{% endcapture %} 
+        {% else %}
+            {% capture cover %}{{ item.picture | replace:'.jpg','.png' | replace:'.JPG','.png' }}{% endcapture %} 
+        {% endif %}
+            <div class="cover {{coverClass}}" style="background-image: url('{{ cover | prepend: site.baseurl }}')"></div>
+            <div class="picture" style="background-image: url('{{ item.picture | prepend: site.baseurl }}')"></div>
+        {% if linkable %}
+            <img class="picture" src='{{ item.picture | prepend: site.baseurl }}' align="middle"/>
+        {% endif %}
+        {% else %}
+            <h3> {{item.name}} </h3>
+            <p> {{item.text}} </p>
+        {% endif %}
+    </item>
+{% endfor %}

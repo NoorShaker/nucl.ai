@@ -1,0 +1,95 @@
+- title: "Spawn Trees — Inside The Witcher 3: Wild Hunt's Communities"
+  description: >
+    When approaching The Witcher 3: Wild Hunt community module design, we knew that we needed a scalable system capable of powering everything from the large city of Novigrad, to a small woodcutter's hut in the middle of nowhere, to ancient catacombs filled with undead monsters. 
+    It will be my privilege to talk about SpawnTrees, our internal system utilizing decision trees to define open world communities. I'll share with you the story of how we arrived at the current solution, what were the problems along the road, and how Spawn Trees worked with other AI systems. 
+    Finally, we will take a broader and more general look on the usage of AI system design principles outside of NPC behavior.
+  speakers:
+    - Michał Słapa
+  room: amphitheatre
+  time:
+    start: "11:00"
+    finish: "11:45"
+
+- title: "Extended Q&A about Witcher 3 and Open World Population Managers"
+  description: >
+    ...
+  speakers:
+    - Tommy Thompson
+    - Michał Słapa
+  room: laboratories
+  time:
+    start: "11:45"
+    finish: "12:30"
+
+- title: Epic AI Systems and Director in Fortnite
+  description: >
+    Fortnite is Epic Game's upcoming free-to-play title with fort building and an AI director that spawns procedural
+    hordes of enemies towards the player.  In this talk, John will dig into various systems that go into the game
+    from both a technical and design perspective, including runtime procedural navigation meshes, behaviour trees and goal management. With a focus on how bringing it all together makes for a coherent and fun gameplay experience!
+  speakers:
+    - John Abercrombie
+  room: amphitheatre
+  time:
+    start: "16:00"
+    finish: "16:45"
+
+- title: Building a Systemic Understanding of Systemic Design
+  description: >
+   Systemic design is for many of us like water to fish: we swim in it daily, but we have a difficult time articulating exactly what it is. This talk will provide useful, practical definitions of important concepts and a cohesive framework for creating systems and systemic effects in game and AI design will also be presented.
+   
+   Despite a lot more attention being given to systemic design, many professional designers still have only a hazy idea of what a system actually is -- and whether whether they're even building one. This talk will help game designers at all levels understand how to build and recognize systems, and to make sure their systems are both grounded enough to be implemented and relevant enough to add meaning to a game.
+    <ul>
+      <li>Systems and system design are vital areas for games and simulations. And yet, terms like "systems," "emergence," and "interaction" remain ill-defined despite their broad use.</li> 
+      <li>Come away from this talk with a clearer theoretical and practical understanding of these concepts to improve your ability to construct and recognize interactive systems.</li>
+    </ul>
+  speakers:
+    - Michael Sellers
+  room: masterclass
+  time:
+    start: "09:45"
+    finish: "10:30"
+
+- title: "Coordinating Open World Systems and Emergent Gameplay (Expert Panel)"
+  description: >
+    As new ideas emerge and hardware continues to evolve, the size and complexity of video game worlds are growing into vast 
+    and rich environments.  2015 alone is filled with examples of such wide and expansive worlds from CD Projekt Red's 
+    'Witcher 3: Wild Hunt' to Rocksteady's 'Batman: Arkham Knight'.  These worlds provide new affordances for player experience, 
+    but present interesting challenges not only in creating AI systems that craft these experiences, but also in building the 
+    environment to begin with.  Systemic design and the adoption of director systems can provide solutions across both of these 
+    fronts, but there are many challenges still to be met.  In this panel we will discuss with a collection of our speakers from 
+    the track the open challenges of the field and how AI can continue to innovate in this area.
+  speakers:
+    - Tommy Thompson
+    - John Abercrombie
+    - Michał Słapa
+    - Antoine Fortier
+  room: masterclass
+  time:
+    start: "16:45"
+    finish: "17:30"
+
+- title: "Designing CAD Tools for Productivity and Creativity"
+  description: >
+    ...
+#   Mixed-initiative design tools both support users in their design process but also contribute with novel ideas. 
+#	  A mixed-initiative tool should recognize the user's intentions, aesthetic preferences and design process; suggesting either the next logical step towards the user's perceived goal or present an unexpected alternative which the designer hadn't thought of. 
+#   This talk will cover mixed-initiative design where both human and computer proactively contribute to the solution. Furthermore , we will present methods how Artificial Intelligence can assist a novice user in getting acquainted with the task of designing. 
+#	  We will conclude with promising directions (and low-hanging fruit) for commercial tool development wishing to incorporate AI-assisted and mixed-initiative design paradigms.
+  speakers:
+    - Antonios Liapis
+  room: masterclass
+  time:
+    start: "15:00"
+    finish: "15:30"
+
+- title: "Techniques for Orchestration of Virtual Environments"
+  description: >
+    ...
+# The talk will present the HUMANS platform (Human models based Artificial eNvironments Software platform): a system to orchestrate virtual environments for learning.  HUMANS generate these environments dynamically and without impairing the world coherency nor the emergence of new and unpredicted situations. 
+# The HUMANS platform relies on the modelling of human and social activities leveraging highly complex artificial intelligence techniques such as knowledge representation, uncertainty processing and decisional artificial intelligence.
+  speakers:
+    - Kevin Carpentier
+  room: masterclass
+  time:
+    start: "14:30"
+    finish: "15:00"

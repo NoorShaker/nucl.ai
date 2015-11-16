@@ -1,0 +1,94 @@
+- title: "MotionFields: The Road to Next-Gen Animation"
+  description: >
+    <p>In order to create a high-quality character animation conventional animation systems require a large amount of individual animation clips to get organized into hand-crafted blend-trees and state-machines. Technical Animators need to work together with Programmers to carefully design a blend-structure for certain types of movement and Animators need to follow precise rules when they create the assets. It usually takes a large amount of time to produce the assets and the blend-structure to achieve high-quality results. Once such a structure is created it is rather difficult to organize it differently due to the dependency on the assets.</p>
+    <p>This presentation will introduce a novel approach for creating character animation that does not rely on any superimposed structure but uses raw motion capture data instead. It does not require any pre-processing steps and produces a level of visual fidelity that equals the quality of the provided input animations. It is just a matter of creating the required animation to produce movements that would be either extremely difficult or impossible to produce with traditional animation systems.</p>
+    <p>Our system can consume new animation data on-the-fly. A motion capture actor could feed the system in real time until the simulated character achieves the desired level of responsiveness and quality. Animators are free to focus on movements and style instead of being forced to produce cycles and transitions.</p>
+    <p>At every step of the simulation, our method uses the current pose of the character and a number of desired goals to find the best pose to transition into. For example, goals can be desired direction and velocity based on stick input for player-controller characters or desired position and facing for AI-controlled characters. Goals are transformed into a prediction model that is matched against available animation poses in the motion library. We use a novel rating scheme to balance quality against responsiveness of the system.</p>
+  speakers:
+    - Michael Büttner
+  room: amphitheatre
+  time:
+    start: "14:30"
+    finish: "15:30"
+
+- title: "Motion Fields and Animation Warping for Pixel-Perfect Animation"
+  description: >
+    This talk explains how to take the resulting animation stream of a Motion Field animation synthesizer, and procedurally warp it so that it perfectly fits the environment and the gameplay requirements.
+  speakers:
+    - Simon Clavet
+  room: masterclass
+  time:
+    start: "16:00"
+    finish: "16:45"
+
+- title: "Exploring the Relationship Between Gameplay and Animation"
+  description: >
+    We examine the demands of animation and gameplay that can be at odds during game development, through the lens of working on League of Legends. We consider the tradeoffs and range of available prioritizations between the two, and what consequences result. Concrete examples from League are presented and discussed.
+  speakers:
+    - Christopher Laubach
+  room: amphitheatre
+  time:
+    start: "11:45"
+    finish: "12:30"
+
+- title: "IK Rig: Procedural Pose Animation"
+  description: >
+    <p>IK Rig is the technology designed to transfer motion between rigs of varying sizes and skeleton hierarchies, plus amend 
+    the motion to represent the current rig’s size, weight etc.</p>
+    <p>The idea is that any character can be represented as a set of IK chains. If we can create a set of IK chains that is 
+    suitable for multiple characters, we can use this medium to share their animation data.</p>
+    <p>Also, the IK representation provides us with tools to intelligently modify the motion sets to produce deviations, such as 
+    different navigation states, object interaction, etc.</p>
+    <p>This technology can be applied offline or at runtime:</p>
+    <ul>
+    <li>From a single set of walking motion capture, create alternative sets of same motion in crouch, limp, being hurt etc etc.</li>
+    <li>Interaction with level, props and other characters.</li>
+    <li>Use dog mocap to create same motions of cat, horse, or Star Wars tank.</li>
+    <li>IK Rig tech is perfect for uneven terrain navigation, since the change of terrain level and character velocity affects full body of the character, producing natural seamless motion.</li>
+    <li>Runtime application helps transition the character between IK states, allowing intelligent transition between navigation modes.</li>
+    </ul>
+  speakers:
+    - Alexander Bereznyak
+  room: amphitheatre
+  time:
+    start: "09:45"
+    finish: "10:30"
+
+- title: Best Practices in Animation Runtimes
+  description: >
+    This panel follows-up on the Runtime Rig talk with advanced issues of animation runtimes,
+    with experiences from developers in the trenches. How can IK be optimized to run
+    efficently enough by default on all characters at runtime?  Which new opportunities does
+    this open up?  What are the major challenges in practice?  How can runtimes and blend-trees
+    be prepared for more advanced animation techniques like Motion Fields?
+  speakers:
+    - Michael Büttner
+    - Simon Clavet
+    - Mika Vehkala
+  room: masterclass
+  time:
+    start: "11:00"
+    finish: "11:45"
+
+- title: Animation in Visual Effects Masterclass
+  description: >
+    ...
+  speakers:
+    - Paul Kanyuk
+  room: masterclass
+  time:
+    start: "13:45"
+    finish: "14:30"
+
+- title: Breaking Out of the Finite-State-Machine and Beyond (Expert Panel)
+  description: >
+    ...
+  room: laboratories
+  speakers:
+    - Alexander Bereznyak
+    - Michael Büttner
+    - Simon Clavet
+    - Paul McComas
+  time:
+    start: "16:45"
+    finish: "17:30"

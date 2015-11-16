@@ -1,0 +1,136 @@
+{% if itemsInRow %} {% else %} {% assign itemsInRow = 3 %} {% endif %}
+
+{% for it in items %}
+    {% case dataType %}
+        {% when "people" %}
+            {% if items != site.data.people %} {% comment %} items are filtered {% endcomment %}
+                {% for person in site.data.people %}
+                    {% if person.name == it %}
+                        {% assign thumbnail = person %}
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                {% assign thumbnail = it %}
+            {% endif %}
+
+            {% assign name = thumbnail.name %}
+            {% assign escape = name %}
+            {% include partials/escape-link.html %}
+            {% assign escapedName = escaped %}
+
+            {% capture thumbnailId %}{{escapedName}}{% endcapture %}
+            {% capture picture %}/img/people/{{ name | escape }}.jpg{% endcapture %}
+            {% capture href %}/#{{thumbnailId}}{% endcapture %}
+
+        {% when "topics" %}
+            {% assign thumbnail = it %}
+            {% assign name = thumbnail.title %}
+            {% capture thumbnailId %}{{thumbnail.id}}{% endcapture %}
+            {% capture picture %}/img/topics/{{ thumbnail.id | escape }}.jpg{% endcapture %}
+            {% capture href %}/track/{{ thumbnail.id | escape }}{% endcapture %}
+            {% if attachDescription %} {% assign status = "enabled" %} {% endif %}
+    {% endcase %}
+
+    {% if thumbnail.disabled or disableAll %} 
+        {% capture href %}{% endcapture %}
+        {% assign status = "disabled" %}
+    {% else %}
+        {% assign status = "enabled" %}
+    {% endif %}
+
+    {% if thumbnail.id and thumbnail.id == id %} {% assign selected="selected allows-selcted" %} {% else %} {% assign selected="" %} {% endif %}
+    {% capture modulo %}{{ forloop.index | modulo:itemsInRow }}{% endcapture %}
+
+    {% assign escape = name %}
+    {% include partials/escape-link.html %}
+    {% assign escapedName = escaped %}
+
+    <a class="anchor" id="{{escapedName}}"></a>
+
+    <item class="thumbnail {{thumbnail.id}}">
+        <thumbnail-wrap>
+            <a id="thumbnail-id-{{thumbnailId}}" href="{{href | prepend: site.baseurl }}"class="thumbnail 
+                column-{{modulo}}
+                {{itemsInRow}}-in-row
+                {{aClass}}
+                {% if modulo == '1' %} column-first 
+                {% elsif modulo == '0' %} column-last
+                {% elsif itemsInRow == 3 %} column-middle
+                {% endif %}
+                {{thumbnailClass}} {{selected}} {{status}}" name="{{escapedName}}" style="background-image: url('{{ picture | escape |  prepend: site.baseurl }}')">
+            </a>
+        </thumbnail-wrap>
+        {% if shortBio %}
+        {% else %}
+            <h3 class="thumbnail-title {{selected}} {{status}}" name="{{escapedName}}">{{ name }}
+            {% if thumbnail.disabled or disableAll %}
+                {% if thumbnail.affiliation %}
+                ,
+                    {% if thumbnail.affiliation.position %}
+                        {{thumbnail.affiliation.position}} at 
+                    {% endif %}
+                    {{thumbnail.affiliation.name}} 
+                {% endif %}
+            {% endif %}
+            </h3>
+        {% endif %}
+    </item>
+
+    {% if shortBio %}
+
+        {% assign affiliation=""%}
+        {% if thumbnail.affiliation.name %}
+            {% capture affiliation %}, {{thumbnail.affiliation.name}}{% endcapture %}
+        {% endif %}
+
+        <div class="short-bio-wrap">
+            <item class="short-bio">
+                <h3>{{name}}{{affiliation}}</h3>
+                <p class="text">
+                {{thumbnail.bio | truncatewords:50 }}
+                </p>
+                <p>
+                    {% capture tmpUrl %}/#{{thumbnailId}}{% endcapture %}
+                    <a href="{{ tmpUrl | prepend: site.baseurl }}">Read full biography &raquo;</a>
+                </p>
+            </item>
+        </div>
+        <item class="short-bio-mobile">
+                <h3>{{name}}{{affiliation}}</h3>
+                <p class="text">
+                {{thumbnail.bio | truncatewords:50 }}
+                </p>
+                <p>
+                    {% capture tmpUrl %}/#{{thumbnailId}}{% endcapture %}
+                    <a href="{{ tmpUrl | prepend: site.baseurl }}">Read full biography &raquo;</a>
+                </p>
+            </item>
+    {% endif %}
+    
+    {% capture modulo %}{{ forloop.index | modulo:itemsInRow }}{% endcapture %}
+    {% if modulo == '0' or forloop.last == true %}
+        <div class="brk" style="clear: both; width: 100%;"></div>
+    {% endif %}
+    {% if attachDescription %}
+        {% assign topicsIndex = forloop.index %}
+        {% assign lastRow = forloop.last %}
+        {% if modulo == '0' or forloop.last == true %}
+            {% if modulo == '0' %}
+                {% assign descriptions = itemsInRow %}
+            {% else %}
+                {% assign descriptions = forloop.index | modulo:itemsInRow %}
+            {% endif %}
+            {% for num in (1...descriptions) %}
+                {% assign descIndex = topicsIndex | minus:forloop.index %}
+                {% assign desc = items[descIndex] %}
+                {% case dataType %}
+                    {% when "people" %}
+                        {% include features/thumbnails/thumbnails-description-people.html %}
+                    {% when "topics" %}
+                        {% include features/thumbnails/thumbnails-description-topics.html %}
+                {% endcase %}
+            {% endfor %}
+            <div class="brk" style="clear: both; width: 100%;"></div>
+        {% endif %}
+    {% endif %}
+{% endfor %}

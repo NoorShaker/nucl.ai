@@ -1,0 +1,20 @@
+<gallery> 
+    <menu>
+        {% assign firstItemClass = "selected" %}
+        {% assign itemClass = "" %}
+        {% assign layout = "menu" %}
+        {% include features/gallery/loop.html %}
+    </menu>
+    <slides>
+        {% assign firstItemClass = "selected animated fadeInLeftBig" %}
+        {% assign itemClass = "animated fadeOutRightBig" %}
+        {% assign layout = "slides" %}
+        {% include features/gallery/loop.html %}
+    </slides>
+    <descriptions>
+        {% assign firstItemClass = "selected animated fadeInRigthBig" %}
+        {% assign itemClass = "animated fadeOutLeftBig" %}
+        {% assign layout = "text" %}
+        {% include features/gallery/loop.html %}
+    </descriptions>
+</gallery>
