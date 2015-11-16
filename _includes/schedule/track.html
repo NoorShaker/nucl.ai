@@ -8,7 +8,8 @@
 
     <div class="track {{track}} cell-content" time-start="{{talk.time.start}}" time-finish="{{talk.time.finish}}" room="{{talk.room}}">
         {% if roomsLayout and link %}
-            <a class="{{wipClass}} talk-cell-wrap" href="/track/{{track}}/#{{escapedTalkTitle}}">
+            {% capture tmpUrl %}/track/{{track}}/#{{escapedTalkTitle}}{% endcapture %}
+            <a class="{{wipClass}} talk-cell-wrap" href="{{ tmpUrl | prepend: site.baseurl }}">
         {% else %}
             <div class="talk-cell-wrap">
         {% endif %}
@@ -38,7 +39,8 @@
 
         {% if roomsLayout %}
         {% else %}
-        <a class="{{wipClass}}" href="/track/{{track}}/#{{escapedTalkTitle}}">
+        {% capture tmpUrl %}/track/{{track}}/#{{escapedTalkTitle}}{% endcapture %}
+        <a class="{{wipClass}}" href="{{ tmpUrl | prepend: site.baseurl }}">
             <span class="time"> {{talk.time.start}} </span>
         {% endif %}
         <span class="title"> {{talk.title}} </span>

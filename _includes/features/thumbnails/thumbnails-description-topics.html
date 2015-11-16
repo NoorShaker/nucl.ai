@@ -18,7 +18,8 @@
     {% if desc.disabled %}
         {{ desc.title }}
     {% else %}
-        <a href="/track/{{desc.id}}/">{{desc.title}}</a>
+        {% capture xp%}/track/{{desc.id}}/{% endcapture %}
+        <a href="{{ tmpUrl | prepend: site.baseurl }}">{{desc.title}}</a>
     {% endif %}
     </h2>
 
@@ -26,7 +27,8 @@
 
     {% if desc.disabled %}
     {% else %}
-    <a href="/track/{{desc.id}}/" class="read-more">Click for track details...</a>
+    {% capture tmpUrl%}/track/{{desc.id}}/{% endcapture %}
+    <a href="{{ tmpUrl | prepend: site.baseurl }}" class="read-more">Click for track details...</a>
     {% endif %}
 
     <h3>Keywords</h3>

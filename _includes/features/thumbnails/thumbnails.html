@@ -49,7 +49,7 @@
 
     <item class="thumbnail {{thumbnail.id}}">
         <thumbnail-wrap>
-            <a id="thumbnail-id-{{thumbnailId}}" href="{{href}}"class="thumbnail 
+            <a id="thumbnail-id-{{thumbnailId}}" href="{{href | prepend: site.baseurl }}"class="thumbnail 
                 column-{{modulo}}
                 {{itemsInRow}}-in-row
                 {{aClass}}
@@ -90,7 +90,8 @@
                 {{thumbnail.bio | truncatewords:50 }}
                 </p>
                 <p>
-                    <a href="/#{{thumbnailId}}">Read full biography &raquo;</a>
+                    {% capture tmpUrl %}/#{{thumbnailId}}{% endcapture %}
+                    <a href="{{ tmpUrl | prepend: site.baseurl }}">Read full biography &raquo;</a>
                 </p>
             </item>
         </div>
@@ -100,7 +101,8 @@
                 {{thumbnail.bio | truncatewords:50 }}
                 </p>
                 <p>
-                    <a href="/#{{thumbnailId}}">Read full biography &raquo;</a>
+                    {% capture tmpUrl %}/#{{thumbnailId}}{% endcapture %}
+                    <a href="{{ tmpUrl | prepend: site.baseurl }}">Read full biography &raquo;</a>
                 </p>
             </item>
     {% endif %}

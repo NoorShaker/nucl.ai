@@ -77,8 +77,8 @@
                             {% assign escape = talk.title %}
                             {% include partials/escape-link.html %}
                             {% assign escapedTalkTitle = escaped %}
-
-                            <a class="{{wipClass}}" href="/track/{{topic.id}}#{{escapedTalkTitle}}">{{talk.title}}</a> (Presentation)
+                            {% capture tmpUrl%}/track/{{topic.id}}#{{escapedTalkTitle}}{% endcapture %}
+                            <a class="{{wipClass}}" href="{{ tmpUrl | prepend: site.baseurl }}">{{talk.title}}</a> (Presentation)
                         </li>
                     {% endif %}
                 {% endfor %}
@@ -112,7 +112,8 @@
     {% for topic in tracksArray | split:"," %}
         <li class="track">
             {% for t in site.data.topics %}
-                {% if t.id == topic %}<a href="/track/{{topic}}">{{t.title}}</a> (Track){% endif %}
+                {% capture tmpUrl %}/track/{{topic}}{% endcapture %}
+                {% if t.id == topic %}<a href="{{ tmpUrl | prepend: site.baseurl }}">{{t.title}}</a> (Track){% endif %}
             {% endfor %}
         </li>
     {% endfor %}
