@@ -61,6 +61,9 @@
                 {% if page.name == 'index.html' %}
                     <div class="centered-cell right-cell stream-link">
                              {% if site.data.config.current.featured %}
+                                {% if site.data.config.current.featured == "default" %}
+                                    {% include features/featured/default.html %}
+                                {% endif %}
                                 {% if site.data.config.current.featured == "call" %}
                                     {% include features/featured/call.html %}
                                 {% endif %}
