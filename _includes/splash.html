@@ -3,7 +3,7 @@
 {% endcomment %}
 {% for topic in site.data.topics %}
     {% capture pageName %}{{topic.id}}.html{% endcapture %}
-    {% if pageName == page.name %}        
+    {% if pageName == page.name %}
         {% assign isTrackPage = true %}
         {% capture trackBackground %}/img/tracks/{{topic.id}}.png{% endcapture %}
     {% endif %}
@@ -28,7 +28,6 @@
     {% else %}
     <div class="splash-screen-wrap audience-gif">
     {% endif %}
-
 
      <splash>
             <grid class="table">
@@ -61,9 +60,11 @@
                 </content>
                 {% if page.name == 'index.html' %}
                     <div class="centered-cell right-cell stream-link">
-
-
-
+                             {% if site.data.config.current.featured %}
+                                {% if site.data.config.current.featured == "call" %}
+                                    {% include features/featured/call.html %}
+                                {% endif %}
+                            {% endif %}
                     </div>
                 {% endif %}
             </grid>

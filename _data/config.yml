@@ -1,3 +1,6 @@
+current:
+    featured: call
+
 edition:
   date:
     start: "2015/07/18"
@@ -5,6 +8,8 @@ edition:
   to_html: "July 18<sup>th</sup> to 20<sup>th</sup>"
   venue:
     id: venue_2016
+  call_for_papers:
+    deadline: "April 15th, 2016"
 
 #previous_events:
 #  - id: "2015"
