@@ -1,0 +1,11 @@
+edition:
+  date:
+    start: "2015/07/20"
+    end: "2015/07/22"
+  to_html: "July 20<sup>th</sup> to 22<sup>nd</sup>"
+  venue:
+    id: venue_2015
+
+#previous_events:
+#  - id: "2015"
+#    name: "nucl.ai 2015"

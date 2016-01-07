@@ -63,7 +63,9 @@
                     </div>
                 </item>
 
-                {% if page.name == 'attend.html' or page.name == 'venue.html' or page.name == 'stream.html' or page.name == 'stream-day1.html'  or page.name == 'stream-day2.html' or page.name == 'stream-day3.html'%}
+                {% capture venuePage %}{{site.data.config.edition.venue.id}}.html{% endcapture %}
+
+                {% if page.name == 'attend.html' or page.name == venuePage or page.name == 'stream.html' or page.name == 'stream-day1.html'  or page.name == 'stream-day2.html' or page.name == 'stream-day3.html'%}
                     <item class="selected">
                 {% else %}
                     <item>
@@ -89,7 +91,7 @@
                                 {% endif %}
                                     <a href="{{ '/stream/' | prepend: site.baseurl }}"> Stream </a>
                                 </div>
-                                {% if page.name == 'venue.html' %}
+                                {% if page.name == venuePage %}
                                     <div class="table selected item">
                                 {% else %}
                                     <div class="table item">
