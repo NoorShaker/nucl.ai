@@ -1,10 +1,10 @@
 edition:
   date:
-    start: "2015/07/20"
-    end: "2015/07/22"
-  to_html: "July 20<sup>th</sup> to 22<sup>nd</sup>"
+    start: "2015/07/18"
+    end: "2015/07/20"
+  to_html: "July 18<sup>th</sup> to 20<sup>th</sup>"
   venue:
-    id: venue_2015
+    id: venue_2016
 
 #previous_events:
 #  - id: "2015"
