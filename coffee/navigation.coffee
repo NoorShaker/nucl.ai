@@ -63,7 +63,7 @@ $ ->
 
   $(window).scroll ->
     if window.location.pathname == "/stream/" then return
-    if $(this).scrollTop() > splash.height() - navigation.height()
+    if $(this).scrollTop() > splash.height()
       navigation.addClass("sticky")
     else
       navigation.removeClass("sticky")

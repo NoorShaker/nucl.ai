@@ -16,6 +16,7 @@ body {
   margin: 0;
   font-family: "Questrial", Questrial, sans-serif;
   color: white;
+  background-color: #103f69;
 }
 a.wip {
   cursor: default !important;
@@ -293,12 +294,18 @@ footer content .copyrights {
 }
 section.splash-screen {
   min-height: 0px;
+  margin-bottom: 60px;
   /** LOGO */
   /** navigation */
   overflow: visible;
   /**
     * For single page layout
     */
+}
+@media screen and (max-width: 432px) {
+  section.splash-screen {
+    margin-bottom: 40px;
+  }
 }
 section.splash-screen logo-wrap {
   display: block;
@@ -780,6 +787,7 @@ sections section.navigation {
   overflow: visible;
   min-height: 60px;
   height: 60px;
+  position: absolute;
   background-color: #103f69;
   z-index: 3;
   width: 100%;

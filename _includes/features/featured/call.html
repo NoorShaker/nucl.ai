@@ -1,0 +1,13 @@
+{% if page.layout != "landing" %}
+    {% capture linkPrefix %}{{ '/' | prepend: site.baseurl }}{% endcapture %}
+{% else %}
+{% endif %}
+
+<h3 style="line-height: 1.5em; color: #ff9300;">
+
+    <a href="{{linkPrefix}}#call">
+        Call for papers is open now! <br>
+        Deadline is {{site.data.config.edition.call_for_papers.deadline}}.
+    </a>
+    
+</h3>

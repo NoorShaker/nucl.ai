@@ -23,7 +23,8 @@
                 {% else %}
                     <item>
                 {% endif %}
-                    <a href="" class="expandable"> Program </a>
+
+                    <a href="" class="expandable disabled"> Program </a>
                     <div class="dropdown">
                         <div class="menu">
                             <div class="menu-wrap">
@@ -63,12 +64,16 @@
                     </div>
                 </item>
 
-                {% if page.name == 'attend.html' or page.name == 'venue.html' or page.name == 'stream.html' or page.name == 'stream-day1.html'  or page.name == 'stream-day2.html' or page.name == 'stream-day3.html'%}
+                {% capture venuePage %}{{site.data.config.edition.venue.id}}.html{% endcapture %}
+
+                {% if page.name == 'attend.html' or page.name == venuePage or page.name == 'stream.html' or page.name == 'stream-day1.html'  or page.name == 'stream-day2.html' or page.name == 'stream-day3.html'%}
+
                     <item class="selected">
                 {% else %}
                     <item>
                 {% endif %}
-                    <a href="" class="expandable"> Attend </a>
+
+                    <a href="" class="expandable disabled"> Attend </a>
                     <div class="dropdown">
                         <div class="menu">
                             <div class="menu-wrap">
@@ -89,7 +94,9 @@
                                 {% endif %}
                                     <a href="{{ '/stream/' | prepend: site.baseurl }}"> Stream </a>
                                 </div>
-                                {% if page.name == 'venue.html' %}
+
+                                {% if page.name == venuePage %}
+
                                     <div class="table selected item">
                                 {% else %}
                                     <div class="table item">
@@ -108,8 +115,16 @@
                     </div>
                 </item>
 
-                <item>
+                {% comment %}
+
+                <item class="">
                     <a href="{{linkPrefix}}#people"> People </a>
+                </item>
+
+                {% endcomment %}
+
+                <item class="">
+                    <a href="{{linkPrefix}}#call"> Call for papers </a>
                 </item>
 
                 <item>
@@ -121,9 +136,10 @@
                 {% if page.name == 'tickets.html'%}
                     <item class="selected static">
                 {% else %}
-                    <item>
+                    <item class="">
                 {% endif %}
-                    <a href="{{ /tickets/ | prepend: site.baseurl }}" style="font-weight: bold;"> Tickets! </a>
+                    <a href="{{ /tickets/ | prepend: site.baseurl }}" class="disabled" style="font-weight: bold;"> Tickets! </a>
+
                 </item>
 
             </content>

@@ -3,7 +3,7 @@
 {% endcomment %}
 {% for topic in site.data.topics %}
     {% capture pageName %}{{topic.id}}.html{% endcapture %}
-    {% if pageName == page.name %}        
+    {% if pageName == page.name %}
         {% assign isTrackPage = true %}
         {% capture trackBackground %}/img/tracks/{{topic.id}}.png{% endcapture %}
     {% endif %}
@@ -39,13 +39,15 @@
                     {% if page.name == 'index.html' %}
 
                         <h1>nucl.ai</h1>
-                        <h2> July 20<sup>th</sup> to 22<sup>nd</sup>, Vienna / AUSTRIA. </h2>
+                        <h2> {{site.data.config.edition.to_html}}, Vienna / AUSTRIA. </h2>
 
                     {% else %}
 
                         <div class="centered-cell">
                             <h1><a href="/">nucl.ai</a></h1>
-                            <h2>July 20th to 22nd, Vienna / AUSTRIA.</h2>
+
+                            <h2>{{site.data.config.edition.to_html}}, Vienna / AUSTRIA.</h2>
+
                         </div>
                         <div class="centered-cell">
                             <h2>Conference on Artificial Intelligence <br/> in Creative Industries</h2>
@@ -53,7 +55,6 @@
                             <h2 class="note">
                             {% if page.name == 'tickets.html' %}
                             {% else %}
-                                <a>Save The Date: July 18-20, 2016.</a>
                             {% endif %}
                             </h2>
                         </div>
@@ -62,7 +63,13 @@
                 </content>
                 {% if page.name == 'index.html' %}
                     <div class="centered-cell right-cell stream-link">
-                        {% include thanks_link.html %}
+
+                             {% if site.data.config.current.featured %}
+                                {% if site.data.config.current.featured == "call" %}
+                                    {% include features/featured/call.html %}
+                                {% endif %}
+                            {% endif %}
+
                     </div>
                 {% endif %}
             </grid>
