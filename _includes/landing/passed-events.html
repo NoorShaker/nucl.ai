@@ -5,8 +5,8 @@
         <content>
         <ul>
             {% for event in site.data.config.previous_events %}
-                <li><a href="/{{event.id}}" target="_blank">browse nucl.ai {{event.id}} page</a></li>
-                <li><a href="{{event.archives}}" target="_blank">browse nucl.ai {{event.id}} recordings</a></li>
+                <li><a href="/{{event.id}}" target="_blank">nucl.ai {{event.id}} page</a></li>
+                <li><a href="{{event.archives}}" target="_blank">nucl.ai {{event.id}} recordings</a></li>
             {% endfor %}
         </ul>
             {% assign items = site.data.galleries.passed_events %}
