@@ -16,7 +16,6 @@ body {
   margin: 0;
   font-family: "Questrial", Questrial, sans-serif;
   color: white;
-  background-color: #103f69;
 }
 a.wip {
   cursor: default !important;
@@ -2147,17 +2146,18 @@ section.passed-events {
   min-height: 0;
 }
 section.passed-events grid {
-  padding-top: 3em;
   padding-bottom: 3em;
 }
 @media screen and (max-width: 432px) {
   section.passed-events grid {
-    padding-top: 2em;
     padding-bottom: 2em;
   }
 }
 section.passed-events grid descriptions {
   display: none;
+}
+section.passed-events grid content ul {
+  margin-bottom: 2em;
 }
 section.news-feed {
   min-height: 0;
