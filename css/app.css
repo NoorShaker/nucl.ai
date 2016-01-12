@@ -2159,6 +2159,45 @@ section.passed-events grid descriptions {
 section.passed-events grid content ul {
   margin-bottom: 2em;
 }
+.thumbnails-grid.passed-events.links-buttons content item.thumbnail {
+  margin: 0;
+}
+@media screen and (max-width: 432px) {
+  .thumbnails-grid.passed-events.links-buttons content item.thumbnail {
+    width: 25%;
+    font-size: 12px;
+  }
+}
+.thumbnails-grid.passed-events.links-buttons content item.thumbnail thumbnail-wrap a.thumbnail {
+  background-image: none;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+@media screen and (max-width: 432px) {
+  .thumbnails-grid.passed-events.links-buttons content item.thumbnail thumbnail-wrap a.thumbnail#go-to-current {
+    background-color: #ff9300;
+    color: white;
+    border-color: #ff9300;
+  }
+  .thumbnails-grid.passed-events.links-buttons content item.thumbnail thumbnail-wrap a.thumbnail#go-to-recordings {
+    background-color: #6409a5;
+    color: white;
+    border-color: #6409a5;
+  }
+}
+.thumbnails-grid.passed-events.links-buttons content item.thumbnail thumbnail-wrap a.thumbnail:hover {
+  font-size: 1.1em;
+}
+.thumbnails-grid.passed-events.links-buttons content item.thumbnail thumbnail-wrap a.thumbnail:hover#go-to-current {
+  background-color: #ff9300;
+  color: white;
+  border-color: #ff9300;
+}
+.thumbnails-grid.passed-events.links-buttons content item.thumbnail thumbnail-wrap a.thumbnail:hover#go-to-recordings {
+  background-color: #6409a5;
+  color: white;
+  border-color: #6409a5;
+}
 section.news-feed {
   min-height: 0;
 }
