@@ -3619,10 +3619,19 @@ sections.page section.attend content .block {
   margin: 0;
   float: right;
 }
+@media screen and (max-width: 432px) {
+  .thumbnails-grid.floating-buttons content item.thumbnail {
+    width: 70px;
+    font-size: 10px;
+  }
+}
 .thumbnails-grid.floating-buttons content item.thumbnail thumbnail-wrap a.thumbnail {
   background-image: none;
   text-decoration: none;
   font-size: 0.9em;
+  -webkit-transition: none;
+  /* For Safari 3.1 to 6.0 */
+  transition: none;
 }
 .thumbnails-grid.floating-buttons content item.thumbnail thumbnail-wrap a.thumbnail:hover {
   font-size: 1.1em;
