@@ -1,6 +1,9 @@
 - id: amphitheatre
   name: Amphitheatre
+  type: Keynotes
 - id: masterclass
   name: Masterclass
+  type: Workshops
 - id: laboratories
   name: Laboratories
+  type: Tutorials

@@ -1,127 +1,21 @@
-- title: "Dynamic Pricing in Mobile Games"
-  description: >
-    <p>Dynamic pricing techniques are at the forefront of adaptive systems in games.  How can we better understand individual players and the player-base as a whole?  What's necessary to design and tune a dynamic system that remains reliable even when operating without supervision?  Which technologies are necessary to process the large quantities of data and extract meaningful models?</p>
-    <p>Originating in the airline industry almost 50 years ago, dynamic pricing has spread to the many other industries including retail, as well as In-App-Purchases within games or mobile applications. This talk will explain the challenges and investigate the opportunities: to reinvent how we look at data, and automate the process of sifting for information. We can take notions that are intuitively "obvious" to old-school marketers and automatically check whether the definitions actually capture actionable differences in consumer behavior.</p>
-  speakers:
-    - Bill Grosso
-  room: amphitheatre
-  time:
-    start: "11:00"
-    finish: "11:45"
-    
-- title: "Extended Q&A on Dynamic Pricing and Conditional Offers"
-  description: >
-    <p>Following up </p>
-  speakers:
-    - Heather Stark
-    - Bill Grosso
-  room: laboratories
-  time:
-    start: "11:45"
-    finish: "12:15"
+# - title: "Dynamic Pricing in Mobile Games"
+#  description: >
+#    <p>Dynamic pricing techniques are at the forefront of adaptive systems in games.  How can we better understand individual players and the player-base as a whole?  What's necessary to design and tune a dynamic system that remains reliable even when operating without supervision?  Which technologies are necessary to process the large quantities of data and extract meaningful models?</p>
+#    <p>Originating in the airline industry almost 50 years ago, dynamic pricing has spread to the many other industries including retail, as well as In-App-Purchases within games or mobile applications. This talk will explain the challenges and investigate the opportunities: to reinvent how we look at data, and automate the process of sifting for information. We can take notions that are intuitively "obvious" to old-school marketers and automatically check whether the definitions actually capture actionable differences in consumer behavior.</p>
+#  speakers:
+#    - Bill Grosso
+#  room: amphitheatre
+#  time:
+#    start: "11:00"
+#    finish: "11:45"
 
-- title: "Fast > Perfect: Practical Approximation Examples for Analytics using Spark Streaming"
-  description: >
-    For mobile games, constant tweaks are the difference between success and failure. 
-    Game designers need metrics like DAU, new users and ARPDAU in real-time to be able to tweak quickly. 
-    But calculating, for example, uniqueness or newness of a data point requires a list of seen data points - 
-    both memory intensive and tricky when using real-time stream processing like Spark Streaming. 
-    Probabilistic data structures allow approximation of these properties with a fixed memory representation 
-    and are very well suited for stream processing. 
-    Getting from the theory of approximation to a practical useful metric at a low error rate even for many millions of users 
-    is another story. In this talk we will look at ways to achieve it:
-    <ul>
-      <li>Which approximation we use for selection of useful metrics</li>
-      <li>Why we picked a specific probabilistic data structure</li>
-      <li>How we store it in Cassandra as a time series</li>
-      <li>How we implemented it in Spark Streaming</li>
-    </ul>
-  speakers:
-    - Kevin Schmidt
-    - Luis Angel Vicente Sanchez
-  room: masterclass
-  time:
-    start: "09:45"
-    finish: "10:30"
-
-- title: "Extending Recommendation Systems to Offer a Personalised in-game Experience"
-  description: >
-    We will present the fundamentals and practical challenges of building a recommendation system for your online game, 
-    taking you through the established approaches of Collaborative Filtering, Content Based and Latent Factor based systems. 
-    After briefly discussing how to design, evaluate and deploy these algorithms we will demonstrate how recommendation 
-    systems can move beyond store front inventories to offer your players a personalised in-game experience. Currently 
-    deployed within RuneScape, the world’s largest free-to-play massively multiplayer online game, we will go behind the 
-    scenes and present the details of the "lucky challenge" system, an adaption of recommendation approaches to highlight 
-    personally relevant content to players exploring the world of Gielinor. Attempting to balance engagement, enjoyment and 
-    spend through a second-order set of real-time recommendations present unique challenges in terms of scalability, messaging, 
-    monitoring and algorithm design and our presentation will give a snapshot of our current solutions and future plans.
-  speakers: 
-    - Simon Worgan
-  room: masterclass
-  time:
-    start: "15:00"
-    finish: "15:45"
-
-- title: "Early Churn Prediction and Personalised Interventions in TOP 11"
-  description: >
-    How to tackle the problem of early churners, and define a strategy to overcome this issue. An approach to early churn 
-    prediction using machine learning algorithms is shared. Various machine learning models were tested, along with feature 
-    selection procedures. A clustering technique is introduced that segments users according to their first day gameplay habits. 
-    Also, a notification sending engine is described, which combines the knowledge gathered from the two previously mentioned 
-    methods, and targets the predicted churners with different types of personalized messages. This allows us to decrease early 
-    churn rate, while significantly increasing first day retention as well as boosting other metrics. We will also touch upon 
-    the underlying system infrastructure to deal with the scalability issues that occur when working with big data.
-  speakers:
-    - Miloš Milošević
-  room: amphitheatre
-  time:
-    start: "16:15"
-    finish: "17:00"
-
-- title: "Measuring Player Skill at Complex Team Games in Fable Legends"
-  description: >
-    When attempting to quantify player skill for segmentation or matchmaking within complex competitive games, it is crucial to
-    find effective ways to describe a player’s skill in a given context. However, standard methods of measuring and inferring skill
-    don’t work very well in this type of problem domain.  We describe our approach to modelling player skill in the complex contexts
-    that arise in Fable Legends, Lionhead’s upcoming action-RPG vs. RTS competitive title. Fable Legends has taken a number of
-    innovative design decisions, from asymmetrical team sizes to dramatically varied player roles, varied enemy creature selections,
-    abilities, items and map topologies. These design aspects raised some new challenges for the Legends data team, which has
-    responsibility for providing quantitative support to game balancing and design.
-    This talk discusses the challenges we faced and the learnings we gained from the modelling process. We initially found that
-    modelling player skill using standard techniques proved to be time-consuming and ineffective. Recognising this, we dived deeper
-    to improve the accuracy of our models,creatively building feature sets and moving from individual models to ensembles built using
-    multiple techniques (including regression models, supervised learning and deep learning techniques). We also present an overview
-    of applications of these techniques, with particular focus on how skill scoring enabled designers to target player skill levels
-    (“pro gamers”, “casual gamers”) for balance and design changes.
-  room: masterclass
-  speakers:
-    - John Hearty
-  time:
-    start: "12:15"
-    finish: "13:00"
-
-- title: "Modeling Skill vs. Luck in Casual Game Levels"
-  description: >
-    <p>In casual games, players typically face an independent, concatenated set of game boards with different puzzles on them. These challenges are typically called levels. In characterising the differences between levels, the most common parameter used in the industry is the level’s success rate, an observational parameter that measures the probability of solving a level in one attempt.</p>   
-    <p>This talk investigates additional empirically grounded ways to characterise differences between levels. We use both analytical characterisation of the game space, and empirical data from player experience in our investigation. We can characterise levels by considering how their play patterns are affected by the mixture of player skill and randomness. We propose (and provide model-based justication for two more parameters which can help us understand what is important about the design of a casual game level:</p>
-    <ul>
-      <li>A way of describing the randomness of a level</li>
-      <li>A ‘discovery’ factor, related to the player’s exploration of the interaction possibilities within a level</li>
-    </ul>
-    <p>The discovery factor initially appeared a residual of the analysis, but relates strongly to both design practice and theory.</p>
-  speakers:
-    - Ivan Encinas
-  room: masterclass
-  time:
-    start: "17:00"
-    finish: "17:45"
-
-- title: "Analytics Standup Session and Open Q&A"
-  description: >
-    ...
-  speakers:
-    - Heather Stark
-  room: laboratories
-  time:
-    start: "14:15"
-    finish: "15:00"
+# - title: "Extended Q&A on Dynamic Pricing and Conditional Offers"
+#  description: >
+#    <p>Following up </p>
+#  speakers:
+#    - Heather Stark
+#    - Bill Grosso
+#  room: laboratories
+#  time:
+#    start: "11:45"
+#    finish: "12:15"

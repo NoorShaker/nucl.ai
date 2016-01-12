@@ -1,92 +1,13 @@
-- title: "Drivatar and Machine Learning Racing Skills in the Forza Series"
-  description: >
-    The Forza Drivatar technology powering games in the Forza Horizon and Forza Motorsport series
-    is based on machine learning. It enables gameplay beyond robotic drivers and ghost replays by
-    learning player- and style-specific Drivatars that can compete with friends.  This presentation
-    will go behind the scenes in the development of Forza Drivatar, explaining the approach from a
-    technical perspective as well as the design and integration with the gameplay.
-  speakers:
-    - Jeffrey Schlimmer
-  room: amphitheatre
-  time:
-    start: "11:00"
-    finish: "12:00"
-
-- title: "Optimizing MCTS Performance for Tactical Coordination in TOTAL WAR: ATILLA"
-  description: >
-    This presentation focuses on an advanced AI search technique called Monte-Carlo Tree Search,
-    and its improvements for the latest iteration of the TOTAL WAR franchise.  Introduced 
-    previously in ROME 2, the tactical coordination system saw some major improvements to
-    maximize the number of iterations executed without deteriorating performance.
-    Piotr will dig into techniques that helped improve performance, for example in the
-    structure of the tree itself as well as some higher-level optimisations.
-  speakers:
-    - Piotr Andruszkiewicz
-  room: masterclass
-  time:
-    start: "09:45"
-    finish: "10:30"
-
-- title: "Tactical Planning and Real-time MCTS in Fable Legends"
-  description: >
-    Fable Legends is a 4v1 asymetric multiplayer game, in which a team of 4 heroes compete against 1 villain. This poses some interesting design and programming challenges. Tactical decisions (e.g. revive a team mate or go for the objective) are not necessarily straight forward when there are a wide range of characters, abilities, constantly changing designs and different game modes. The aim was to create a robust tactical AI that could adapt to any situation and create interesting challenges for players. One that could come up with strategies on its own and surprise us as players. Rather than go a more traditional route (utility scoring, planners/HTN) we implemented a simulation based approach, which involved modelling the game play and using MCTS to search the potential plan space. Overall this worked well, has interesting characteristics and has a number of potential opportunities not readily available with other techniques (e.g. feeding in telemetry data, learning player behaviour, statistical analysis). Being able to update the model and have the system automatically find new strategies is very advantageous. This talk would be a deep dive of the implementation, challenges, performance and result as well as future plans.
-  speakers:
-    - Gwaredd Mountain
-  room: amphitheatre
-  time:
-    start: "12:00"
-    finish: "12:45"
-
-- title: "Innovations in Search-based AI from MCTS to Evolutionary Algorithms"
-  description: >
-    MCTS has revolutionised AI for classic board games such as Go, and more recently has been applied with some excellent results to controlling agents in real-time video games. However, there are many cases where vanilla MCTS fails to produce satisfactory results for a number of reasons, including massive branching factors, limited horizon depth, limited roll-out budget and flat reward landscape.  While these problems are not insurmountable, they may involve significant expertise and effort to overcome.  On the other hand, there are a number of alternative and similarly general approaches such as neural networks (trained using evolution or temporal difference learning) and rolling horizon evolutionary algorithms that have their own strengths and weaknesses.  In this talk I’ll outline the main factors to consider when choosing these methods, and also describe how they can be combined to provide even better solutions.  I’ll also discuss initial results from our General Video Game AI server (http://gvgai.net), and how this could create an efficient marketplace for agent AI.
-  speakers:
-    - Simon Lucas
-  room: amphitheatre
-  time:
-    start: "16:15"
-    finish: "16:45"
-
-- title: "Deep Reinforcement Learning In Practice for ATARI Games"
-  description: >
-    The DeepMind (now Google) team had recently proposed their Deep Reinforcement Learning solution 'DQN' as a solution to human level game playing, using a variant of Q-Learning.  With credit to this prior project, our research group has also decided to develop a solution which would be 'at' or 'better' performance in playing video games. Our initial goals were for our agent to similarly reach or exceed human levels of performance, and then to create an open source library for broader use by the research community. These first goals met, we have named this library 'DRL'.  And now our current work is to build a dedicated network around agents of this type, eventually making this available for the general public via an existing machine learning API, called Predictus®. During this talk, we'll briefly discuss the science of Deep Reinforcement Learning, the open source DRL library and the commercial API for game development Predictus. 
-  speakers:
-    - Chris Poulin
-  room: masterclass
-  time:
-    start: "15:15"
-    finish: "15:45"
-
-- title: "Multi-Objective and Fuzzy Techniques for Balancing and Improving RTS AI "
-  description: >
-    Players of strategy games (as MOBA and RTS) often express their desire for more "intelligent" opponents or bots. Recent game AI developments and the outcome of the last Starcraft AI (bot) tournaments suggest that this can be achieved by Fuzzy Logic approaches that adapt the basic strategy to the current situation.
-    Additionally, another topic of that gets more and more important in the light of user or dynamically generated content and online updates is balancing.  Recent works show that a multi-objective approach can be helfpul here because balancing must often respect multiple, contradicting goals. In this talk, we will discuss how these techniques are able to provide a more intelligent and adaptive behaviour in real time strategy games.
-  speakers:
-    - Mike Preuss
-  room: masterclass
-  time:
-    start: "14:45"
-    finish: "15:15"
-
-- title: "Imitating Human Play from DOTA2 Game Logs (Workshop)"
-  description: >
-    Can we use machine learning to imitate human-style play? Can you infer how "average" players behave in given scenarios? To what extend can knowledge mined be incorporated into a game?  Provided that logs of user actions are available, one can use supervised learning methods to imitate these expert actions. We will show how this can be achieved, either by creating explicit preferences between actions or labelling states according to some reward scheme. We will examine both methods in the context of DOTA 2, and show how one can train neural networks to learn how to imitate expert user actions, with concrete examples in Python.
-  speakers:
-    - Spyridon Samothrakis
-  room: laboratories
-  time:
-    start: "12:45"
-    finish: "14:45"
-
-- title: "Open Discussion on Challenges in Modern AI"
-  description: >
-    After many years of research in games, a big boom in academia has changed the way Game AI is done, first after the emergence of Monte Carlo Tree Search, and more recently with Deep Neural Network architectures. Naturally, the video-games industry has taken advantage of these advances featuring MCTS in several titles, and it is reasonable to wonder if DDN can burst into video-games as well. Are we at the birth of a new era for Game AI? Modern AI can help us building better and faster Real-Time decision systems. Follow us into this panel where we will discuss the current open challenges of these techniques, the future directions in the field, and how the interaction between industry and academia can boost and spread modern AI.
-  speakers:
-    - Diego Perez
-    - Gwaredd Mountain
-    - Piotr Andruszkiewicz
-    - Simon Lucas
-  room: laboratories
-  time:
-    start: "16:45"
-    finish: "17:30"
+#- title: "Drivatar and Machine Learning Racing Skills in the Forza Series"
+#  description: >
+#    The Forza Drivatar technology powering games in the Forza Horizon and Forza Motorsport series
+#    is based on machine learning. It enables gameplay beyond robotic drivers and ghost replays by
+#    learning player- and style-specific Drivatars that can compete with friends.  This presentation
+#    will go behind the scenes in the development of Forza Drivatar, explaining the approach from a
+#    technical perspective as well as the design and integration with the gameplay.
+#  speakers:
+#    - Jeffrey Schlimmer
+#  room: amphitheatre
+#  time:
+#    start: "11:00"
+#    finish: "12:00"
