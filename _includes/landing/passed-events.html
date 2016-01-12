@@ -1,14 +1,40 @@
-<section class="passed-events">
+<section class="passed-events thumbnails-grid links-buttons" id="passed-events-section">
     <a class="anchor" id="passed-events"></a>
     <h2>nucl.ai 2015</h2>
     <grid>
         <content>
-        <ul>
-            {% for event in site.data.config.previous_events %}
-                <li><a href="/{{event.id}}" target="_blank">nucl.ai {{event.id}} page</a></li>
-                <li><a href="{{event.archives}}" target="_blank">nucl.ai {{event.id}} recordings</a></li>
-            {% endfor %}
-        </ul>
+
+
+
+<div class="thumbnails thumbnails-5-in-row" style="margin-bottom: 2em;">
+
+    <item class="thumbnail">
+        <thumbnail-wrap style="">
+            <a id="go-to-recordings" href="http://archives.nucl.ai/category/nuclai15/" target="_blank" class="thumbnail column-2 5-in-row enabled" name="mark-johnson" style="border-width: 2.52px; opacity: 1;">
+              <div class="button-content centered-cell">
+                nucl.ai15 Recordings
+              </div>
+            </a>
+        </thumbnail-wrap>
+        
+    </item>
+
+    <item class="thumbnail">
+        <thumbnail-wrap style="">
+            <a id="go-to-current" href="/2015/" class="thumbnail column-1 5-in-row column-first enabled" name="hazel-mckendrick" style="border-width: 2.52px; opacity: 1;">
+              <div class="button-content centered-cell">
+                nucl.ai15 Page
+              </div>
+            </a>
+        </thumbnail-wrap>
+        
+    </item>
+
+    <div class="brk" style="clear: both; width: 100%;"></div>
+
+</div>
+
+
             {% assign items = site.data.galleries.passed_events %}
             {% include features/gallery/gallery.html %}
         </content>

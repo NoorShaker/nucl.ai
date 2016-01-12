@@ -10,8 +10,3 @@ edition:
     id: venue_2016
   call_for_papers:
     deadline: "April 15th, 2016"
-
-previous_events:
-  - id: "2015"
-    name: "nucl.ai 2015"
-    archives: "http://archives.nucl.ai/category/nuclai15/"
