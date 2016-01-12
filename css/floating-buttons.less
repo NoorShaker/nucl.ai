@@ -14,6 +14,10 @@
     content {
         item.thumbnail {
             width: 120px;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                width: 70px;
+                font-size: 10px;
+            }
             margin: 0;
             float: right;
             thumbnail-wrap {
@@ -21,6 +25,7 @@
                     background-image: none;
                     text-decoration: none;
                     font-size: 0.9em;
+                    .transition(none);
                     &:hover {
                         font-size: 1.1em;
                         &#go-to-current {
