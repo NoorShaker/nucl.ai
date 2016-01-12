@@ -49,22 +49,25 @@
                         </div>
                         <div class="centered-cell">
                             <h2>Conference on Artificial Intelligence <br/> in Creative Industries</h2>
-
+                            {% comment %}
                             <h2 class="note">
                             {% if page.name == 'tickets.html' %}
                             {% else %}
                                 <a>Save The Date: July 18-20, 2016.</a>
                             {% endif %}
+                            {% endcomment %}
                             </h2>
                         </div>
 
                     {% endif %}
                 </content>
+                {% comment %}
                 {% if page.name == 'index.html' %}
                     <div class="centered-cell right-cell stream-link">
                         {% include thanks_link.html %}
                     </div>
                 {% endif %}
+                {% endcomment %}
             </grid>
         </splash>
     </div>
