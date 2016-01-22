@@ -484,14 +484,15 @@
         var button_content, parent_size;
         button_content = $(this);
         parent_size = button_content.parent().height();
+        console.log(parent_size);
         button_content.height(parent_size);
         button_content.width(parent_size);
         return button_content.parent().hover(function() {
-          parent_size = button_content.parent().height();
-          button_content.height(parent_size);
-          return button_content.width(parent_size);
+          var parent_size_hover;
+          parent_size_hover = button_content.parent().height();
+          button_content.height(parent_size_hover);
+          return button_content.width(parent_size_hover);
         }, function() {
-          parent_size = button_content.parent().height();
           button_content.height(parent_size);
           return button_content.width(parent_size);
         });
