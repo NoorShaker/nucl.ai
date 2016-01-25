@@ -9,7 +9,6 @@ $ ->
     section.find("item .button-content").each ->
         button_content = $(@)
         parent_size = button_content.parent().height()
-        console.log parent_size
         button_content.height parent_size
         button_content.width parent_size
 
