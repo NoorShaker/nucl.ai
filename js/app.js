@@ -476,10 +476,8 @@
   root = typeof exports !== "undefined" && exports !== null ? exports : this;
 
   $(function() {
-    return $(".links-buttons").each(function() {
-      var section;
-      section = $(this);
-      new Thumbnails(section.attr('id'), false, true, false);
+    var setSize;
+    setSize = function(section) {
       return section.find("item .button-content").each(function() {
         var button_content, parent_size;
         button_content = $(this);
@@ -495,6 +493,15 @@
           button_content.height(parent_size);
           return button_content.width(parent_size);
         });
+      });
+    };
+    return $(".links-buttons").each(function() {
+      var section;
+      section = $(this);
+      new Thumbnails(section.attr('id'), false, true, false);
+      setSize(section);
+      return $(window).resize(function() {
+        return setSize(section);
       });
     });
   });
