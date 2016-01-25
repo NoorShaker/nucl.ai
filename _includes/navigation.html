@@ -70,7 +70,7 @@
                 {% else %}
                     <item>
                 {% endif %}
-                    <a href="" class="expandable disabled"> Attend </a>
+                    <a href="" class="expandable"> Attend </a>
                     <div class="dropdown">
                         <div class="menu">
                             <div class="menu-wrap">
@@ -89,7 +89,7 @@
                                 {% else %}
                                     <div class="table item">
                                 {% endif %}
-                                    <a href="{{ '/stream/' | prepend: site.baseurl }}"> Stream </a>
+                                    <a class="disabled" href="{{ '/stream/' | prepend: site.baseurl }}"> Stream </a>
                                 </div>
                                 {% if page.name == venuePage %}
                                     <div class="table selected item">
@@ -103,7 +103,7 @@
                                 {% else %}
                                     <div class="table item">
                                 {% endif %}
-                                    <a href="{{ '/tickets/' | prepend: site.baseurl }}"> Get Tickets </a>
+                                    <a class="disabled" href="{{ '/tickets/' | prepend: site.baseurl }}"> Get Tickets </a>
                                 </div>
                             </div>
                         </div>
