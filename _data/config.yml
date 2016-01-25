@@ -5,7 +5,7 @@ edition:
   date:
     start: "2015/07/18"
     end: "2015/07/20"
-  to_html: "July 18<sup>th</sup> to 20<sup>th</sup>"
+  to_html: "July 18<sup>th</sup> to 20<sup>th</sup> 2016"
   venue:
     id: venue_2016
   call_for_papers:
