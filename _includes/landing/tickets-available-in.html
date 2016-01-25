@@ -1,0 +1,15 @@
+<section class="tickets-avaiable-in">
+    <grid>
+        <content>
+            <h2>Early Birds Tickets available in:</h2>
+            {% assign timer_title = "" %}
+            {% assign timer_count_to = "2016/02/15" %}
+
+            {% include features/timers/timer.html %}
+            <div class="mobile">
+                {% include features/timers/timer.html %}
+            </div>
+            {% include features/timers/clean.html %}
+        </content>
+    </grid>
+</section>

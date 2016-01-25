@@ -36,6 +36,8 @@ $ ->
         talksStartTime = null
         talksFinishTime = null
         
+        if day.talks.length == 0 then return;
+
         for talk in day.talks
           startTime = talk.attr("time-start")
           finishTime = talk.attr("time-finish")
