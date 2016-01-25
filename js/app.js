@@ -484,7 +484,6 @@
         var button_content, parent_size;
         button_content = $(this);
         parent_size = button_content.parent().height();
-        console.log(parent_size);
         button_content.height(parent_size);
         button_content.width(parent_size);
         return button_content.parent().hover(function() {
@@ -916,6 +915,9 @@
           });
           talksStartTime = null;
           talksFinishTime = null;
+          if (day.talks.length === 0) {
+            return;
+          }
           _ref = day.talks;
           for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
             talk = _ref[_j];

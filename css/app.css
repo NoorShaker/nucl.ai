@@ -2303,6 +2303,12 @@ section.stream-link a.to-stream span.announcement.block {
     font-size: 17px;
   }
 }
+section.tickets-avaiable-in {
+  min-height: 0px;
+}
+section.tickets-avaiable-in h2 {
+  color: #ff9300;
+}
 sections.page section.contact content {
   display: inline;
   float: left;
