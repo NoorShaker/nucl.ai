@@ -28,6 +28,8 @@ $ ->
 
         talks = day.find("div.track")
         day.talks = []
+        if talks.length == 0 then return;
+
         talks.each ->
           if $(@).attr("time-start") && $(@).attr("time-finish") then day.talks.push $(@) # talks with undefined time are ignored
 
@@ -35,8 +37,6 @@ $ ->
         # and remember first start and last end
         talksStartTime = null
         talksFinishTime = null
-        
-        if day.talks.length == 0 then return;
 
         for talk in day.talks
           startTime = talk.attr("time-start")
@@ -134,6 +134,8 @@ $ ->
 
       if !schedule.hasClass("rooms-schedule") then return
 
+
+      if $("div.interval").length == 0 then return; # return if no talks
       cellMargin = $("div.interval").first().css("padding-top").split("px")[0]
 
       #calculate time / height ratio
