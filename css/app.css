@@ -2159,12 +2159,8 @@ section.passed-events grid descriptions {
 section.passed-events grid content ul {
   margin-bottom: 2em;
 }
-.thumbnails-grid.passed-events.links-buttons content item.thumbnail {
-  margin: 0;
-}
 @media screen and (max-width: 432px) {
   .thumbnails-grid.passed-events.links-buttons content item.thumbnail {
-    width: 25%;
     font-size: 12px;
   }
 }
