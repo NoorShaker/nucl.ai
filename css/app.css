@@ -16,6 +16,7 @@ body {
   margin: 0;
   font-family: "Questrial", Questrial, sans-serif;
   color: white;
+  background-color: #222c42;
 }
 a.wip {
   cursor: default !important;
@@ -1729,6 +1730,9 @@ section#section-lobby.lobby-talk-bckg p.title a span {
   position: relative;
 }
 .landing section.about grid {
+  opacity: 0.99;
+}
+.landing section.about grid {
   padding: 0 0 2em 0;
 }
 @media screen and (max-width: 432px) {
@@ -1803,7 +1807,6 @@ section#section-lobby.lobby-talk-bckg p.title a span {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: -1;
 }
 section.call content {
   display: inline;
@@ -2450,7 +2453,7 @@ sections.page section.thumbnails-grid.tracks content div.thumbnails:after {
 sections.page section.thumbnails-grid.tracks content div.thumbnails:after {
   clear: both;
 }
-sections.page section.thumbnails-grid.tracks content div.thumbnails item.thumbnail.ambient {
+sections.page section.thumbnails-grid.tracks content div.thumbnails item.thumbnail.generative {
   margin-left: 11.25%;
 }
 @media screen and (max-width: 432px) {

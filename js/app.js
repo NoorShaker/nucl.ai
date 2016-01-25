@@ -755,6 +755,13 @@
 
   $(function() {
     var expanded, links, navigation, selectNavPosition, splash;
+    $(document).keyup(function(e) {
+      if (e.keyCode === 27) {
+        return $(".navigation .expanded").each(function() {
+          return $(this).removeClass("expanded");
+        });
+      }
+    });
     navigation = $(".navigation");
     splash = $("section.splash-screen");
     links = $(".navigation a");
@@ -915,6 +922,9 @@
           day.addClass("not-positioned");
           talks = day.find("div.track");
           day.talks = [];
+          if (talks.length === 0) {
+            return;
+          }
           talks.each(function() {
             if ($(this).attr("time-start") && $(this).attr("time-finish")) {
               return day.talks.push($(this));
@@ -922,9 +932,6 @@
           });
           talksStartTime = null;
           talksFinishTime = null;
-          if (day.talks.length === 0) {
-            return;
-          }
           _ref = day.talks;
           for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
             talk = _ref[_j];
@@ -1038,6 +1045,9 @@
           root.disableWip();
         }
         if (!schedule.hasClass("rooms-schedule")) {
+          return;
+        }
+        if ($("div.interval").length === 0) {
           return;
         }
         cellMargin = $("div.interval").first().css("padding-top").split("px")[0];
