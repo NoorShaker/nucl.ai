@@ -3063,10 +3063,10 @@ section.program-schedule content table .track.alternate {
 section.program-schedule content table .track.alternate .marker {
   background-color: #fedd2c;
 }
-section.program-schedule content table .track.ambient {
+section.program-schedule content table .track.generative {
   color: #00ffd8;
 }
-section.program-schedule content table .track.ambient .marker {
+section.program-schedule content table .track.generative .marker {
   background-color: #00ffd8;
 }
 section.program-schedule content table .track.procedural {
@@ -3093,10 +3093,10 @@ section.program-schedule content table .track.decisions {
 section.program-schedule content table .track.decisions .marker {
   background-color: #9656d1;
 }
-section.program-schedule content table .track.systems {
+section.program-schedule content table .track.directors {
   color: #5cb214;
 }
-section.program-schedule content table .track.systems .marker {
+section.program-schedule content table .track.directors .marker {
   background-color: #5cb214;
 }
 section.program-schedule content table .track.animation {
@@ -3320,7 +3320,7 @@ section.program-schedule grid.rooms-schedule content table.talks-list div.track.
   background-color: #fedd2c;
   color: #333333;
 }
-section.program-schedule grid.rooms-schedule content table.talks-list div.track.hovered.track.ambient .talk-cell-wrap {
+section.program-schedule grid.rooms-schedule content table.talks-list div.track.hovered.track.generative .talk-cell-wrap {
   -webkit-transition: 0.5s ease-out;
   /* For Safari 3.1 to 6.0 */
   transition: 0.5s ease-out;
@@ -3355,7 +3355,7 @@ section.program-schedule grid.rooms-schedule content table.talks-list div.track.
   background-color: #9656d1;
   color: #ffffff;
 }
-section.program-schedule grid.rooms-schedule content table.talks-list div.track.hovered.track.systems .talk-cell-wrap {
+section.program-schedule grid.rooms-schedule content table.talks-list div.track.hovered.track.directors .talk-cell-wrap {
   -webkit-transition: 0.5s ease-out;
   /* For Safari 3.1 to 6.0 */
   transition: 0.5s ease-out;
