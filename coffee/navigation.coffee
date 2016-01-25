@@ -2,6 +2,14 @@ root = exports ? this # global
 
 $ ->
 
+
+  $(document).keyup (e) ->
+      if (e.keyCode == 27)
+        ## on EXC close menu
+        $(".navigation .expanded").each ->
+          $(@).removeClass "expanded"
+
+
   navigation = $(".navigation")
   splash = $("section.splash-screen")
 
