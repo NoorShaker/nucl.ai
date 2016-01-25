@@ -144,7 +144,7 @@
     - CCP Games
 
 - id: procedural
-  title: "Procedural Content Generation"
+  title: "Procedural Generation"
   subtitle: >
     Join professional developers in creative industries to learn more about algorithm-based
     generation of content, from individual 3D meshes to full worlds and terrains, as well as
@@ -232,8 +232,8 @@
     - MASA Group
     - CCP Games
 
-- id: ambient
-  title: "Crowds and Ambient Life"
+- id: generative
+  title: "Generative Systems"
   subtitle: >
     Join experts from Pixar Animation Studios, Ubisoft Montreal, MPC, Unity Technologies
     and the INRIA labs for a day-long course on industry-leading applications of locomotion
@@ -325,8 +325,8 @@
     - CD Projekt Red
     - CCP Games
 
-- id: systems
-  title: "Systemic Design, AI Directors"
+- id: directors
+  title: "Directors & Storytelling"
   subtitle: >
     Join experts from Epic Games, CD Projekt Red, Creative Assembly for a day-long
     course on industry-leading applications that balance emergent behaviors
@@ -376,7 +376,7 @@
     - CCP Games
 
 - id: cognition
-  title: "Cognitive Bots & Language"
+  title: "Cognitive Apps & Language"
   subtitle: >
     Join other professionals in creative industries for a day-long course on cognitive
     reasoning, natural language processing and chatbots.  Learn how to integrate speech
