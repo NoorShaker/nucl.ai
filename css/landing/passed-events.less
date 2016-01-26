@@ -14,6 +14,17 @@ section.passed-events {
             }
         }
     }
+
+    ul.regular-attendees {
+        li { 
+            .column(4);
+            display: list-item;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                .column(6);
+                font-size: 12px;
+            }
+        }
+    }
 }
 
 .thumbnails-grid.passed-events.links-buttons {

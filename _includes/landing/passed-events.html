@@ -69,6 +69,18 @@
 
             {% assign items = site.data.galleries.nuclai15 %}
             {% include features/gallery/gallery.html %}
+
+            <h3> Regular Attendees </h3>
+            <ul class="regular-attendees">
+                {% for company in site.data.regular_attendees %}
+                    {% capture modulo %}{{ forloop.index | modulo:2}}{% endcapture %}
+                    {% if modulo != '0' %}
+                    {% else %}
+                    {% endif %}
+                    <li>{{ company }}</li>
+                {% endfor %}
+            </ul>
+
         </content>
     </grid>
 </section>
