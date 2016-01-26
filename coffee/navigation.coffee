@@ -69,7 +69,7 @@ $ ->
         linkToSelect.parent().parent().addClass("selected")
       linkToSelect.parent().addClass("selected")
 
-  $(window).scroll ->
+  checkStickyAndSelect = () ->
     if window.location.pathname == "/stream/" then return
     if $(this).scrollTop() > splash.height()
       navigation.addClass("sticky")
@@ -79,3 +79,7 @@ $ ->
     if $("sections.page").length > 0 then return
     selectNavPosition()
 
+  $(window).scroll ->
+    checkStickyAndSelect
+  
+  checkStickyAndSelect()
