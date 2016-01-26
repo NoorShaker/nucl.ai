@@ -113,7 +113,12 @@
         <li class="track">
             {% for t in site.data.topics %}
                 {% capture tmpUrl %}/track/{{topic}}{% endcapture %}
-                {% if t.id == topic %}<a href="{{ tmpUrl | prepend: site.baseurl }}">{{t.title}}</a> (Track){% endif %}
+                {% if t.id == topic %}
+                {% comment %}
+                <a href="{{ tmpUrl | prepend: site.baseurl }}">{{t.title}}</a> (Track)
+                {% endcomment %}
+                <p>{{t.title}}</p> (Track)
+                {% endif %}
             {% endfor %}
         </li>
     {% endfor %}
