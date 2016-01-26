@@ -4,7 +4,6 @@ root.scrollLocked = false;
 # detect ios (ios struggles with our font if used both bold and box-shadow)
 
 scroll = (id, scrollTo) ->
-  console.log(scrollTo)
   root.scrollLocked = true
   promise = $('html, body').animate({
       scrollTop: scrollTo
