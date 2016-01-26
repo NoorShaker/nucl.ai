@@ -80,6 +80,6 @@ $ ->
     selectNavPosition()
 
   $(window).scroll ->
-    checkStickyAndSelect
+    checkStickyAndSelect()
   
   checkStickyAndSelect()
