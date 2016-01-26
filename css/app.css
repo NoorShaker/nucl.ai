@@ -2191,6 +2191,22 @@ section.passed-events grid descriptions {
 section.passed-events grid content ul {
   margin-bottom: 2em;
 }
+section.passed-events ul.regular-attendees li {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.04166667%;
+  display: list-item;
+}
+@media screen and (max-width: 432px) {
+  section.passed-events ul.regular-attendees li {
+    display: inline;
+    float: left;
+    width: 47.91666667%;
+    margin: 0 1.04166667%;
+    font-size: 12px;
+  }
+}
 @media screen and (max-width: 432px) {
   .thumbnails-grid.passed-events.links-buttons content item.thumbnail {
     font-size: 12px;
