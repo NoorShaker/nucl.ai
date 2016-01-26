@@ -127,6 +127,7 @@
                     <a href="{{linkPrefix}}#testimonials" style="display:none;"></a>
                 </item>
 
+                {% comment %}
 
                 {% if page.name == 'tickets.html'%}
                     <item class="selected static">
@@ -135,6 +136,28 @@
                 {% endif %}
                     <a href="{{ /tickets/ | prepend: site.baseurl }}" class="disabled" style="font-weight: bold;"> Tickets! </a>
                 </item>
+
+                {% endcomment %}
+
+
+                <item>
+                    <a href="" class="expandable"> Tickets </a>
+                    <div class="dropdown">
+                        <div class="menu">
+                            <div class="menu-wrap">
+                                <div class="table">
+                                    <div class="triangle"></div>
+                                </div>
+                                <div class="table item disabled ">
+                                    <a style="color:white!important;" href="" class="disabled"> Available Feb. 17th </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </item>
+
+
+
 
             </content>
         </grid>

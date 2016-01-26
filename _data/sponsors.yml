@@ -12,10 +12,6 @@
   name: "Sproing"
   homepage: http://www.sproing.com/
 
-- id: havok
-  name: "Havok"
-  homepage: http://www.havok.com/
-
 - id: unity
   name: "Unity"
   homepage: https://unity3d.com/
