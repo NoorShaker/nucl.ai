@@ -851,7 +851,7 @@
       return selectNavPosition();
     };
     $(window).scroll(function() {
-      return checkStickyAndSelect;
+      return checkStickyAndSelect();
     });
     return checkStickyAndSelect();
   });
