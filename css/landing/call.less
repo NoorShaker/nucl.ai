@@ -8,7 +8,6 @@ section.call {
             font-weight: bold;
         }
 
-        .column(12);
         p, ul, ol {
             color: @LIGHT_GREY;
             &.important {
@@ -48,5 +47,15 @@ section.call {
                 }
             }
         }
+
+        div.call-row {
+            ul, img { 
+                .column(4,12); // not sure why .empty must be there ... but push pull isn't working
+            }
+            img {
+                float: right;
+            }
+        }
+
     }
 }
