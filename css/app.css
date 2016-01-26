@@ -1813,6 +1813,10 @@ section.call content {
   float: left;
   width: 97.91666667%;
   margin: 0 1.04166667%;
+  display: block;
+  width: 102.5%;
+  margin: 0 -1.25%;
+  *zoom: 1;
 }
 section.call content h3 {
   padding-top: 1em;
@@ -1836,6 +1840,23 @@ section.call content ol.important {
 section.call content ul,
 section.call content ol {
   color: #a5cce9;
+}
+section.call content:before,
+section.call content:after {
+  content: "";
+  display: table;
+}
+section.call content:after {
+  clear: both;
+}
+section.call content img {
+  display: inline;
+  float: left;
+  width: 37.5%;
+  margin: 0 1.25%;
+  float: right;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 section.call content div.megaphone-paragraph-wrap icon.megaphone {
   background-size: initial;
