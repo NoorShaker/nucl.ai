@@ -673,7 +673,6 @@
 
   scroll = function(id, scrollTo) {
     var promise;
-    console.log(scrollTo);
     root.scrollLocked = true;
     promise = $('html, body').animate({
       scrollTop: scrollTo
@@ -754,7 +753,7 @@
   root = typeof exports !== "undefined" && exports !== null ? exports : this;
 
   $(function() {
-    var expanded, links, navigation, selectNavPosition, splash;
+    var checkStickyAndSelect, expanded, links, navigation, selectNavPosition, splash;
     $(document).keyup(function(e) {
       if (e.keyCode === 27) {
         return $(".navigation .expanded").each(function() {
@@ -837,7 +836,7 @@
         return linkToSelect.parent().addClass("selected");
       }
     };
-    return $(window).scroll(function() {
+    checkStickyAndSelect = function() {
       if (window.location.pathname === "/stream/") {
         return;
       }
@@ -850,7 +849,11 @@
         return;
       }
       return selectNavPosition();
+    };
+    $(window).scroll(function() {
+      return checkStickyAndSelect;
     });
+    return checkStickyAndSelect();
   });
 
 }).call(this);
