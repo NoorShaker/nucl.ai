@@ -2152,6 +2152,14 @@ section.sponsors content item .logo-wrap div.logo-center a {
   display: inline-block;
   background-size: 75%;
 }
+section.sponsors content item.your-logo-here a {
+  color: white;
+  text-decoration: none;
+  display: table !important;
+}
+section.sponsors content item.your-logo-here a:hover {
+  color: white;
+}
 section.sponsors content item p.subtitle {
   position: absolute;
   bottom: 20%;
