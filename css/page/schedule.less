@@ -1,4 +1,4 @@
-@COLOR_TRACK_ALTERNATE: #fedd2c;
+@COLOR_TRACK_DEVICES: #fedd2c;
 @COLOR_TRACK_GENERATIVE: #00ffd8;
 @COLOR_TRACK_PROCEDUREAL: #00789f;
 @COLOR_TRACK_BEHAVIOR: #e31977;
@@ -146,7 +146,7 @@ section.program-schedule {
             }
             
             .track { .track-color(@COLOR_TRACK_DEFAULT); }
-            .track.alternate { .track-color(@COLOR_TRACK_ALTERNATE); }
+            .track.alternate { .track-color(@COLOR_TRACK_DEVICES); }
             .track.generative { .track-color(@COLOR_TRACK_GENERATIVE); }
             .track.procedural { .track-color(@COLOR_TRACK_PROCEDUREAL); }
             .track.behavior { .track-color(@COLOR_TRACK_BEHAVIOR); }
@@ -309,7 +309,7 @@ section.program-schedule {
                         .talk-cell-wrap { background-color: @DARK_GREY; }
                     }
                     &.hovered {
-                        &.track.alternate { .track-hovered(@COLOR_TRACK_ALTERNATE, @DARK_GREY); }
+                        &.track.alternate { .track-hovered(@COLOR_TRACK_DEVICES, @DARK_GREY); }
                         &.track.generative { .track-hovered(@COLOR_TRACK_GENERATIVE, @DARK_GREY); }
                         &.track.procedural { .track-hovered(@COLOR_TRACK_PROCEDUREAL, @WHITE); }
                         &.track.behavior { .track-hovered(@COLOR_TRACK_BEHAVIOR, @DARK_BLUE); }
