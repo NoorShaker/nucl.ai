@@ -2040,7 +2040,7 @@ div.featured-wrap featured .call-for-speakers .icon-and-title icon.megaphone {
   transition-property: transform;
 }
 section.testimonials.full-width grid content {
-  min-height: 16em;
+  min-height: 20em;
 }
 @media screen and (max-width: 777.6px) {
   section.testimonials.full-width grid content {
