@@ -223,12 +223,12 @@
 
                     {% assign dataType = "people" %}
                     <div class="description">
-                    <p >{{item.description}}</p>
+                        <p>{{item.description}}</p>
                     </div>
                     {% assign attachDescription = false %}
                     {% assign aClass = "scrollable" %}
-                        {% assign disableAll = true %}
-                        <div class="thumbnails thumbnails-{{itemsInRow}}-in-row">
+                    {% assign disableAll = true %}
+                    <div class="thumbnails thumbnails-{{itemsInRow}}-in-row">
                         {% include features/thumbnails/thumbnails.html %}
                     </div>
                 </item>
