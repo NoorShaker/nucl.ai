@@ -156,6 +156,7 @@ module.exports = function (grunt) {
 
     less: {
       compile: {
+        options: { compress: true },
         files: [{
           'css/app.css': 'css/app.less',
         }]
@@ -190,6 +191,14 @@ module.exports = function (grunt) {
         'coffee:compile',
         'jekyll:server',
       ],
+    },
+
+    uglify: {
+      my_target: {
+        files: {
+          'js/app.js': ['js/app.js'],
+        }
+      }
     },
 
     /** e2e tests config */
@@ -249,7 +258,8 @@ module.exports = function (grunt) {
       'concat:bowerJs',
       'concat:bowerCss',
       'less:compile',
-      'coffee:compile'
+      'coffee:compile',
+      'uglify'
     ]);
   });
 
