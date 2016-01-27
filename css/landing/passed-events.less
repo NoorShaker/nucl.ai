@@ -1,5 +1,16 @@
 section.passed-events {
     min-height: 0;
+    h2 {
+        a {
+            text-decoration: none;
+            &.go-to-page {
+                &, &:hover { color: @ORANGE; }
+            }
+            &.go-to-recordings {
+                &, &:hover { color: lighten(@PURPLE, 30%); }
+            }
+        }
+    }
     grid {
         padding-bottom: 3em;
         @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
@@ -26,46 +37,3 @@ section.passed-events {
         }
     }
 }
-
-.thumbnails-grid.passed-events.links-buttons {
-    content {
-        item.thumbnail {
-            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
-                font-size: 12px;
-            }
-            thumbnail-wrap {
-                a.thumbnail {
-                    background-image: none;
-                    text-decoration: none;
-                    font-size: 0.9em;
-                    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
-                        &#go-to-current {
-                            background-color: @ORANGE;
-                            color: white;
-                            border-color: @ORANGE; 
-                        }
-                        &#go-to-recordings {
-                            background-color: @PURPLE;
-                            color: white;
-                            border-color: @PURPLE; 
-                        }
-                    }
-                    &:hover {
-                        font-size: 1.1em;
-                        &#go-to-current {
-                            background-color: @ORANGE;
-                            color: white;
-                            border-color: @ORANGE; 
-                        }
-                        &#go-to-recordings {
-                            background-color: @PURPLE;
-                            color: white;
-                            border-color: @PURPLE; 
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
