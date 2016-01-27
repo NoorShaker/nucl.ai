@@ -7,20 +7,21 @@ layout: landing
 {% include splash.html %}
 {% include landing/about.html %}
 
+
 {% comment %}
 {% include landing/stream.html %}
 <section class="none"></section>
 {% endcomment %}
 
-{% include landing/call.html %}
-
 {% include landing/tickets-available-in.html %}
 <section class="none"></section>
+{% include landing/topics.html %}
+
+{% include landing/call.html %}
+
 
 {% comment %}
 {% include landing/news-feed.html %}
-
-{% include landing/topics.html %}
 {% endcomment %}
 
 {% include landing/people.html %}
@@ -29,10 +30,12 @@ layout: landing
 
 {% include landing/testimonials.html %}
 <section class="none"></section>
+
+{% comment %}
 {% include landing/sponsors.html %}
+{% endcomment %}
 
 </sections>
-
 
 
 {% include footer.html %}
