@@ -15,13 +15,24 @@
     It was great to return to #nuclai15 this year, I met loads of 
     interesting people and came away buzzing with new ideas.
 
-- author: Jurie Horneman
+- author: Laurent Delayen
   year: 2015
-  jobtitle: Independent, FRANCE
+  jobtitle: Senior Gameplay Programmer
+  company: Epic Games, USA
   text: > 
-    #nuclai15 was again a wonderful opportunity to focus on game AI and the 
-    intersection of game design and programming. Great talks and great 
-    conversations.
+    It was my first time at #nuclai15 and I heard about it very late through 
+    co-workers. I was mostly interested in the Character Animation panels. 
+    I really hope to be able to attend every year from now on! Great 
+    information, great people, great time!
+
+- author: Sergey Mohov
+  year: 2015
+  jobtitle: Game Designer
+  company: Tequila Works, SPAIN
+  text: > 
+    For the first time in my life,  I left a conference with concrete and crystallized
+    plans to improve my current project based on the talks I attended and the 
+    conversations I had with people. Incredibly. Useful.
 
 - author: Aaron Oostdijk
   year: 2015
@@ -30,6 +41,13 @@
   text: > 
     First time visiting a conference like this, and #nuclai15 made a very 
     strong first impression. Great sessions, great people, great time!
+
+- author: Jim Brewster
+  year: 2015
+  jobtitle: Technical Lead
+  company: NaturalMotion, UK
+  text: > 
+    An invaluable resource of ideas and enthusiasm. Long may it continue.
 
 - author: Mohamed Serry
   year: 2015
@@ -42,23 +60,6 @@
     the feedback needed to get back on track I am extremely happy for this 
     opportunity and #nuclai16 is on my calendar.
 
-- author: Laurent Delayen
-  year: 2015
-  jobtitle: Senior Gameplay Programmer
-  company: Epic Games, USA
-  text: > 
-    It was my first time at #nuclai15 and I heard about it very late through 
-    co-workers. I was mostly interested in the Character Animation panels. 
-    I really hope to be able to attend every year from now on! Great 
-    information, great people, great time!
-
-- author: Jim Brewster
-  year: 2015
-  jobtitle: Technical Lead
-  company: NaturalMotion, UK
-  text: > 
-    An invaluable resource of ideas and enthusiasm. Long may it continue.
-
 - author: Alexander Shafranov
   year: 2015
   jobtitle: Animation Programmer
@@ -67,6 +68,13 @@
     #nuclai15 was really unique and cross-discipline, bringing feature film, 
     game AI, animation and machine learning people and talks together makes 
     it the perfect opportunity to learn for everyone.
+
+- author: Anika Uhlemann
+  year: 2015
+  jobtitle: Engine & Game Programmer
+  company: GOODGAME Studios, GERMANY
+  text: > 
+   Inspiring talks, dedicated people, things to play with, that's a conference to my taste.
 
 - author: Simon Clavet
   year: 2015
@@ -84,11 +92,10 @@
     Wide variety of topics, great speakers, interesting conversations and lots 
     of very very cool stuff to see and try - Nucl.ai easily beats other conferences!
 
-- author: Sergey Mohov
+- author: Jurie Horneman
   year: 2015
-  jobtitle: Game Designer
-  company: Tequila Works, SPAIN
+  jobtitle: Independent, FRANCE
   text: > 
-    For the first time in my life,  I left a conference with concrete and crystallized
-    plans to improve my current project based on the talks I attended and the 
-    conversations I had with people. Incredibly. Useful.
+    #nuclai15 was again a wonderful opportunity to focus on game AI and the 
+    intersection of game design and programming. Great talks and great 
+    conversations.
