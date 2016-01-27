@@ -465,7 +465,7 @@
     if ($("#section-topics").length === 0) {
       return;
     }
-    return thumbnails = new Thumbnails("section-topics", true, false);
+    return thumbnails = new Thumbnails("section-topics", false, true, false);
   });
 
 }).call(this);

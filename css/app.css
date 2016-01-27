@@ -1125,6 +1125,10 @@ section h2 {
   /* For Safari 3.1 to 6.0 */
   transition: opacity 0.5s ease-in-out;
 }
+section.topics,
+section.topics section {
+  min-height: 0px;
+}
 form.newsletter-form {
   margin: 3em 0 2em 0;
 }
@@ -2483,30 +2487,30 @@ sections.page section.room content item.text img {
 #section-tracks-menu grid {
   padding-bottom: 0;
 }
-sections.page section.thumbnails-grid.tracks content div.thumbnails {
+section.thumbnails-grid.tracks content div.thumbnails {
   display: block;
   width: 102.5%;
   margin: 0 -1.25%;
   *zoom: 1;
   margin-bottom: 1em;
 }
-sections.page section.thumbnails-grid.tracks content div.thumbnails:before,
-sections.page section.thumbnails-grid.tracks content div.thumbnails:after {
+section.thumbnails-grid.tracks content div.thumbnails:before,
+section.thumbnails-grid.tracks content div.thumbnails:after {
   content: "";
   display: table;
 }
-sections.page section.thumbnails-grid.tracks content div.thumbnails:after {
+section.thumbnails-grid.tracks content div.thumbnails:after {
   clear: both;
 }
-sections.page section.thumbnails-grid.tracks content div.thumbnails item.thumbnail.generative {
+section.thumbnails-grid.tracks content div.thumbnails item.thumbnail.generative {
   margin-left: 11.25%;
 }
 @media screen and (max-width: 432px) {
-  sections.page section.thumbnails-grid.tracks content div.thumbnails item.thumbnail .thumbnail-title {
+  section.thumbnails-grid.tracks content div.thumbnails item.thumbnail .thumbnail-title {
     font-size: 0.6em;
   }
 }
-sections.page section.thumbnails-grid.tracks.program content div.thumbnails {
+section.thumbnails-grid.tracks.program content div.thumbnails {
   margin-top: 1em;
   margin-bottom: 2em;
 }
