@@ -1,105 +1,95 @@
-- author: Jonas Jentsch
-  jobtitle: Gamedesign Student
-  company: Mediadesign Hochschule, GERMANY
-  year: 2014
+- author: Matthew Bedder
+  year: 2015
+  jobtitle: PhD Student
+  company: University of York
   text: > 
-    I had a great time attending the AI Conference and met so many amazing
-    and nice People there. Once again thank you for giving us students the
-    Oportunity to visit this great Conference!
-
-- author: Chris J. Rock
-  year: 2014
-  company: Wooga, GERMANY
-  text: > 
-    The most informative and conference I've been too.
-    Great value and great people. I'll be back.
-
-- author: Jurie Horneman
-  year: 2014
-  jobtitle: Independent game designer / programmer
-  text: > 
-    This year's Game/AI Conference was the best one I've gone to so far.
-    The programme was a great balance of high- and low-level, tech and design,
-    as well as academia and industry.
-    The organization was flawless and the location was great.
-
-- author: Xavier Dolci
-  year: 2010
-  jobtitle: Lead AI Programmer
-  company: Ubisoft, FRANCE
-  text: > 
-    Awesome conferences, where professionals are sharing their knowledge,
-    and their passion. 
-    It's quickly going to be the reference in the AI community.
-
-- author: Mieszko Zielinski
-  year: 2010
-  jobtitle: AI Programmer
-  company: People Can Fly, POLAND
-  text: > 
-    This conference was a real deal — cutting edge presentations and experienced speakers.
-    My take away list from this one is impressive!
-    I feel this event can really push Game AI forward!.
-
-- author: Frederik De Caster
-  year: 2010
-  jobtitle:  AI Programmer
-  company: Creative Assembly, ENGLAND
-  text: > 
-    I thought the conference was a great success.
-    I learned a lot from the speakers at the conference,
-    as well as interacting with the attendees.
-
-- author: Gabriel Robert
-  year: 2010
-  jobtitle: Senior AI programmer
-  company: Ubisoft, PARIS
-  text: > 
-    Thank you for this amazing conference! Great speakers,
-    interesting subjects and nice people.
-    Ten years that I’m looking for a good conference on AI in video games,
-    I’m really happy to have found it.
-
-- author: John Lusty
-  year: 2010
-  jobtitle: Lead Coder
-  company: Ninja Theory, CAMBRIDGE
-  text: > 
-    Well done for putting on such a great conference,
-    the program was varied, interesting and inspiring.
-    Definitely hoping to return next year.
+    I've never seen so many industry figures, academics, and students 
+    happy to discuss a range of topics around AI in games. It was really, 
+    REALLY helpful. 
 
 - author: Vicky Smalley
-  year: 2010
-  jobtitle: Senior AI Programmer
-  company: Sony Computer Entertainment Europe
+  year: 2015
+  jobtitle: CTO
+  company: Small Jelly, UK
   text: > 
-    The quality of the talks was consistently high and the event well organised.
-    I thoroughly enjoyed the opportunity to discuss AI with so many people passionate about the subject and hope to return next year.
+    It was great to return to #nuclai15 this year, I met loads of 
+    interesting people and came away buzzing with new ideas.
 
-- author: Neil Armstrong
-  year: 2010
-  jobtitle: Lead AI Programmer
-  company: Blitz Games Studios, ENGLAND
+- author: Jurie Horneman
+  year: 2015
+  jobtitle: Independent
   text: > 
-    Thanks for organising a thoroughly enjoyable conference.
-    It's nice to meet so many people with a common interest in AI.
-    It was great to finally meet a number of people who I've spoken to via email over the past 2 years...
+    #nuclai15 was again a wonderful opportunity to focus on game AI and the 
+    intersection of game design and programming. Great talks and great 
+    conversations.
 
-- author: David Partouche
-  year: 2010
-  jobtitle: Senior AI Engineer
-  company: CCP Games, ENGLAND
+- author: Aaron Oostdijk
+  year: 2015
+  jobtitle: Lecturer & Researcher
+  company: University of the Arts Utrecht, NETHERLANDS
   text: > 
-    Thanks for hosting such an excellent conference.
-    I found it great to meet such a broad cross section from the AI development community.
-    It has certainly given me some inspiration for my upcoming projects.
-    I will definitely try to come back next year!
+    First time visiting a conference like this, and #nuclai15 made a very 
+    strong first impression. Great sessions, great people, great time!
 
-- author: Remco Straatman
-  year: 2010
-  jobtitle: Lead AI Programmer
-  company: Guerrilla Games, AMSTERDAM
+- author: Mohamed Serry
+  year: 2015
+  jobtitle: Gameplay Programmer
+  company: Creability, UNITED ARAB EMIRATES
   text: > 
-    Congrats once again on pulling the conference off: it was by far the most inspiring work-related event I've ever been to.
-    I hope it will become a regular event.
+    #nuclai15 was my first long term goal, spent months of saving and talking 
+    to Alex on twitter, I have to say that it was all well more than worth it. 
+    I cannot express how this experience changed me and might as well has shaped
+    my future. From the networks I've created to the feedback needed to get back 
+    on track I am extremely happy for this opportunity and #nuclai16 is on my calendar.
+
+- author: Laurent Delayen
+  year: 2015
+  jobtitle: Senior Gameplay Programmer
+  company: Epic Games, USA
+  text: > 
+    It was my first time at #nuclai15 and I heard about it very late through 
+    co-workers. I was mostly interested in the Character Animation panels. 
+    I really hope to be able to attend every year from now on! Great 
+    information, great people, great time!
+
+- author: Jim Brewster
+  year: 2015
+  jobtitle: Technical Lead
+  company: NaturalMotion; UK
+  text: > 
+    An invaluable resource of ideas and enthusiasm. Long may it continue.
+
+- author: Alexander Shafranov
+  year: 2015
+  jobtitle: Animation Programmer
+  company: Remedy Games, FINLAND
+  text: > 
+    #nuclai15 was really unique and cross-discipline, bringing feature film, 
+    game AI, animation and machine learning people and talks together makes 
+    it the perfect opportunity to learn for everyone.
+
+- author: Simon Clavet
+  year: 2015
+  jobtitle: Animation & Physics Programmer
+  company: Ubisoft Montreal
+  text: > 
+   Attending conferences like Nucl.ai brings me in the perfect mental state.
+   I always try to invent something crazy in the plane back home...
+
+- author: Kevin Schmidt
+  year: 2015
+  jobtitle: Head of Data Science
+  company: Mind Candy, UK
+  text: > 
+    For the first time in my life,  I left a conference with concrete and 
+    crystallized plans to improve my current project based on the talks I 
+    attended and the conversations I had with people. Incredibly. Useful.
+
+- author: Sergey Mohov
+  year: 2015
+  jobtitle: Game Designer
+  company: Tequila Works, SPAIN
+  text: > 
+    Wide variety of topics, great speakers, interesting conversations and 
+    lots of very very cool stuff to see and try - Nucl.ai easily beats other 
+    conferences!
