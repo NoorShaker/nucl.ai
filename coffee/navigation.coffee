@@ -30,7 +30,6 @@ $ ->
     expanded.parent().toggleClass("expanded")
     expanded = $(".navigation a.expanded")
 
-
   links.each ->
     @.jQlink.click (event) ->
       event.stopPropagation()
@@ -62,6 +61,7 @@ $ ->
       if $(window).scrollTop() + navigation.height()  >= -1 + @.jQsection.first().offset().top and $(window).scrollTop() + navigation.height() < @.jQsection.last().offset().top + @.jQsection.last().height()
         if navigation.hasClass("sticky")
           linkToSelect = @.jQlink
+
     navigation.find("item.selected").removeClass("selected")
     if linkToSelect
       if linkToSelect.hasClass("logo")
