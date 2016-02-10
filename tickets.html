@@ -10,7 +10,7 @@ permalink: /tickets/
 
         <content>
             {% assign timer_title = "" %}
-            {% assign timer_count_to = "2015/07/19" %}
+            {% assign timer_count_to = "2016/02/24 12:00" %}
 
             {% include features/timers/timer.html %}
             <div class="mobile">
@@ -82,15 +82,17 @@ permalink: /tickets/
         {% endfor %}
         <div class="table-comments wider">
             <p class="table-comment">
-                * If you're in full-time education you are eligible for the Student ticket. Contact us at events(at)aigamedev.com to receive your promotional code.</br>
+                * If you're in full-time education you are eligible for the Student ticket. Contact us at events(at)nucl.ai to receive your promotional code.</br>
             </p>
             <p class="table-comment">
-                ** For very small teams (those without cappuccino machines :-) or if your are between jobs you can apply for this discount at events(at)aigamedev.com. 
+                ** For very small teams (those without cappuccino machines :-) or if your are between jobs you can apply for this discount at events(at)nucl.ai. 
             </p>
         </div>
+        {% comment %}
         <div class="ticket-button-wrap bigger">
             <a href="/tickets/#purchase" class="buy-tickets-link"> Buy Your Tickets Now! </a>
         </div>
+        {% endcomment %}
         </content>
     </grid>
 </section>
@@ -160,6 +162,8 @@ permalink: /tickets/
     </grid>
 </section>
 
+{% comment %}
+
 <section class="none eventbrite"></section>
 <section class="eventbrite">
     <a class="anchor" id="purchase"></a>
@@ -167,10 +171,12 @@ permalink: /tickets/
     <grid>
         <content>
             <div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=15842431138&ref=etckt" frameborder="0" height="460" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
-            <h3 style="text-align: center;">Discounts: Email us at <tt>&lt;events</tt> at <tt>aigamedev.com&gt;</tt> for your promotional code!</h3>
+            <h3 style="text-align: center;">Discounts: Email us at <tt>&lt;events</tt> at <tt>nucl.ai&gt;</tt> for your promotional code!</h3>
         </content>
     </grid>
 </section>
+
+{% endcomment %}
 
 <section class="tickets faq">
    <h2>Which Ticket is Best for You?</h2>
@@ -207,7 +213,7 @@ permalink: /tickets/
         <content>
             <h3 class="question">Ticket Upgrade</h3>
             <p class="answer bigger wider">
-                If you'd like to upgrade the ticket you have purchased please go to <a href="http://nuclai.eventbrite.com/">EventBrite.com</a> and update your order information. <a href=2http://help.eventbrite.com/customer/portal/articles/1362890-can-i-change-my-ticket-registration-type-">How to upgrade your ticket in Eventbrite.</a> You can also find the link to your order in the section "Your Account" of your confirmation email.<br>
+                If you'd like to upgrade the ticket you have purchased please go to <a href="http://nuclai.eventbrite.com/">EventBrite.com</a> and update your order information. <a href="2http://help.eventbrite.com/customer/portal/articles/1362890-can-i-change-my-ticket-registration-type-">How to upgrade your ticket in Eventbrite.</a> You can also find the link to your order in the section "Your Account" of your confirmation email.<br>
                 You can upgrade your ticket until July 11th. We can't guarantee that spots at the networking lunches or the V.I.P. dinner will still be available until then. 
             </p>
 
@@ -225,17 +231,18 @@ permalink: /tickets/
 
             <h3 class="question">Help?</h3>
             <p class="answer bigger wider">
-                If you need any assistance, we're happy to help! You can contact us at events (at) aigamedev.com
+                If you need any assistance, we're happy to help! You can contact us at events (at) nucl.ai
             </p>
 
             <h3 class="question">Terms and Conditions</h3>
             <p class="answer bigger wider">
                 Please note our <a href="/legal/">terms and conditions</a>. 
             </p>
-
+            {% comment %}
             <div class="ticket-button-wrap bigger wider">
                 <a href="/tickets/#purchase" class="buy-tickets-link"> Buy Your Tickets Now! </a>
             </div>
+            {% endcomment %}
         <content>
     </grid>
 </section>
