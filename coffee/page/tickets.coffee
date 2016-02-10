@@ -42,7 +42,11 @@ $ ->
 
   if $(".tickets.prices, .tracks-content.tickets").length == 0 then return
   $(".tickets.prices .centered-cell, .conference-good .centered-cell, .tracks-content.tickets .centered-cell").click ->
-    
+    if $(@).parent().parent().hasClass("call")
+      window.location = "/#call";
+      return false;
+    return false;
+    """
     if $(@).parent().parent().attr("name") == "Access to the Main Amphitheatre"
       window.location = "/program/overview/#main-amphitheatre"
       return false
@@ -53,3 +57,4 @@ $ ->
       window.location = "/program/overview/#open-laboratories"
       return false
     scrollToEventbriteTickets()
+    """

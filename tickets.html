@@ -10,7 +10,7 @@ permalink: /tickets/
 
         <content>
             {% assign timer_title = "" %}
-            {% assign timer_count_to = "2015/07/19" %}
+            {% assign timer_count_to = "2016/02/24 12:00" %}
 
             {% include features/timers/timer.html %}
             <div class="mobile">
@@ -88,9 +88,11 @@ permalink: /tickets/
                 ** For very small teams (those without cappuccino machines :-) or if your are between jobs you can apply for this discount at events(at)nucl.ai. 
             </p>
         </div>
+        {% comment %}
         <div class="ticket-button-wrap bigger">
             <a href="/tickets/#purchase" class="buy-tickets-link"> Buy Your Tickets Now! </a>
         </div>
+        {% endcomment %}
         </content>
     </grid>
 </section>
@@ -160,6 +162,8 @@ permalink: /tickets/
     </grid>
 </section>
 
+{% comment %}
+
 <section class="none eventbrite"></section>
 <section class="eventbrite">
     <a class="anchor" id="purchase"></a>
@@ -171,6 +175,8 @@ permalink: /tickets/
         </content>
     </grid>
 </section>
+
+{% endcomment %}
 
 <section class="tickets faq">
    <h2>Which Ticket is Best for You?</h2>
@@ -207,7 +213,7 @@ permalink: /tickets/
         <content>
             <h3 class="question">Ticket Upgrade</h3>
             <p class="answer bigger wider">
-                If you'd like to upgrade the ticket you have purchased please go to <a href="http://nuclai.eventbrite.com/">EventBrite.com</a> and update your order information. <a href=2http://help.eventbrite.com/customer/portal/articles/1362890-can-i-change-my-ticket-registration-type-">How to upgrade your ticket in Eventbrite.</a> You can also find the link to your order in the section "Your Account" of your confirmation email.<br>
+                If you'd like to upgrade the ticket you have purchased please go to <a href="http://nuclai.eventbrite.com/">EventBrite.com</a> and update your order information. <a href="2http://help.eventbrite.com/customer/portal/articles/1362890-can-i-change-my-ticket-registration-type-">How to upgrade your ticket in Eventbrite.</a> You can also find the link to your order in the section "Your Account" of your confirmation email.<br>
                 You can upgrade your ticket until July 11th. We can't guarantee that spots at the networking lunches or the V.I.P. dinner will still be available until then. 
             </p>
 
@@ -232,10 +238,11 @@ permalink: /tickets/
             <p class="answer bigger wider">
                 Please note our <a href="/legal/">terms and conditions</a>. 
             </p>
-
+            {% comment %}
             <div class="ticket-button-wrap bigger wider">
                 <a href="/tickets/#purchase" class="buy-tickets-link"> Buy Your Tickets Now! </a>
             </div>
+            {% endcomment %}
         <content>
     </grid>
 </section>
