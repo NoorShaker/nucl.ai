@@ -139,12 +139,12 @@
     - CCP Games
 
 - id: cognition
-  title: "Cognitive Apps & Language"
+  title: "Intelligent Personal Assistants"
   subtitle: >
-    Join other professionals in creative industries for a day-long course on cognitive
-    reasoning, natural language processing and chatbots.  Learn how to integrate speech
-    recognition and speech synthesis into your applications, see how leading companies are
-    using AI techniques to create human-like bots, and more...
+    Apple Siri, IBM Watson, Amazon Alexa... More and more humans interacts with Intelligent Personal Assistants! 
+    Join other AI professionals for a day-long course on the underlying technology to understand how to use them into 
+    your applications. Understand how leading companies create interactive agents using a various array of techniques 
+    such as natural language processing, speech synthesis, cognitive reasoning, machine learning, vision, and more...
   content: >
     <img src="/img/tracks/WatsonIBM_1.jpg"/>
     <p class="credit"><u>Image Credit</u>: IBM Watson on Jeopardy</p> 
