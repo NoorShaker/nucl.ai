@@ -7,7 +7,7 @@ animationType = ""
 
 $ ->
   sections = []
-  $("section.testimonials").each ->
+  $(".testimonials").each ->
 
     testimonials = $(@).find(".testimonial").toArray()
 
