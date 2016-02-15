@@ -1,4 +1,8 @@
 section.testimonials.full-width {
+    display: none;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) {
+        display: block;
+    }
     grid {
         content {
             min-height: 20em;
