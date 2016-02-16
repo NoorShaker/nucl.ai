@@ -29,6 +29,26 @@
     <div class="splash-screen-wrap audience-gif">
     {% endif %}
 
+    <div id="splash-composed-background">
+
+        {% for item in site.data.galleries.nuclai15 %}
+
+            {% if forloop.first %}
+                {% capture css_class %}enabled{% endcapture %}
+            {% else %}
+                {% capture css_class %}disabled{% endcapture %}
+            {% endif %}
+
+
+            <div class="img img-normal {{css_class}}" style="background-image: url('{{ item.picture }}');"></div>
+            <div class="img img-quad {{css_class}}" style="background-image: url('{{ item.picture | replace:'.jpg','.png' | replace:'.JPG','.png' }}');"></div>
+
+        {% endfor %}
+        
+        <div class="img-overlay"></div>
+
+    </div>
+
      <splash>
             <grid class="table">
                 <content class="opacity0 centered-cell">
