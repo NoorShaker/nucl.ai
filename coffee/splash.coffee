@@ -32,6 +32,6 @@ $ ->
                 enabled++
 
         rotator()
-      , 5000
+      , 7500
 
   rotator()
