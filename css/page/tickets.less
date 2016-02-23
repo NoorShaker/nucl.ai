@@ -59,13 +59,6 @@ sections.page section.tickets {
                     color: darken(@WHITE, 15%);
                 }
                 /* little hack to keep X tickets available in line */
-                &.table { 
-                    div.centered-cell {
-                        p {
-                            padding: 0;
-                        }
-                    }
-                }
             }
             &.short { 
                 div.table { 
@@ -100,7 +93,7 @@ sections.page section.tickets {
                     }
                     p {
                         @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { padding: 0 5px; }
-                        padding: 0 15px; 
+                        padding: 0 10px; 
                     }
                 }
                 p.date , span.comment { 
