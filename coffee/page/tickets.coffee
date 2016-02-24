@@ -45,8 +45,6 @@ $ ->
     if $(@).parent().parent().hasClass("call")
       window.location = "/#call";
       return false;
-    return false;
-    """
     if $(@).parent().parent().attr("name") == "Access to the Main Amphitheatre"
       window.location = "/program/overview/#main-amphitheatre"
       return false
@@ -57,4 +55,3 @@ $ ->
       window.location = "/program/overview/#open-laboratories"
       return false
     scrollToEventbriteTickets()
-    """
