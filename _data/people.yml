@@ -1,9 +1,9 @@
 - name: Clodéric Mars
   role: track
-  tracks: [cognition]
+  tracks: [behavior]
   twitter: clodericmars
   affiliation: 
-    position: "CTO"
+    position: "Product & engineering lead"
     name: craft ai
     url: http://www.craft.ai/
   bio: >
@@ -12,6 +12,210 @@
     His focus is on providing tools and technologies to people wanting autonomous AND controllable AI behaviors.
     Clodéric is a co-author on two chapters in Game AI Pro 2, he was a speaker at GDC's AI Summit in 2014 and at the Game/AI
     Conference in 2011.
+
+- name: Diego Perez
+  role: track
+  tracks: [decisions]
+  twitter: diego_pliebana
+  affiliation: 
+    position: "Senior Research Officer"
+    name: University of Essex
+    url: http://www.essex.ac.uk/
+  bio: >
+    Diego Perez is a Lecturer in Computer Games and Artificial Intelligence at the University of Essex (UK), where he achieved a 
+    PhD in Computer Science (2015). He has published in the domain of Game AI, with research interests on Reinforcement Learning 
+    and Evolutionary Computation. He has organized several Game AI competitions, as the Physical Travelling Salesman Problem and 
+    the General Video Game AI competitions, both held in IEEE conferences. He also has programming experience in the videogames 
+    industry with titles published for game consoles and PC.
+
+- name: Michaël Rouillé
+  role: track
+  tracks: [ambient]
+  twitter: michaelrouille
+  affiliation: 
+    position: "CTO"
+    name: Golaem
+    url: http://golaem.com/
+  bio: >
+    Michaël Rouillé is the CTO of Golaem, a company he co-founded in 2009. Golaem develop Golaem Crowd, a character animation 
+    software for artists of vfx, animation & game studios who need to populate backgrounds & midgrounds of films, tv series, 
+    commercials and video games. Michaël defines himself as a programmer, an art he has been trying to master for the last 25 
+    years. First as a hobby making Z80 assembly demos in mid-schools, C games in high-school and C++ 3D game engines in 
+    university. Then as a profession, developing the kernel and the 3D visualization of a distributed simulation platform at 
+    Inria; designing and developing a real-time 3D visualization engine for civil and military simulators at Thales Training 
+    and Simulation; designing and developing a human behaviors modeling language, authoring tool and execution engine for 
+    virtual humans at Inria; founding Golaem and developing artist-friendly tools to animate digital characters. Apart from 3D, 
+    Michaël's professional interests include AI, animation and game engines. Michaël's personal interests lie in visual arts, 
+    he has been to art school, and love to torture himself with how to bridge between the programming & art worlds.
+
+- name: Michael Büttner
+  role: speaker
+  confirmed: true
+  affiliation: 
+    position: Tech Lead Animation & Physics
+    name: Ubisoft Toronto
+    url: http://www.ubisoft.com/
+  bio: >
+    Michael has been programming games for nearly 30 years, including lead and senior roles at Ocean Software, Infogrames 
+    Entertainment, IO Interactive, Square Enix Montreal and Ubisoft.
+    Michael joined the Ubisoft Toronto studio in 2013 as the Tech Lead for Animation & Physics.  He brought with him his 
+    passion for animation and physics programming, R&D, an innovative approach to character creation and extensive experience 
+    working with animators, laying the ground work for pushing the animation tech of Ubisoft Toronto in the future.
+
+- name: Heather Stark
+  role: [track, speaker]
+  confirmed: true
+  tracks: [analytics]
+  twitter: hastark
+  bio: >
+    Heather is a games analyst who has worked on over a dozen games, as a consultant and in-house, across a wide range of 
+    genres and platforms. She is an active member of several London tech meetups and has a background as a consultant, tech 
+    analyst, and HCI researcher. Recently, she has been an early stage advisor for two analytics-related startups. She has 
+    been forgetting  R syntax for over 30 years, dating from back when R was S. 
+    When she finds shiny things she shares them on @hastark.
+  affiliation:
+    position: "User Research Specialist"
+    name: Harman International
+    url: http://www.harman.com/
+
+- name: Tommy Thompson
+  role: track
+  tracks: [directors]
+  twitter: get_tuda_choppa
+  affiliation: 
+    position: "Senior Lecturer in Computer Game Technology"
+    name: Anglia Ruskin University
+    url: http://www.anglia.ac.uk/
+  bio: >
+    Tommy Thompson is a lecturer in computer science at the Anglia Ruskin University, Cambridge, UK.
+    He is an AI researcher focussed on machine learning applications in the areas of non-player character behaviour,
+    procedural content generation and relevant benchmarking of AI through games.
+    
+- name: Mika Vehkala
+  role: track
+  tracks: [animation]
+  twitter: mikavehkala
+  affiliation: 
+    position: "Game Developer"
+    name: Next Games
+    url: http://www.nextgames.com/
+  bio: >
+    Mika has been working in the industry since late 1999 – including IO Interactive as Senior AI
+    Programmer on the Hitman: Absolution and Killzone: Shadow Fall for Guerrilla Games.
+    He has specialized in both game AI and animation technology for games.
+
+- name: Noor Shaker
+  role: [track, speaker]
+  tracks: [procedural]
+  twitter: noorshak
+  affiliation: 
+    position: "Post-Doc Researcher"
+    name: AAU Copenhagen
+    url: http://www.aau-cph.dk/
+  bio: >
+    Noor Shaker is a Postdoctoral researcher at the Aalborg University Copenhagen. Her research interests include player modeling, procedural content generation,
+    computational creativity, affective computing and player behavior imitation. She is organizing
+    the Platformer AI competition and chairing the IEEE task force on Player Modeling.
+
+
+- name: Richard Kogelnig
+  role: track
+  tracks: [devices]
+  affiliation:
+    url: http://www.mipumi.com/
+    position: "Software Engineer"
+    name: Mi'pu'mi
+  bio: >
+    Richard is currently working at Mi'pu'mi Games (mipumi.com) on an unannounced AAA title. 
+    His main interests include Artificial Intelligence, Procedural Generation and Virtual Reality. 
+    Before joining Mipumi he worked as a freelancer and was part of the AiGamedev.com team. 
+
+
+- name: Petra Champandard-Pail
+  role: org
+  affiliation:
+    position: "Conference Director & Co-Founder"
+    name: AiGameDev.com
+    url: http://aigamedev.com
+  bio: >
+    Petra has a background in business management, and worked as an International Area Manager for a large multi-million dollar corporation.
+    She eventually moved on and joined Alex as the co-founder of AiGameDev.com. Petra is the creative force in the team, and takes care of business!
+
+- name: Alex J. Champandard
+  role: org
+  twitter: alexjc
+  affiliation:
+    position: "Conference Co-Ordinator & Co-Founder"
+    name: AiGameDev.com
+    url: http://aigamedev.com
+  bio: >
+    Alex is the mastermind behind AiGameDev.com, the largest online hub for artificial intelligence in games. He has worked in the industry as a senior AI programmer for many years, most notably for Rockstar Games. He regularly consults with leading studios in Europe, most recently on the multiplayer bots for Killzone 2-3 at Guerrilla Games. Alex authored the book "AI Game Development" and often speaks about his research. He's associate editor for the IEEE Transactions on AI in Games, and serves on the program committee for the AIIDE and CIG conferences.
+
+- name: Verena Riedl
+  role: org
+  twitter: skittlesolives
+  affiliation:
+    position: "Marketing Director"
+    name: AiGameDev.com
+    url: http://aigamedev.com
+  bio: >
+    Verena made her way from Urban Planning into the games industry, with inbetween stops at advertising and eventmanagement. These days she is working as a producer, game designer and marketing strategist, who has focused on mobile development in the last years. She was already part of the volunteer team at Game/ AI Conference in 2014 and joined the team now to help with the dark arts of marketing.
+
+- name: Filip Wisniewski
+  role: org
+  twitter: speedingdeer
+  affiliation:
+    position: "Lead Developer"
+    name: AiGameDev.com
+    url: http://aigamedev.com
+  bio: >
+    Filip worked previously in semantic web research for a couple of years and after a brief start-up interlude he now found his calling in digital entertainment and teaching.
+    He helped organize the Game/AI Conference in 2014 and presented a tutorial about Monto-Carlo Tree Search there, along with the AiGameDev.com team.
+
+# - name: Juliette Lemaitre
+#  role: org
+#  affiliation:
+#    position: "PhD student"
+#    name: MASA Group
+#    url: http://masa-group.biz/
+#  bio: >
+#    Juliette lemaitre is a PhD student at MASA Group and Heudiasyc (Université de Technologie de Compiègne), working on the modeling of strategical Artificial Intelligence to simplify the work of developers when creating opponents in games with complex environments and mechanisms, such as Civilization.
+
+- name: Prof. Helmut Hlavacs
+  role: advisor
+  affiliation:
+    position: "Professor of Computer Science"
+    name: University of Vienna
+    url: http://entertain.univie.ac.at/~hlavacs/
+  bio: >
+    Prof. Helmut Hlavacs studied Technical Mathematics at the Technical University of Vienna, and received a PhD in 2001. He joined the University of Vienna as researcher for the EU projects BISANTE and later CODIS, and received habilitation in 2004, also being promoted to Associated Professor. He was guest professor in Spain and France, and initiated numerous projects on national and international level. He was vice chair and grant holder of the COST action IC0804, leader of industry projects with Rohde&Schwarz, Kapsch Carrier Com, T-Systems, Telekom Austria/A1, ASFINAG, member of the Research Center Telecommunications Vienna, etc., and successfully closed several basic research projects in the area of mobile video, task virtualization, energy efficiency, and traffic status measurement. Prof. Hlavacs co-authored over 150 peer-reviewed publications, published at international conferences or journals, resulting in an Erdös-Number of 4. He is author of one book, and guest editor of numerous special journal issues, one being currently reviewed. Furthermore, he has received eight best paper and distinguished paper awards at international conferences so far. He was also advisor of eight finished PhD students so far, two of whom have been awarded with prestigious PhD awards.
+
+- name: Emil "AngryAnt" Johansen
+  role: track
+  tracks: [behavior]
+  twitter: AngryAnt
+  affiliation:
+    position: "Freelance game developer"
+    name: AngryAnt
+    url: http://angryant.com/
+  bio: >
+    A freelance game developer with a specialisation in AI, and author of the "Behave" AI middleware solution, Emil brings 
+    experience from a host of client projects as well as a four-year stint at Unity Technologies. A preference for behavioural 
+    logic, but a wide appetite for new and exciting challenges.
+- name: Clodéric Mars
+  role: track
+  tracks: [cognition]
+  twitter: clodericmars
+  affiliation: 
+    position: "CTO"
+    name: craft ai
+    url: http://craft.ai/
+  bio: >
+    Since the beginning of 2015 Clodéric is leading to the creation of craft ai, an AI-as-a-service platform enabling IoT, 
+    mobile and web developers to create apps that adapt to each user. For 9 years, from INRIA to Golaem and MASA Group, 
+    his goal has been to democratize the creation of autonomous AND controllable AI. Clodéric is a co-author on two 
+    chapters in Game AI Pro 2, he was a track chair at nucl.ai 2015 and has spoke at many events including  GDC 2014 
+    AI Summit and LaFrenchMobile Day 2016.
 
 - name: Diego Perez
   role: track
@@ -202,3 +406,4 @@
     A freelance game developer with a specialisation in AI, and author of the "Behave" AI middleware solution, Emil brings 
     experience from a host of client projects as well as a four-year stint at Unity Technologies. A preference for behavioural 
     logic, but a wide appetite for new and exciting challenges.
+
