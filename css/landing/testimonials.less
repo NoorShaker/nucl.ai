@@ -1,4 +1,8 @@
 section.testimonials.full-width {
+    display: none;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) {
+        display: block;
+    }
     grid {
         content {
             min-height: 20em;
@@ -24,34 +28,31 @@ section.testimonials {
     min-height: 0px;
     grid {
         padding-bottom: 0px;
-        content {
-            /**
-            * Dislike these differet fixed sizes here.
-            */
-            .testimonial {
-                text-align: justify;
-                @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
-                    display: none;
-                    &.selected {
-                        display: inline-block;
-                    }
-                
-                }
-                display: none;
-                &.selected {
-                    display: inline-block;
-                }
-                .company, .jobtitle, .author {
-                    color: @LIGHT_BLUE;
-                    text-align: right;
-                }
-                .author {
-                    margin-bottom: 0.4em;
-                }
-                .company, .jobtitle {
-                    margin: 0;
-                }
+    }
+}
+
+section.testimonials grid content, div.testimonials {
+    .testimonial {
+        text-align: justify;
+        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+            display: none;
+            &.selected {
+                display: inline-block;
             }
         }
+        &.selected {
+            display: inline-block;
+        }
+        .company, .jobtitle, .author {
+            color: @LIGHT_BLUE;
+            text-align: right;
+        }
+        .author {
+            margin-bottom: 0.4em;
+        }
+        .company, .jobtitle {
+            margin: 0;
+        }
+        display: none;
     }
 }

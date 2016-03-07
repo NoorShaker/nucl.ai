@@ -5,9 +5,9 @@ permalink: /tickets/
 ---
 
 <section class="tickets prices">
-    <h2>Early Bird Ticket Sale Starts Feb 24<sup>th</sup>!</h2>
+    <h2>Early Bird Ticket Sale Has Started!</h2>
     <grid>
-
+        {% comment %}
         <content>
             {% assign timer_title = "" %}
             {% assign timer_count_to = "2016/02/24 12:00" %}
@@ -18,7 +18,7 @@ permalink: /tickets/
             </div>
             {% include features/timers/clean.html %}
         </content>
-
+        {% endcomment %}
         <content>
 
         <p class="bigger wider">Join developers from all over the world and secure your ticket for this year's <a href="/">nucl.ai</a> now!  Three days of artificial intelligence theory and practice packed into three parallel tracks per day with many networking opportunities are waiting for you in Vienna.</p>
@@ -88,11 +88,11 @@ permalink: /tickets/
                 ** For very small teams (those without cappuccino machines :-) or if your are between jobs you can apply for this discount at events(at)nucl.ai. 
             </p>
         </div>
-        {% comment %}
+
         <div class="ticket-button-wrap bigger">
             <a href="/tickets/#purchase" class="buy-tickets-link"> Buy Your Tickets Now! </a>
         </div>
-        {% endcomment %}
+
         </content>
     </grid>
 </section>
@@ -151,7 +151,10 @@ permalink: /tickets/
                 *** Student discounted tickets do NOT include vouchers, coupons, or dinner/lunch invitations. Indie/Unemployed discounted tickets do NOT include a V.I.P. dinner invitation. 
             </p>
             <p class="table-comment">
-                **** The Single Day ticket includes the recordings of the day it was purchased for. 
+                ° Student/Indie discounted All Access Passes DO include the recordings of the nucl.ai '16 conference. 
+            </p>
+            <p class="table-comment">
+                °° The Single Day ticket includes the recordings of the day it was purchased for. 
             </p>
             </br>
             <p class="table-comment">
@@ -162,7 +165,7 @@ permalink: /tickets/
     </grid>
 </section>
 
-{% comment %}
+
 
 <section class="none eventbrite"></section>
 <section class="eventbrite">
@@ -170,13 +173,13 @@ permalink: /tickets/
     <h2>Purchase Event Tickets</h2>
     <grid>
         <content>
-            <div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=15842431138&ref=etckt" frameborder="0" height="460" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
+            <div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=18964456199&ref=etckt" frameborder="0" height="425" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
             <h3 style="text-align: center;">Discounts: Email us at <tt>&lt;events</tt> at <tt>nucl.ai&gt;</tt> for your promotional code!</h3>
         </content>
     </grid>
 </section>
 
-{% endcomment %}
+
 
 <section class="tickets faq">
    <h2>Which Ticket is Best for You?</h2>
@@ -213,15 +216,15 @@ permalink: /tickets/
         <content>
             <h3 class="question">Ticket Upgrade</h3>
             <p class="answer bigger wider">
-                If you'd like to upgrade the ticket you have purchased please go to <a href="http://nuclai.eventbrite.com/">EventBrite.com</a> and update your order information. <a href="2http://help.eventbrite.com/customer/portal/articles/1362890-can-i-change-my-ticket-registration-type-">How to upgrade your ticket in Eventbrite.</a> You can also find the link to your order in the section "Your Account" of your confirmation email.<br>
-                You can upgrade your ticket until July 11th. We can't guarantee that spots at the networking lunches or the V.I.P. dinner will still be available until then. 
+                If you'd like to upgrade the ticket you have purchased to an All Access pass please go to EventBrite.com and update your order information. How to upgrade your ticket <a href="https://www.eventbrite.com/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information?lg=en_US" target="_blank">in Eventbrite</a>. You can also find the link to your order in the section "Your Account" of your confirmation email. <br/><br/>
+                Note: When you upgrade the current All Access price tier will be applied. If you had a Indie/Student promo code for your original ticket this code is also valid for your upgrade. You can upgrade your ticket until July 11th. We can't guarantee that spots at the networking lunches or the V.I.P. dinner will still be available until then.
             </p>
 
             <h3 class="question">Ticket Transfer</h3>
             <p class="answer bigger wider">
-                Tickets can be transferred to an other person free of charge until July 4th. To do so please update your order information with the new attendee's information on <a href="http://nuclai.eventbrite.com/">Eventbrite.com</a>. You can also find the link to your order in the section "Your Account" of your confirmation email.
+                Tickets can be transferred to an other person free of charge until July 4th. To do so please update your order information with the new attendee's information on <a href="http://nuclai.eventbrite.com/" target="_blank">Eventbrite.com</a>. You can also find the link to your order in the section "Your Account" of your confirmation email.
                 If you have received a special discount such as Student, Member, or Indie you must contact us before transferring as the new attendee needs to be eligible for this discount as well. 
-                <a href="http://help.eventbrite.com/customer/en_us/portal/articles/430100-how-to-update-your-ticket-registration-information">How to transfer your ticket in Eventbrite.</a>
+                <a href="https://www.eventbrite.com/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information?lg=en_US" target="_blank">How to transfer your ticket in Eventbrite.</a>
             </p>
 
             <h3 class="question">Ticket Refund</h3>
@@ -238,11 +241,11 @@ permalink: /tickets/
             <p class="answer bigger wider">
                 Please note our <a href="/legal/">terms and conditions</a>. 
             </p>
-            {% comment %}
+
             <div class="ticket-button-wrap bigger wider">
                 <a href="/tickets/#purchase" class="buy-tickets-link"> Buy Your Tickets Now! </a>
             </div>
-            {% endcomment %}
+
         <content>
     </grid>
 </section>

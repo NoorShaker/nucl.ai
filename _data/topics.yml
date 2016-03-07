@@ -1,5 +1,5 @@
 - id: analytics
-  title: "Advanced Analytics & Data Science"
+  title: "Analytics & Data Science"
   subtitle: >
     Join experts from Lionhead Studios, King.com, Nordeus, Jagex, Mind Candy and Scientific
     Revenue for a day-long course on the state-of-the-art of analytics techniques for
@@ -42,7 +42,7 @@
     - CCP Games
 
 - id: behavior
-  title: "Agent Behavior"
+  title: "Agent Behavior & Coordination"
   subtitle: >
     Join experts from Square Enix, Epic, Bohemia Interactive Simulations, CCP Games for a day-long
     course on state-of-the-art techniques in behavior and control, including coordination
@@ -90,7 +90,7 @@
     - CCP Games
 
 - id: animation
-  title: "Character Animation Technology"
+  title: "Character Animation"
   subtitle: >
     Join experts from Ubisoft, Riot Games and Pixar for a day-long course on state-of-the-art
     techniques from runtime IK rigs to gameplay integration, and forward looking technology to
@@ -139,7 +139,7 @@
     - CCP Games
 
 - id: cognition
-  title: "Intelligent Personal Assistants"
+  title: "Cognition, Bots & Understanding"
   subtitle: >
     Apple Siri, IBM Watson, Amazon Alexa... More and more humans interacts with Intelligent Personal Assistants! 
     Join other AI professionals for a day-long course on the underlying technology to understand how to use them into 
@@ -174,7 +174,7 @@
   companies:
 
 - id: directors
-  title: "Directors & Storytelling"
+  title: "Dynamic Storytelling"
   subtitle: >
     Join experts from Epic Games, CD Projekt Red, Creative Assembly for a day-long
     course on industry-leading applications that balance emergent behaviors
@@ -225,7 +225,7 @@
 
 
 - id: generative
-  title: "Generative Systems"
+  title: "Systemic Design & Generative Systems"
   subtitle: >
     Join experts from Pixar Animation Studios, Ubisoft Montreal, MPC, Unity Technologies
     and the INRIA labs for a day-long course on industry-leading applications of locomotion
@@ -275,7 +275,7 @@
     - CCP Games
 
 - id: devices
-  title: "Interaction Devices"
+  title: "Human Interaction & Recognition"
   subtitle: >
     Join professional developers in creative industries to learn about making your AR and VR applications
     more interactive!  What machine learning, motion tracking and computer vision techniques can be used
@@ -317,7 +317,7 @@
     - CCP Games
 
 - id: procedural
-  title: "Procedural Generation"
+  title: "Procedural Content Generation"
   subtitle: >
     Join professional developers in creative industries to learn more about algorithm-based
     generation of content, from individual 3D meshes to full worlds and terrains, as well as

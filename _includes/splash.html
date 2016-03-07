@@ -29,6 +29,26 @@
     <div class="splash-screen-wrap audience-gif">
     {% endif %}
 
+    <div id="splash-composed-background">
+
+        {% for item in site.data.galleries.nuclai15 %}
+
+            {% if forloop.first %}
+                {% capture css_class %}enabled{% endcapture %}
+            {% else %}
+                {% capture css_class %}disabled{% endcapture %}
+            {% endif %}
+
+
+            <div class="img img-normal {{css_class}}" style="background-image: url('{{ item.picture }}');"></div>
+            <div class="img img-quad {{css_class}}" style="background-image: url('{{ item.picture | replace:'.jpg','.png' | replace:'.JPG','.png' }}');"></div>
+
+        {% endfor %}
+        
+        <div class="img-overlay"></div>
+
+    </div>
+
      <splash>
             <grid class="table">
                 <content class="opacity0 centered-cell">
@@ -72,6 +92,13 @@
                     {% if site.data.config.current.featured == "call" %}
                         <div class="centered-cell right-cell stream-link">
                         {% include features/featured/call.html %}
+                        </div>
+                    {% endif %}
+                {% endif %}
+                {% if page.name == 'index.html' %}
+                    {% if site.data.config.current.featured == "testimonials" %}
+                        <div class="centered-cell right-cell">
+                        {% include features/featured/testimonials.html %}
                         </div>
                     {% endif %}
                 {% endif %}
