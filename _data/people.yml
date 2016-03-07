@@ -209,13 +209,13 @@
   affiliation: 
     position: "CTO"
     name: craft ai
-    url: http://www.craft.ai/
+    url: http://craft.ai/
   bio: >
-    Clodéric is the product & engineering lead of craft ai, an AI engine for mobile, web, IoT and game applications; he previously
-    worked on MASA LIFE, an AI middleware for Games & Simulations, and at INRIA and Golaem on a navigation engine.
-    His focus is on providing tools and technologies to people wanting autonomous AND controllable AI behaviors.
-    Clodéric is a co-author on two chapters in Game AI Pro 2, he was a speaker at GDC's AI Summit in 2014 and at the Game/AI
-    Conference in 2011.
+    Since the beginning of 2015 Clodéric is leading to the creation of craft ai, an AI-as-a-service platform enabling IoT, 
+    mobile and web developers to create apps that adapt to each user. For 9 years, from INRIA to Golaem and MASA Group, 
+    his goal has been to democratize the creation of autonomous AND controllable AI. Clodéric is a co-author on two 
+    chapters in Game AI Pro 2, he was a track chair at nucl.ai 2015 and has spoke at many events including  GDC 2014 
+    AI Summit and LaFrenchMobile Day 2016.
 
 - name: Diego Perez
   role: track
