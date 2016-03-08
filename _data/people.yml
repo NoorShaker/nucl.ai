@@ -1,6 +1,6 @@
 - name: Clodéric Mars
   role: track
-  tracks: [behavior]
+  tracks: [cognition]
   twitter: clodericmars
   affiliation: 
     position: "CTO"
@@ -10,8 +10,8 @@
     Since the beginning of 2015 Clodéric is leading to the creation of craft ai, an AI-as-a-service platform enabling IoT, 
     mobile and web developers to create apps that adapt to each user. For 9 years, from INRIA to Golaem and MASA Group, 
     his goal has been to democratize the creation of autonomous AND controllable AI. Clodéric is a co-author on two 
-    chapters in Game AI Pro 2, he was a track chair at nucl.ai 2015 and has spoke at many events including  GDC 2014 
-    AI Summit and LaFrenchMobile Day 2016.
+    chapters in Game AI Pro 2, he was a track chair at nucl.ai 2015 and has spoke at many events including GDC 2014 
+    AI Summit, LaFrenchMobile Day 2016 and SIdO 2016.
 
 - name: Diego Perez
   role: track
