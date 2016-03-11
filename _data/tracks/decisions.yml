@@ -11,3 +11,13 @@
 #  time:
 #    start: "11:00"
 #    finish: "12:00"
+
+- title: "Attacking Walled Cities in Total War: Warhammer"
+  description: >
+    A city siege battle is a complex machine of roles, responsibilities, and reactions on a large scale, 
+    involving armies of hundreds or even thousands of individual men. This talk will cover the AI 
+    architecture used in Total War: Warhammer to deal with the inherent complexities of this particular 
+    battle type. We will cover the general Battle AI architecture before diving deep into specific examples 
+    of the attacking Siege Battle AI. Finally, we will share some hard-earned development advice for AI programmers.
+  speakers:
+    - Andre Arsenault
