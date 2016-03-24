@@ -29,6 +29,8 @@
     <div class="splash-screen-wrap audience-gif">
     {% endif %}
 
+    {% if page.name == 'index.html' %}
+
     <div id="splash-composed-background">
 
         {% for item in site.data.galleries.nuclai15 %}
@@ -48,6 +50,8 @@
         <div class="img-overlay"></div>
 
     </div>
+
+    {% endif %}
 
      <splash>
             <grid class="table">
@@ -73,7 +77,9 @@
 
                         <div class="centered-cell">
                             <h1><a href="/">nucl.ai</a></h1>
+
                             <h2>{{site.data.config.edition.to_html}}, Vienna / AUSTRIA.</h2>
+
                         </div>
                         <div class="centered-cell">
                             <h2>Conference on Artificial Intelligence <br/> in Creative Industries</h2>
@@ -89,11 +95,13 @@
 
                 </content>
                 {% if page.name == 'index.html' %}
+
                     {% if site.data.config.current.featured == "call" %}
                         <div class="centered-cell right-cell stream-link">
                         {% include features/featured/call.html %}
                         </div>
                     {% endif %}
+
                 {% endif %}
                 {% if page.name == 'index.html' %}
                     {% if site.data.config.current.featured == "testimonials" %}
