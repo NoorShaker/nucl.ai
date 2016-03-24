@@ -28,7 +28,8 @@ $ ->
 
         talks = day.find("div.track")
         day.talks = []
-        if talks.length == 0 then return;
+        
+        if talks.length == <= 1 then return;
 
         talks.each ->
           if $(@).attr("time-start") && $(@).attr("time-finish") then day.talks.push $(@) # talks with undefined time are ignored
@@ -37,6 +38,7 @@ $ ->
         # and remember first start and last end
         talksStartTime = null
         talksFinishTime = null
+
 
         for talk in day.talks
           startTime = talk.attr("time-start")
