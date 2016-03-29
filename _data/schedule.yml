@@ -2,22 +2,22 @@
   date: "2015/07/18"
   tracks:
     - day1
-    - generative
     - decisions
-    - devices
+    - procedural
+    - understanding
 
 - title: "<span class='date-day'>Day #2: Tuesday, </span>July 19st"
   date: "2015/07/19"
   tracks:
     - day2
-    - procedural
     - behavior
-    - analytics
+    - systems
+    - recognition
 
 - title: "<span class='date-day'>Day #3: Wednesday, </span>July 22nd"
   date: "2015/07/20"
   tracks:
     - day3
-    - directors
     - animation
-    - cognition
+    - storytelling
+    - analytics
