@@ -7,21 +7,21 @@
     <grid>
         <content>
 
+            {% comment %}
+
             {% assign attachDescription = false %}
             {% assign disableAll = true %}
             {% include tracks/header.html %}
             {% assign attachDescription = true %}
             {% assign disableAll = false %}
 
-
-            {% comment %}
+            {% endcomment %}
 
             {% assign items = site.data.topics %}
             {% assign dataType = "topics" %}
             {% assign attachDescription = true %}
             {% include features/thumbnails/thumbnails.html %}
 
-            {% endcomment %}
 
         </content>
     </grid>
