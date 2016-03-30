@@ -1,6 +1,6 @@
 - name: Clodéric Mars
   role: track
-  tracks: [cognition]
+  tracks: [understanding]
   twitter: clodericmars
   affiliation: 
     position: "CTO"
@@ -31,7 +31,7 @@
 
 - name: Michaël Rouillé
   role: track
-  tracks: [generative]
+  tracks: [systems]
   twitter: michaelrouille
   affiliation: 
     position: "CTO"
@@ -81,7 +81,7 @@
 
 - name: Tommy Thompson
   role: track
-  tracks: [directors]
+  tracks: [storytelling]
   twitter: get_tuda_choppa
   affiliation: 
     position: "Senior Lecturer in Computer Game Technology"
@@ -121,7 +121,7 @@
 
 - name: Richard Kogelnig
   role: track
-  tracks: [devices]
+  tracks: [recognition]
   affiliation:
     url: http://www.mipumi.com/
     position: "Software Engineer"

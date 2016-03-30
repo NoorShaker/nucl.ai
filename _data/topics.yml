@@ -138,7 +138,7 @@
     - MASA Group
     - CCP Games
 
-- id: cognition
+- id: understanding
   title: "Cognition, Bots & Understanding"
   subtitle: >
     Apple Siri, IBM Watson, Amazon Alexa... More and more humans interacts with Intelligent Personal Assistants! 
@@ -173,7 +173,7 @@
     url: http://www.ibm.com/smarterplanet/us/en/ibmwatson/
   companies:
 
-- id: directors
+- id: storytelling
   title: "Dynamic Storytelling"
   subtitle: >
     Join experts from Epic Games, CD Projekt Red, Creative Assembly for a day-long
@@ -224,7 +224,7 @@
     - CCP Games
 
 
-- id: generative
+- id: systems
   title: "Systemic Design & Generative Systems"
   subtitle: >
     Join experts from Pixar Animation Studios, Ubisoft Montreal, MPC, Unity Technologies
@@ -274,7 +274,7 @@
     - MASA Group
     - CCP Games
 
-- id: devices
+- id: recognition
   title: "Human Interaction & Recognition"
   subtitle: >
     Join professional developers in creative industries to learn about making your AR and VR applications
