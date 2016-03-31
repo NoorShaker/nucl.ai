@@ -28,7 +28,6 @@
     the General Video Game AI competitions, both held in IEEE conferences. He also has programming experience in the videogames 
     industry with titles published for game consoles and PC.
 
-
 - name: Michaël Rouillé
   role: track
   tracks: [systems]
@@ -48,20 +47,6 @@
     virtual humans at Inria; founding Golaem and developing artist-friendly tools to animate digital characters. Apart from 3D, 
     Michaël's professional interests include AI, animation and game engines. Michaël's personal interests lie in visual arts, 
     he has been to art school, and love to torture himself with how to bridge between the programming & art worlds.
-
-- name: Michael Büttner
-  role: speaker
-  confirmed: true
-  affiliation: 
-    position: Tech Lead Animation & Physics
-    name: Ubisoft Toronto
-    url: http://www.ubisoft.com/
-  bio: >
-    Michael has been programming games for nearly 30 years, including lead and senior roles at Ocean Software, Infogrames 
-    Entertainment, IO Interactive, Square Enix Montreal and Ubisoft.
-    Michael joined the Ubisoft Toronto studio in 2013 as the Tech Lead for Animation & Physics.  He brought with him his 
-    passion for animation and physics programming, R&D, an innovative approach to character creation and extensive experience 
-    working with animators, laying the ground work for pushing the animation tech of Ubisoft Toronto in the future.
 
 - name: Heather Stark
   role: [track, speaker]
@@ -118,7 +103,6 @@
     computational creativity, affective computing and player behavior imitation. She is organizing
     the Platformer AI competition and chairing the IEEE task force on Player Modeling.
 
-
 - name: Richard Kogelnig
   role: track
   tracks: [recognition]
@@ -131,9 +115,9 @@
     His main interests include Artificial Intelligence, Procedural Generation and Virtual Reality. 
     Before joining Mipumi he worked as a freelancer and was part of the AiGamedev.com team. 
 
-
 - name: Petra Champandard-Pail
   role: org
+  tracks: [decisions, behavior, animation, systems]
   affiliation:
     position: "Conference Director & Co-Founder"
     name: AiGameDev.com
@@ -144,6 +128,7 @@
 
 - name: Alex J. Champandard
   role: org
+  tracks: [procedural, analytics]
   twitter: alexjc
   affiliation:
     position: "Conference Co-Ordinator & Co-Founder"
@@ -155,6 +140,7 @@
 - name: Verena Riedl
   role: org
   twitter: skittlesolives
+  tracks: [recognition, understanding, storytelling]
   affiliation:
     position: "Marketing Director"
     name: AiGameDev.com
@@ -203,7 +189,6 @@
     A freelance game developer with a specialisation in AI, and author of the "Behave" AI middleware solution, Emil brings 
     experience from a host of client projects as well as a four-year stint at Unity Technologies. A preference for behavioural 
     logic, but a wide appetite for new and exciting challenges.
-
 
 - name: Andre Arsenault
   role: speaker
