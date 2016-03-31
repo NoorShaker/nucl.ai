@@ -6,8 +6,7 @@
     understanding and enhancing player experience and design choices — whether for games or
     apps — using combinations of machine learning and clever modeling tricks!
   content: >
-    <img src="/img/tracks/TopEleven_1.jpg"/>
-    <p class="credit"><u>Image Credit</u>: Top 11 Football Manager</p> 
+    <img src="/img/tracks/analytics.jpg"/>
     <p>In this track, you'll learn about how and why dynamic pricing impacts revenues.  Understand the special blend  of skill and luck that goes into a casual game - and the extra ingredient that is needed to explain real player results.  Discover effective computational approaches to complex balance problems, the challenges of real-time analytics, and the design of effective recommendation systems to power choices presented in game worlds.  Thrill to the never before told story of  how one studio detected and prevented early churners!</p>
 
     <p>Applying analytics to game design is not about driving by looking in the rear view mirror while ranting about KPIs.  Analytics can be used to apply real-time or just-in-time intelligent design judgement to the logic of who sees what when,  and to the multidimensional dynamic challenges of balance and matchmaking.   Our experts explain their creative analytical solutions to a variety of challenges in game design and experience design, across a variety of platforms and genres.   Our goal is to give you some knowledge you can take home and apply.   Come join the fun!</p>
@@ -50,8 +49,7 @@
     Behavior Trees and other techniques into your games and simulations, for results that are
     easy to author and control.
   content: >
-    <img src="/img/tracks/TotalWarAttila_3.jpg"/>
-    <p class="credit"><u>Image Credit</u>: Total War: Attilla</p> 
+    <img src="/img/tracks/behavior.jpg"/>
     <p>As virtual worlds become more engaging, their number of agents is going up
     tremendously. From AI directors that supervise a scene, to interactive tutors, as
     well as other actors, each of them require consistent behaviors.  In this track,
@@ -182,8 +180,7 @@
     AI techniques and design methodologies to control your simulations and guide
     them to provide the desired results for your players — at runtime.
   content: >
-    <img src="/img/tracks/Fortnite_1.jpg"/>
-    <p class="credit"><u>Image Credit</u>: Fortnite by Epic Games</p> 
+    <img src="/img/tracks/storytelling.jpg"/>
     <p>Creating emergent simulations that go beyond scripted linear experiences has
     proven a great way of engaging audiences.  However, there are huge challenges
     in both design and technology for implementing these.  How to combine top-down
@@ -240,8 +237,7 @@
     tools as part of a creative process, you'll learn the tricks and techniques to
     help your scenes come to life.
   content: >
-    <img src="/img/tracks/Ratatouille_1.jpg"/>
-    <p class="credit"><u>Image Credit</u>: Pixar's Ratatouille</p> 
+    <img src="/img/tracks/systems.jpg"/>
     <p>Making a world believable almost always requires bringing it to life.  This
     track focuses on digital extras and entire crowds that can interact with
     their environment and perform plausible actions without taking up too much
@@ -282,8 +278,7 @@
     to improve the experiences and how can modern devices such as Kinect 2 or Leap Motion help?  Discover
     it all during this nucl.ai track.
   content: >
-    <img src="/img/tracks/EveOnline_1.jpg"/>
-    <p class="credit"><u>Image Credit</u>: Eve Online</p> 
+    <img src="/img/tracks/recognition.jpg"/>
     <p>Recent devices for both augmented and virtual reality provide a variety
     of new challenges, many of which can be addressed with artificial intelligence
     techniques.  This includes computer vision algorithms, object identification
@@ -332,8 +327,7 @@
     you're looking to improve the unique feel and replayability of your games, or
     reduce overheads creating content, this is your day!
   content: >
-    <img src="/img/tracks/Witcher_1.jpg"/>
-    <p class="credit"><u>Image Credit</u>: The Witcher III</p> 
+    <img src="/img/tracks/procedural.jpg"/>
     <p>Over the past few years, procedural generation techniques have established
     themselves as not only a sensible approach but often as the default solution
     for assisting content creation.  This track focuses on the algorithms and methods
@@ -378,8 +372,7 @@
     creating intelligent runtime agents for your games, simulations or applications,
     this track will help you make the most of recent advances.
   content: >
-    <img src="/img/tracks/ForzaHorizon_3.jpg"/>
-    <p class="credit"><u>Image Credit</u>: Forza Motorsport 2</p> 
+    <img src="/img/tracks/decisions.jpg"/>
     <p>How do you build your simulation to respond to user input at interactive rates,
     especially if it needs to make intelligent decisions?  Artificial intelligence
     techniques have evolved significantly over the past few years, allowing you to
