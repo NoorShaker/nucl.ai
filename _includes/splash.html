@@ -82,11 +82,13 @@
 
                         </div>
                         <div class="centered-cell">
-                            <h2>Conference on Artificial Intelligence <br/> in Creative Industries</h2>
+                            <h2>Conference on Artificial Intelligence<br/> in Creative Industries</h2>
 
                             <h2 class="note">
                             {% if page.name == 'tickets.html' %}
+                            
                             {% else %}
+                            <a href="/tickets/">{{site.data.config.remaining.type}} sale &mdash; only {{site.data.config.remaining.count}} tickets left!</a>
                             {% endif %}
                             </h2>
                         </div>

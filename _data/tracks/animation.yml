@@ -1,6 +1,7 @@
-- title: "New Heights: Climbing in VR & The Rise of Procedural Animation"
+- title: "Climbing in VR and Reaching New Heights with Procedural Animation"
   description: >
-    <p>VR is an entirely different field in terms of what the player can do, their freedom of movement and the things game systems can and cannot get away with. Like everything else, character animation also requires developers to take a step back and think about how to provide the player with the same precision, freedom of movement and responsiveness that are all essential for immersion in VR. This talk will present how we, at Crytek, had to rethink everything we've learnt over the years, the systems we've had to create and, most importantly, the lessons we've learnt along the way that have come to form an internal "Guideline" of creating comfortable, and fun VR experiences.</p>
+    <p>The Climb is a VR experience and presents entirely new challenges in terms of the freedom of movement of players. What are the things game systems can or cannot get away with in Virtual Reality?  Character animation in particular requires developers to take a step back and think about how to provide the player with the same precision, freedom of movement and responsiveness that are all essential for immersion in VR.</p>
+    <p>This talk will present how we, at Crytek, had to rethink everything we've learnt over the years, the systems we've had to create and, most importantly, the lessons we've learnt along the way that have come to form an internal "Guideline" of creating comfortable, and fun VR climbing experiences.</p>
   speakers:
     - Ali Helmy
   room: ??

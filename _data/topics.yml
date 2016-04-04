@@ -8,7 +8,6 @@
   content: >
     <img src="/img/tracks/analytics.jpg"/>
     <p>In this track, you'll learn about how and why dynamic pricing impacts revenues.  Understand the special blend  of skill and luck that goes into a casual game - and the extra ingredient that is needed to explain real player results.  Discover effective computational approaches to complex balance problems, the challenges of real-time analytics, and the design of effective recommendation systems to power choices presented in game worlds.  Thrill to the never before told story of  how one studio detected and prevented early churners!</p>
-
     <p>Applying analytics to game design is not about driving by looking in the rear view mirror while ranting about KPIs.  Analytics can be used to apply real-time or just-in-time intelligent design judgement to the logic of who sees what when,  and to the multidimensional dynamic challenges of balance and matchmaking.   Our experts explain their creative analytical solutions to a variety of challenges in game design and experience design, across a variety of platforms and genres.   Our goal is to give you some knowledge you can take home and apply.   Come join the fun!</p>
   description: >
     In this track, you'll learn about how and why dynamic pricing impacts revenues.  Understand the special blend  of skill and luck that goes into a casual game - and the extra ingredient that is needed to explain real player results.  Discover effective computational approaches to complex balance problems, the challenges of real-time analytics, and the design of effective recommendation systems to power choices presented in game worlds.  Thrill to the never before told story of  how one studio detected and prevented early churners!
@@ -102,7 +101,7 @@
     building simulations or games that rely heavily on characters, this track is 
     intended for you!
   content: >
-    <img src="/img/tracks/animation.jpg"/>
+    <img src="/img/tracks/TheClimb_1.jpg"/>
     <p>Portraying characters is one of the most challenging aspects of building an
     engaging 3D world.  While many low-level aspects of character animation technology
     have been resolved, there are many questions that remain open as the industry
