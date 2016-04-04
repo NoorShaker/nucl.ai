@@ -1,12 +1,29 @@
-# - title: "MotionFields: The Road to Next-Gen Animation"
+- title: "New Heights: Climbing in VR & The Rise of Procedural Animation"
+  description: >
+    <p>VR is an entirely different field in terms of what the player can do, their freedom of movement and the things game systems can and cannot get away with. Like everything else, character animation also requires developers to take a step back and think about how to provide the player with the same precision, freedom of movement and responsiveness that are all essential for immersion in VR. This talk will present how we, at Crytek, had to rethink everything we've learnt over the years, the systems we've had to create and, most importantly, the lessons we've learnt along the way that have come to form an internal "Guideline" of creating comfortable, and fun VR experiences.</p>
+  speakers:
+    - Ali Helmy
+  room: ??
+  time:
+    start: "??:??"
+    finish: "??:??"
+
+#- title: "??"
 #  description: >
-#    <p>In order to create a high-quality character animation conventional animation systems require a large amount of individual animation clips to get organized into hand-crafted blend-trees and state-machines. Technical Animators need to work together with Programmers to carefully design a blend-structure for certain types of movement and Animators need to follow precise rules when they create the assets. It usually takes a large amount of time to produce the assets and the blend-structure to achieve high-quality results. Once such a structure is created it is rather difficult to organize it differently due to the dependency on the assets.</p>
-#    <p>This presentation will introduce a novel approach for creating character animation that does not rely on any superimposed structure but uses raw motion capture data instead. It does not require any pre-processing steps and produces a level of visual fidelity that equals the quality of the provided input animations. It is just a matter of creating the required animation to produce movements that would be either extremely difficult or impossible to produce with traditional animation systems.</p>
-#    <p>Our system can consume new animation data on-the-fly. A motion capture actor could feed the system in real time until the simulated character achieves the desired level of responsiveness and quality. Animators are free to focus on movements and style instead of being forced to produce cycles and transitions.</p>
-#    <p>At every step of the simulation, our method uses the current pose of the character and a number of desired goals to find the best pose to transition into. For example, goals can be desired direction and velocity based on stick input for player-controller characters or desired position and facing for AI-controlled characters. Goals are transformed into a prediction model that is matched against available animation poses in the motion library. We use a novel rating scheme to balance quality against responsiveness of the system.</p>
+#    <p>In this session Vegard Myklebust presents some of the results of their automatic character generation and animation processes developed for their game in production: Ludus. The results are reasonably high fidelity characters that are automatically generated, rigged, and animated at runtime from a relatively small amount of artist input, providing a high amount of flexibility, variation and good quality at a low production cost. By looking at what decisions an animator makes during the process of creating keyframed animation, and figuring out ways of making those decisions as a set of parameters up front, the method presented can take over the process of generating keyframes that create plausible, motivated motion in the same way that an animator would.</p>
 #  speakers:
-#    - Michael Büttner
-#  room: amphitheatre
+#    - Vegard Myklebust
+#  room: ??
 #  time:
-#    start: "14:30"
-#    finish: "15:30"
+#    start: "??:??"
+#    finish: "??:??"
+
+#- title: "Bringing a Hero from Paragon to life"
+#  description: >
+#    <p>See how Epic Games brings a Hero from Paragon to life: With a programming focus, this talk will show and explain all the pieces involved in animating a real time character in Paragon. We’ll present our trade-offs, detail our locomotion system, the various layers used and the processing done to support the Hero design.</p><p>Takeaway - Attendees will leave with an understanding of how Characters are animated in real time in the video game Paragon from Epic Games, as well as seeing how the Unreal Engine 4 is used in that context.</p><p>Intended Audience - Animation Programmers, Animators, Unreal Engine hobbyist and anyone interested in Character Animation and real time animation #techniques and systems.</p>
+#  speakers:
+#    - Laurent Delayen
+#  room: ??
+#  time:
+#    start: "??:??"
+#    finish: "??:??"
