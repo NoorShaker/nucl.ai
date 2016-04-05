@@ -89,9 +89,9 @@
 - id: animation
   title: "Character Animation"
   subtitle: >
-    Join experts from Crytek and Epic Games for a day-long course on
-    state-of-the-art techniques from runtime IK rigs to gameplay integration, and forward
-    looking technology to break down the finite-state machine.
+    Join experts from Crytek and Epic Games for a day-long course on best-practices for
+    procedural motion, animating for VR, runtime I.K. rigs, and techniques for working
+    with motion capture.
   description: >
     With the advent of virtual reality and its requirement for more immersive characters,
     as modern hardware provides more computation and memory than ever before, and thanks
