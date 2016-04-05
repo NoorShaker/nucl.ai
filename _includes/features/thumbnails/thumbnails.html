@@ -45,8 +45,10 @@
     {% include partials/escape-link.html %}
     {% assign escapedName = escaped %}
 
+    {% if shortBio %}
+    {% else %}
     <a class="anchor" id="{{escapedName}}"></a>
-
+    {% endif %}
     <item class="thumbnail {{thumbnail.id}}">
         <thumbnail-wrap>
             <a id="thumbnail-id-{{thumbnailId}}" href="{{href | prepend: site.baseurl }}"class="thumbnail 
@@ -91,7 +93,7 @@
                 </p>
                 <p>
                     {% capture tmpUrl %}/#{{thumbnailId}}{% endcapture %}
-                    <a href="{{ tmpUrl | prepend: site.baseurl }}">Read full biography &raquo;</a>
+                    <a class="read-full-bio-link" href="{{ tmpUrl | prepend: site.baseurl }}">Read full biography &raquo;</a>
                 </p>
             </item>
         </div>
@@ -102,7 +104,7 @@
                 </p>
                 <p>
                     {% capture tmpUrl %}/#{{thumbnailId}}{% endcapture %}
-                    <a href="{{ tmpUrl | prepend: site.baseurl }}">Read full biography &raquo;</a>
+                    <a class="read-full-bio-link"  href="{{ tmpUrl | prepend: site.baseurl }}">Read full biography &raquo;</a>
                 </p>
             </item>
     {% endif %}
