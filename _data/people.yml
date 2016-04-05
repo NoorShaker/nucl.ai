@@ -202,3 +202,33 @@
     roles over the years. His career focused mainly on gameplay programming for various RTS and MMORPG titles at Westwood 
     Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined 
     Creative Assembly in 2014 and is currently responsible for Battle AI on the Total War series of strategy games.
+
+- name: Ali Helmy
+  role: speaker
+  confirmed: true
+  affiliation: 
+    position: Animation Programmer
+    name: Crytek
+    url: http://www.crytek.com/
+  bio: >
+   Ali Helmy is the Animation Programmer at Crytek in charge of all character animation systems on Crytek’s VR focused research & development team. He has been involved with the current generation of VR hardware from very early on and has been in charge of all character animation systems in Crytek’s VR efforts. From Dinosaur demos & VR Benchmarks to full games like The Climb & Robinson: The Journey, he has been involved with every aspect of making animations work for the entirely new realm that is VR.
+   
+#- name: Vegard Myklebust
+#  role: speaker
+#  confirmed: true
+#  affiliation: 
+#    position: Technical Director
+#    name: useful slug
+#    url: http://www.usefulslug.com/
+#  bio: >
+#   Vegard is an Illustrator turned Animator turned Rigger turned Programmer which according to him sums up to Technical Director. He has worked on audiovisual productions around the world in advertising, film, music videos, TV series and games. He says his claim to fame is that he helped make a music video for Iron Maiden, though his previous client list includes BBC / Canal+ / Network Rail as well as constantly being involved in independent productions. He runs a company called useful slug that provides freelance Technical Direction services for audiovisual productions and is currently developing Ludus part time while working full time as a Technical Director on Kickstarter funded The Mandate.
+   
+#- name: Laurent Delayen
+#  role: speaker
+#  confirmed: true
+#  affiliation: 
+#    position: Programmer
+#    name: Epic Games Inc.
+#    url: https://www.epicgames.com/
+#  bio: >
+#   Laurent has been working in the game industry since 2001, and the past 13 years at Epic Games on games such as the Gears of War trilogy and Paragon, where he has specialized in real time Character Animation.

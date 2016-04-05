@@ -10,3 +10,7 @@ edition:
     id: venue_2016
   call_for_papers:
     deadline: "April 15th, 2016"
+
+remaining:
+  type: "Early Bird"
+  count: 59
