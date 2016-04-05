@@ -15,7 +15,7 @@ $ ->
     id = $(@).attr("href").split("#")[1]
     if $("#" + id).length > 0
       root.scroll id, $("#" + id).offset().top
-      $(".tracks-people #thumbnail-id-" + id).click();
+      if ! $(".tracks-people #thumbnail-id-" + id).hasClass('selected') then $(".tracks-people #thumbnail-id-" + id).click()
     return false;  
 
   $("h3 a, li a.scrollable, .tracks-people .track-topic a, .talks-list a").click ->
