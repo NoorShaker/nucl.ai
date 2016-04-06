@@ -274,29 +274,20 @@
 - id: recognition
   title: "Human Interaction & Recognition"
   subtitle: >
-    Join professional developers in creative industries to learn about making your AR and VR applications
-    more interactive!  What machine learning, motion tracking and computer vision techniques can be used
-    to improve the experiences and how can modern devices such as Kinect 2 or Leap Motion help?  Discover
-    it all during this nucl.ai track.
+    Join professional developers in creative industries to learn about making your AR and VR applications more interactive by recognizing body motion, voice, hand gestures, and more!  What machine learning, motion tracking and computer vision techniques can be used to improve the experiences and how can hardware devices help?  Discover it all during this nucl.ai Track dedicated to these topics.
   content: >
-    <img src="/img/tracks/recognition.jpg"/>
-    <p>Recent devices for both augmented and virtual reality provide a variety
-    of new challenges, many of which can be addressed with artificial intelligence
-    techniques.  This includes computer vision algorithms, object identification
-    and tracking, gesture recognition and motion tracking &mdash; among many
-    others.</p>
+    <img src="/img/tracks/Exhibit_1.jpg"/>
+    <p>Interactive spaces and augmented reality spaces have always held a special meaning for artists and designers, able to capture the imagination of audiences in dedicated areas like museums. Now with the advent of consumer-level hardware for VR and AR, these kinds of interactions are migrating to the living room.</p>
+    <p>What kinds of techniques are most useful to help recognize the intent of the user? How can modern machine learning techniques help? Do recent devices affect the kinds of designs that are possible?  Find out in this intense day-long nucl.ai Track focused on the topic!</p>
   description: >
-    Recent devices for both augmented and virtual reality provide a variety
-    of new challenges, many of which can be addressed with artificial intelligence
-    techniques.  This includes computer vision algorithms, object identification
-    and tracking, gesture recognition and motion tracking &mdash; among many
-    others.
+    Interactive spaces and augmented reality spaces have always held a special meaning for artists and designers, able to capture the imagination of audiences in dedicated areas like museums. Now with the advent of consumer-level hardware for VR and AR, these kinds of interactions are migrating to the living room. What kinds of techniques are most useful to help recognize the intent of the user? How can modern machine learning techniques help? Do recent devices affect the kinds of designs that are possible?  Find out in this intense day-long nucl.ai Track focused on the topic!
   keywords:
     - computer vision
     - object identification
     - gesture recognition
     - motion tracking
-    - character interaction
+    - human interaction
+    - hardware devices
   credit:
     title: Project Trains
     url: http://project-trains.tumblr.com/
@@ -307,6 +298,7 @@
     - Microsoft Game Studios
     - Creative Assembly
     - Unity Technologies
+    - Pixar Animation Studios
     - Epic Games
     - INRIA Research Lab
     - MASA Group
