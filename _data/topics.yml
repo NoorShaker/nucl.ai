@@ -1,21 +1,17 @@
 - id: analytics
   title: "Analytics & Data Science"
   subtitle: >
-    Join experts from Lionhead Studios, King.com, Nordeus, Jagex, Mind Candy and Scientific
-    Revenue for a day-long course on the state-of-the-art of analytics techniques for
-    understanding and enhancing player experience and design choices — whether for games or
-    apps — using combinations of machine learning and clever modeling tricks!
+    Join experts from Blizzard, Scientific Revenue, and leading mobile or games studios for a day-long course on the state-of-the-art of analytics techniques for understanding and enhancing player experience and design choices—whether for games, bots or apps—using combinations of machine learning and clever modeling tricks!
   content: >
-    <img src="/img/tracks/analytics.jpg"/>
-    <p>In this track, you'll learn about how and why dynamic pricing impacts revenues.  Understand the special blend  of skill and luck that goes into a casual game - and the extra ingredient that is needed to explain real player results.  Discover effective computational approaches to complex balance problems, the challenges of real-time analytics, and the design of effective recommendation systems to power choices presented in game worlds.  Thrill to the never before told story of  how one studio detected and prevented early churners!</p>
+    <img src="/img/tracks/HeroesOfTheStorm_1.jpg"/>
     <p>Applying analytics to game design is not about driving by looking in the rear view mirror while ranting about KPIs.  Analytics can be used to apply real-time or just-in-time intelligent design judgement to the logic of who sees what when,  and to the multidimensional dynamic challenges of balance and matchmaking.   Our experts explain their creative analytical solutions to a variety of challenges in game design and experience design, across a variety of platforms and genres.   Our goal is to give you some knowledge you can take home and apply.   Come join the fun!</p>
   description: >
-    In this track, you'll learn about how and why dynamic pricing impacts revenues.  Understand the special blend  of skill and luck that goes into a casual game - and the extra ingredient that is needed to explain real player results.  Discover effective computational approaches to complex balance problems, the challenges of real-time analytics, and the design of effective recommendation systems to power choices presented in game worlds.  Thrill to the never before told story of  how one studio detected and prevented early churners!
+    Applying analytics to game design is not about driving by looking in the rear view mirror while ranting about KPIs.  Analytics can be used to apply real-time or just-in-time intelligent design judgement to the logic of who sees what when,  and to the multidimensional dynamic challenges of balance and matchmaking.   Our experts explain their creative analytical solutions to a variety of challenges in game design and experience design, across a variety of platforms and genres.   Our goal is to give you some knowledge you can take home and apply.   Come join the fun!
   keywords:
-    - machine learning
     - adaptive systems (pricing)
     - pattern recognition
-    - real-time profiling
+    - real-time user profiling
+    - machine learning
   credit:
     title: Dmitry Nozhnin
     url: http://www.gamasutra.com/blogs/DmitryNozhnin/417356/
@@ -24,7 +20,6 @@
     - Nordeus
     - Square Enix
     - Scientific Revenue
-    - Lionhead Studios
     - Jagex
     - Riot Games
     - Microsoft Game Studios
@@ -42,29 +37,18 @@
 - id: behavior
   title: "Agent Behavior & Coordination"
   subtitle: >
-    Join experts from Square Enix, Epic, Bohemia Interactive Simulations, CCP Games for a day-long
-    course on state-of-the-art techniques in behavior and control, including coordination
-    of multiple agents, reuse of logic and command hierarchies.  Learn how to integrate
-    Behavior Trees and other techniques into your games and simulations, for results that are
-    easy to author and control.
+    Join experts from IO Interactive and Ubisoft Massive, for a day-long course on state-of-the-art techniques in behavior and control, including coordination of multiple agents, reuse of logic and responding to events.  Learn how to integrate Behavior Trees and other techniques into your games and simulations, for results that are easy to author and control.
   content: >
     <img src="/img/tracks/behavior.jpg"/>
-    <p>As virtual worlds become more engaging, their number of agents is going up
-    tremendously. From AI directors that supervise a scene, to interactive tutors, as
-    well as other actors, each of them require consistent behaviors.  In this track,
-    you'll learn about best practices in the field for creating virtual actors, in
-    particular techniques such as behavior trees, planners, or utility systems.</p>
+    <p>As virtual worlds become more engaging, their number of agents and their belivability is increasing fast. From AI directors that coordinate a scene, to interactive tutors, as well as other background actors, each of them require consistent behaviors.  In this track, you'll learn about best practices in the field for creatingbelievable virtual actors—in particular with techniques such as behavior trees, planners, or utility systems.</p>
   description: >
-    As virtual worlds become more engaging, their number of agents is going up
-    tremendously. From AI directors that supervise a scene, to interactive tutors, as
-    well as other actors, each of them require consistent behaviors.  In this track,
-    you'll learn about best practices in the field for creating virtual actors, in
-    particular techniques such as behavior trees, planners, or utility systems.
+    As virtual worlds become more engaging, their number of agents and their belivability is increasing fast. From AI directors that coordinate a scene, to interactive tutors, as well as other background actors, each of them require consistent behaviors.  In this track, you'll learn about best practices in the field for creatingbelievable virtual actors—in particular with techniques such as behavior trees, planners, or utility systems.
   keywords:
     - multi-agent coordination
-    - control hierarchies
+    - believable agents
     - behavior trees
-    - hybrid utility systems
+    - functional reactive programming
+    - hybrid styte machines
   credit:
     title: The Sims 4
     url: http://www.thesims.com/
@@ -225,26 +209,12 @@
 - id: systems
   title: "Generative Systems & Design"
   subtitle: >
-    Join experts from Pixar Animation Studios, Ubisoft Montreal, MPC, Unity Technologies
-    and the INRIA labs for a day-long course on industry-leading applications of locomotion
-    and avoidance algorithms in groups, whether in constrained environments or crowds in
-    open spaces.  Find out about the techniques used in real-time games and simulations
-    for visual effects.
+    Join experts from visual effects (VFX), academic research and the games industry for a day-long course on industry-leading applications of generative systems and how they can be used to generate macro content (complex worlds, emergent interactions) and understanding the design implications.  locomotion and avoidance algorithms in groups, whether in constrained environments or crowds in open spaces.  Find out about the techniques used in real-time games and simulations for visual effects.
   description: >
-    Making a world believable almost always requires bringing it to life.  This
-    track focuses on digital extras and entire crowds that can interact with
-    their environment and perform plausible actions without taking up too much
-    computation power!  Whether you're building AI technology for runtime or reusing
-    tools as part of a creative process, you'll learn the tricks and techniques to
-    help your scenes come to life.
+    Making a world believable almost always requires bringing it to life.  This track focuses on generative systems, from digital extras and entire crowds that can interact with their environment and perform plausible actions without taking up too much computation power!  Whether you're building AI technology for runtime or reusing tools as part of a creative process, you'll learn the tricks and techniques to help your scenes come to life.
   content: >
     <img src="/img/tracks/systems.jpg"/>
-    <p>Making a world believable almost always requires bringing it to life.  This
-    track focuses on digital extras and entire crowds that can interact with
-    their environment and perform plausible actions without taking up too much
-    computation power!  Whether you're building AI technology for runtime or reusing
-    tools as part of a creative process, you'll learn the tricks and techniques to
-    help your scenes come to life.</p>
+    <p></p>
   keywords:
     - crowd simulation
     - obstacle avoidance
