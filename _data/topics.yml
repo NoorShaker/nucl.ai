@@ -1,21 +1,17 @@
 - id: analytics
   title: "Analytics & Data Science"
   subtitle: >
-    Join experts from Lionhead Studios, King.com, Nordeus, Jagex, Mind Candy and Scientific
-    Revenue for a day-long course on the state-of-the-art of analytics techniques for
-    understanding and enhancing player experience and design choices — whether for games or
-    apps — using combinations of machine learning and clever modeling tricks!
+    Join experts from Blizzard, Scientific Revenue, and leading mobile or games studios for a day-long course on the state-of-the-art of analytics techniques for understanding and enhancing player experience and design choices—whether for games, bots or apps—using combinations of machine learning and clever modeling tricks!
   content: >
-    <img src="/img/tracks/analytics.jpg"/>
-    <p>In this track, you'll learn about how and why dynamic pricing impacts revenues.  Understand the special blend  of skill and luck that goes into a casual game - and the extra ingredient that is needed to explain real player results.  Discover effective computational approaches to complex balance problems, the challenges of real-time analytics, and the design of effective recommendation systems to power choices presented in game worlds.  Thrill to the never before told story of  how one studio detected and prevented early churners!</p>
+    <img src="/img/tracks/HeroesOfTheStorm_1.jpg"/>
     <p>Applying analytics to game design is not about driving by looking in the rear view mirror while ranting about KPIs.  Analytics can be used to apply real-time or just-in-time intelligent design judgement to the logic of who sees what when,  and to the multidimensional dynamic challenges of balance and matchmaking.   Our experts explain their creative analytical solutions to a variety of challenges in game design and experience design, across a variety of platforms and genres.   Our goal is to give you some knowledge you can take home and apply.   Come join the fun!</p>
   description: >
-    In this track, you'll learn about how and why dynamic pricing impacts revenues.  Understand the special blend  of skill and luck that goes into a casual game - and the extra ingredient that is needed to explain real player results.  Discover effective computational approaches to complex balance problems, the challenges of real-time analytics, and the design of effective recommendation systems to power choices presented in game worlds.  Thrill to the never before told story of  how one studio detected and prevented early churners!
+    Applying analytics to game design is not about driving by looking in the rear view mirror while ranting about KPIs.  Analytics can be used to apply real-time or just-in-time intelligent design judgement to the logic of who sees what when,  and to the multidimensional dynamic challenges of balance and matchmaking.   Our experts explain their creative analytical solutions to a variety of challenges in game design and experience design, across a variety of platforms and genres.   Our goal is to give you some knowledge you can take home and apply.   Come join the fun!
   keywords:
-    - machine learning
     - adaptive systems (pricing)
     - pattern recognition
-    - real-time profiling
+    - real-time user profiling
+    - machine learning
   credit:
     title: Dmitry Nozhnin
     url: http://www.gamasutra.com/blogs/DmitryNozhnin/417356/
@@ -24,7 +20,6 @@
     - Nordeus
     - Square Enix
     - Scientific Revenue
-    - Lionhead Studios
     - Jagex
     - Riot Games
     - Microsoft Game Studios
