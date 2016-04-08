@@ -243,3 +243,13 @@
   bio: >
     Memo Akten is an artist from Istanbul, based in London, UK. His work explores the harmonies and tensions between nature, science, technology, culture and tradition. Combining critical and conceptual approaches with investigations into form, movement and sound he creates data dramatizations of natural and anthropogenic processes. His primary tools include studying and working with complex systems, behaviour, algorithms and software; though he works and collaborates across many disciplines producing work spanning video, sound, light, dance, software, online works, large-scale installations and performances. Alongside his practice, he is currently working towards a PhD at Goldsmiths University of London in artificial intelligence and artistic, expressive human-machine interaction.
     Akten received the Prix Ars Electronic Golden Nica in 2013 for his collaboration with Quayola, ‘Forms’. Past exhibitions and performances include the Victoria & Albert Museum, London; Royal Opera House, London; Garage Center for Contemporary Culture, Moscow; La Gaîté lyrique, Paris; Holon Design Museum, Israel and the EYE Film Institute, Amsterdam. His work has also been featured in books, academic papers, magazines and websites such as Wallpaper*, Dazed, Eye magazine, Guardian, BBC, Financial Times, Wired and Dezeen.
+
+- name: Alex Zook
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Data Scientist
+    name: Blizzard Entertainment
+    url: http://blizzard.com/
+  bio: >
+    Alex Zook is a Senior Data Scientist at Blizzard Entertainment and PhD candidate at the Georgia Institute of Technology. As a Blizzard data scientist he's work on problems including identifying gameplay styles of World of Warcraft players, analyzing map design in Overwatch, and refining matchmaking in Hearthstone and Heroes of the Storm.
