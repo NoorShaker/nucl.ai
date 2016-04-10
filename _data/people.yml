@@ -253,3 +253,13 @@
     url: http://blizzard.com/
   bio: >
     Alex Zook is a Senior Data Scientist at Blizzard Entertainment and PhD candidate at the Georgia Institute of Technology. As a Blizzard data scientist he's work on problems including identifying gameplay styles of World of Warcraft players, analyzing map design in Overwatch, and refining matchmaking in Hearthstone and Heroes of the Storm.
+
+- name: Jo Plaete
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Lead Crowd Technical Director
+    name: Industrial Light & Magic
+    url: http://www.ilm.com/
+  bio: >
+    Jo Plaete is ILM London's Crowd Simulation Supervisor. Prior to joining ILM Jo has worked in the visual effects and feature animation industry for several years for companies like Framestore, Animal Logic and MPC on projects like World War Z, The Lone Ranger, 300, Guardians Of the Galaxy and most recently Bond SPECTRE and Star Wars: Episode VII. Coming from a computer science, media and animation background Jo has always been passionate about crowd simulation and procedural ways of animating.
