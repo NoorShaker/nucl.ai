@@ -10,3 +10,10 @@
 #  time:
 #    start: "17:00"
 #    finish: "17:45"
+
+- title: "Late to the Party! A Story of Adding Player Bots to a Humans-Only Game"
+  description: >
+    Paragon is the latest MOBA game from Epic Games. Late in production a decision has been made to add player bots to support single-player and practice matches. The talk is going to describe how adding reasonable bot players to a game build around human players has been achieved. The approach taken consisted of both using stock UE4 AI parts as well as creating performant, game-specific AI subsystems, so there's going to be something interesting for everybody!
+  speakers:
+    - Mieszko Zielinski
+  room: amphitheatre

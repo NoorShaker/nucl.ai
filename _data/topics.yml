@@ -37,13 +37,13 @@
 - id: behavior
   title: "Agent Behavior & Coordination"
   subtitle: >
-    Join experts from Square Enix, Epic, Bohemia Interactive Simulations, CCP Games for a day-long
-    course on state-of-the-art techniques in behavior and control, including coordination
-    of multiple agents, reuse of logic and command hierarchies.  Learn how to integrate
+    Join experts from robotics, the games industry and the bot community for a day-long
+    course on state-of-the-art techniques in believable behavior, including coordination
+    of multiple agents, reuse of logic and responsive event handling.  Learn how to integrate
     Behavior Trees and other techniques into your games and simulations, for results that are
     easy to author and control.
   content: >
-    <img src="/img/tracks/behavior.jpg"/>
+    <img src="/img/tracks/Paragon_1.jpg"/>
     <p>As virtual worlds become more engaging, their number of agents is going up
     tremendously. From AI directors that supervise a scene, to interactive tutors, as
     well as other actors, each of them require consistent behaviors.  In this track,
@@ -60,6 +60,7 @@
     - control hierarchies
     - behavior trees
     - hybrid utility systems
+    - event processing
   credit:
     title: The Sims 4
     url: http://www.thesims.com/
