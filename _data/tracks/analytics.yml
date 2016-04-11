@@ -1,21 +1,10 @@
-# - title: "Dynamic Pricing in Mobile Games"
-#  description: >
-#    <p>Dynamic pricing techniques are at the forefront of adaptive systems in games.  How can we better understand individual players and the player-base as a whole?  What's necessary to design and tune a dynamic system that remains reliable even when operating without supervision?  Which technologies are necessary to process the large quantities of data and extract meaningful models?</p>
-#    <p>Originating in the airline industry almost 50 years ago, dynamic pricing has spread to the many other industries including retail, as well as In-App-Purchases within games or mobile applications. This talk will explain the challenges and investigate the opportunities: to reinvent how we look at data, and automate the process of sifting for information. We can take notions that are intuitively "obvious" to old-school marketers and automatically check whether the definitions actually capture actionable differences in consumer behavior.</p>
-#  speakers:
-#    - Bill Grosso
-#  room: amphitheatre
-#  time:
-#    start: "11:00"
-#    finish: "11:45"
-
-# - title: "Extended Q&A on Dynamic Pricing and Conditional Offers"
-#  description: >
-#    <p>Following up </p>
-#  speakers:
-#    - Heather Stark
-#    - Bill Grosso
-#  room: laboratories
-#  time:
-#    start: "11:45"
-#    finish: "12:15"
+- title: "A Brief History of Matchmaking in Heroes of the Storm"
+  description: >
+    <p>Matchmaking is a perennial problem for competitive game design. Conceptually the problem is simple: assemble two teams of players to create a fun match. In practice there are a wide range of challenges. How do you create fair match ups? How do you model player skills? What do you do for new players? What metrics help track the health of a matchmaking system?</p>
+    <p>This talk will cover several of the core iterations of the Heroes of the Storm matchmaking system. We'll cover the ways matchmaking has worked, the problems we've encountered, and the solutions we've developed to address these problems. Along the way we'll cover some of the simulations and data-driven models we've developed to deliver high-quality matches to Heroes of the Storm players.</p>
+  speakers:
+    - Alex Zook
+  room: amphitheatre
+  time:
+    start: "??:??"
+    finish: "??:??"
