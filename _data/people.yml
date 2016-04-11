@@ -263,3 +263,13 @@
     url: http://www.ilm.com/
   bio: >
     Jo Plaete is ILM London's Crowd Simulation Supervisor. Prior to joining ILM Jo has worked in the visual effects and feature animation industry for several years for companies like Framestore, Animal Logic and MPC on projects like World War Z, The Lone Ranger, 300, Guardians Of the Galaxy and most recently Bond SPECTRE and Star Wars: Episode VII. Coming from a computer science, media and animation background Jo has always been passionate about crowd simulation and procedural ways of animating.
+
+- name: Mieszko Zielinski
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Lead AI Programmer
+    name: Epic Games
+    url: https://www.epicgames.com
+    bio: >
+      Epic Games' Lead AI Programmer Mieszko Zielinski has been developing games for over a decade now. He found his game industry calling in 2003, when he joined a little known studio, Aidem Media, to get his foot in the industry's door. Since then, Zielinski has worked at CD Projekt Red, Crytek and People Can Fly, where he developed the AI system for "Bulletstorm" almost from scratch, with a team of great programmers. Currently his attention is split between leading efforts to implement generic AI system for Epic Games' Unreal Engine 4 and developing AI bots for Epic's latest game, Paragon.
