@@ -46,11 +46,19 @@
     <img src="/img/tracks/Paragon_1.jpg"/>
     <p>As virtual worlds become more engaging, their number of agents is going up
     tremendously. From AI directors that supervise a scene, to interactive tutors, as
-    well as other actors, each of them require consistent behaviors.  In this track,
-    you'll learn about best practices in the field for creating virtual actors, in
-    particular techniques such as behavior trees, planners, or utility systems.</p>
+    well as other actors, each of them require consistent behaviors.  Making them
+    believable and engaging is then taking it to another level!</p>
+    <p>In this track, you'll learn about best practices in the field for creating virtual actors
+    on a deadline, in particular techniques such as behavior trees, planners, or
+    utility systems.</p>
   description: >
-    As virtual worlds become more engaging, their number of agents and their belivability is increasing fast. From AI directors that coordinate a scene, to interactive tutors, as well as other background actors, each of them require consistent behaviors.  In this track, you'll learn about best practices in the field for creatingbelievable virtual actors—in particular with techniques such as behavior trees, planners, or utility systems.
+    As virtual worlds become more engaging, their number of agents is going up
+    tremendously. From AI directors that supervise a scene, to interactive tutors, as
+    well as other actors, each of them require consistent behaviors.  Making them
+    believable and engaging is then taking it to another level!
+    In this track, you'll learn about best practices in the field for creating virtual actors
+    on a deadline, in particular techniques such as behavior trees, planners, or
+    utility systems.
   keywords:
     - multi-agent coordination
     - believable agents
@@ -62,16 +70,15 @@
     url: http://www.thesims.com/
   companies:  
     - Ubisoft Studios
+    - Bohemia Interactive
+    - CD Projekt Red
     - Riot Games
     - Square Enix
     - Moving Picture Company
-    - CD Projekt Red
     - Microsoft Game Studios
     - Creative Assembly
-    - Bohemia Interactive
     - Unity Technologies
     - Epic Games
-    - Lionhead Studios
     - Pixar Animation Studios
     - INRIA Research Lab
     - Iron Galaxy Studios
