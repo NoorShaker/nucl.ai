@@ -37,18 +37,38 @@
 - id: behavior
   title: "Agent Behavior & Coordination"
   subtitle: >
+<<<<<<< HEAD
     Join experts from IO Interactive and Ubisoft Massive, for a day-long course on state-of-the-art techniques in behavior and control, including coordination of multiple agents, reuse of logic and responding to events.  Learn how to integrate Behavior Trees and other techniques into your games and simulations, for results that are easy to author and control.
   content: >
     <img src="/img/tracks/behavior.jpg"/>
     <p>As virtual worlds become more engaging, their number of agents and their belivability is increasing fast. From AI directors that coordinate a scene, to interactive tutors, as well as other background actors, each of them require consistent behaviors.  In this track, you'll learn about best practices in the field for creatingbelievable virtual actors—in particular with techniques such as behavior trees, planners, or utility systems.</p>
+=======
+    Join experts from robotics, the games industry and the bot community for a day-long
+    course on state-of-the-art techniques in believable behavior, including coordination
+    of multiple agents, reuse of logic and responsive event handling.  Learn how to integrate
+    Behavior Trees and other techniques into your games and simulations, for results that are
+    easy to author and control.
+  content: >
+    <img src="/img/tracks/Paragon_1.jpg"/>
+    <p>As virtual worlds become more engaging, their number of agents is going up
+    tremendously. From AI directors that supervise a scene, to interactive tutors, as
+    well as other actors, each of them require consistent behaviors.  In this track,
+    you'll learn about best practices in the field for creating virtual actors, in
+    particular techniques such as behavior trees, planners, or utility systems.</p>
+>>>>>>> cb14cb8340becabe1396fdff946ab12e0faeac74
   description: >
     As virtual worlds become more engaging, their number of agents and their belivability is increasing fast. From AI directors that coordinate a scene, to interactive tutors, as well as other background actors, each of them require consistent behaviors.  In this track, you'll learn about best practices in the field for creatingbelievable virtual actors—in particular with techniques such as behavior trees, planners, or utility systems.
   keywords:
     - multi-agent coordination
     - believable agents
     - behavior trees
+<<<<<<< HEAD
     - functional reactive programming
     - hybrid styte machines
+=======
+    - hybrid utility systems
+    - event processing
+>>>>>>> cb14cb8340becabe1396fdff946ab12e0faeac74
   credit:
     title: The Sims 4
     url: http://www.thesims.com/

@@ -115,6 +115,19 @@
     His main interests include Artificial Intelligence, Procedural Generation and Virtual Reality. 
     Before joining Mipumi he worked as a freelancer and was part of the AiGamedev.com team. 
 
+- name: Emil "AngryAnt" Johansen
+  role: track
+  tracks: [behavior]
+  twitter: AngryAnt
+  affiliation:
+    position: "Freelance game developer"
+    name: AngryAnt
+    url: http://angryant.com/
+  bio: >
+    A freelance game developer with a specialisation in AI, and author of the "Behave" AI middleware solution, Emil brings 
+    experience from a host of client projects as well as a four-year stint at Unity Technologies. A preference for behavioural 
+    logic, but a wide appetite for new and exciting challenges.
+
 - name: Petra Champandard-Pail
   role: org
   tracks: [decisions, behavior, animation, systems]
@@ -176,19 +189,6 @@
     url: http://entertain.univie.ac.at/~hlavacs/
   bio: >
     Prof. Helmut Hlavacs studied Technical Mathematics at the Technical University of Vienna, and received a PhD in 2001. He joined the University of Vienna as researcher for the EU projects BISANTE and later CODIS, and received habilitation in 2004, also being promoted to Associated Professor. He was guest professor in Spain and France, and initiated numerous projects on national and international level. He was vice chair and grant holder of the COST action IC0804, leader of industry projects with Rohde&Schwarz, Kapsch Carrier Com, T-Systems, Telekom Austria/A1, ASFINAG, member of the Research Center Telecommunications Vienna, etc., and successfully closed several basic research projects in the area of mobile video, task virtualization, energy efficiency, and traffic status measurement. Prof. Hlavacs co-authored over 150 peer-reviewed publications, published at international conferences or journals, resulting in an Erdös-Number of 4. He is author of one book, and guest editor of numerous special journal issues, one being currently reviewed. Furthermore, he has received eight best paper and distinguished paper awards at international conferences so far. He was also advisor of eight finished PhD students so far, two of whom have been awarded with prestigious PhD awards.
-
-- name: Emil "AngryAnt" Johansen
-  role: track
-  tracks: [behavior]
-  twitter: AngryAnt
-  affiliation:
-    position: "Freelance game developer"
-    name: AngryAnt
-    url: http://angryant.com/
-  bio: >
-    A freelance game developer with a specialisation in AI, and author of the "Behave" AI middleware solution, Emil brings 
-    experience from a host of client projects as well as a four-year stint at Unity Technologies. A preference for behavioural 
-    logic, but a wide appetite for new and exciting challenges.
 
 - name: Andre Arsenault
   role: speaker
@@ -253,3 +253,23 @@
     url: http://blizzard.com/
   bio: >
     Alex Zook is a Senior Data Scientist at Blizzard Entertainment and PhD candidate at the Georgia Institute of Technology. As a Blizzard data scientist he's work on problems including identifying gameplay styles of World of Warcraft players, analyzing map design in Overwatch, and refining matchmaking in Hearthstone and Heroes of the Storm.
+
+- name: Jo Plaete
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Lead Crowd Technical Director
+    name: Industrial Light & Magic
+    url: http://www.ilm.com/
+  bio: >
+    Jo Plaete is ILM London's Crowd Simulation Supervisor. Prior to joining ILM Jo has worked in the visual effects and feature animation industry for several years for companies like Framestore, Animal Logic and MPC on projects like World War Z, The Lone Ranger, 300, Guardians Of the Galaxy and most recently Bond SPECTRE and Star Wars: Episode VII. Coming from a computer science, media and animation background Jo has always been passionate about crowd simulation and procedural ways of animating.
+
+- name: Mieszko Zielinski
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Lead AI Programmer
+    name: Epic Games
+    url: https://www.epicgames.com
+  bio: >
+    Epic Games' Lead AI Programmer Mieszko Zielinski has been developing games for over a decade now. He found his game industry calling in 2003, when he joined a little known studio, Aidem Media, to get his foot in the industry's door. Since then, Zielinski has worked at CD Projekt Red, Crytek and People Can Fly, where he developed the AI system for "Bulletstorm" almost from scratch, with a team of great programmers. Currently his attention is split between leading efforts to implement generic AI system for Epic Games' Unreal Engine 4 and developing AI bots for Epic's latest game, Paragon.
