@@ -16,6 +16,7 @@
     title: Dmitry Nozhnin
     url: http://www.gamasutra.com/blogs/DmitryNozhnin/417356/
   companies:
+    - Blizzard Entertainment
     - King.com
     - Nordeus
     - Square Enix
@@ -172,9 +173,9 @@
   companies:
 
 - id: storytelling
-  title: "Dynamic Storytelling"
+  title: "Dynamic Dialog & Storytelling"
   subtitle: >
-    Join experts from Epic Games, CD Projekt Red, Creative Assembly for a day-long
+    Join experts from the games industry and interactive fiction for a day-long
     course on industry-leading applications that balance emergent behaviors
     (bottom-up) with designer control and narrative (top-down).  Learn how to use
     AI techniques and design methodologies to control your simulations and guide
@@ -220,21 +221,38 @@
     - MASA Group
     - CCP Games
 
-
 - id: systems
   title: "Generative Systems & Design"
   subtitle: >
-    Join experts from visual effects (VFX), academic research and the games industry for a day-long course on industry-leading applications of generative systems and how they can be used to generate macro content (complex worlds, emergent interactions) and understanding the design implications.  locomotion and avoidance algorithms in groups, whether in constrained environments or crowds in open spaces.  Find out about the techniques used in real-time games and simulations for visual effects.
+    Join experts from Industrial Light & Magic and the VFX industry, Creative Assembly
+    and game studios for a day-long course on the applications of generative systems —
+    from the technology to the design.  Learn how you can use emergent algorithms and
+    simulations to generate macro-level content, animate crowds in movies, or how you
+    can use systemic design principles to bring your worlds to life!
   description: >
-    Making a world believable almost always requires bringing it to life.  This track focuses on generative systems, from digital extras and entire crowds that can interact with their environment and perform plausible actions without taking up too much computation power!  Whether you're building AI technology for runtime or reusing tools as part of a creative process, you'll learn the tricks and techniques to help your scenes come to life.
+    Making a world believable almost always requires bringing it to life.  This
+    track focuses on using generative systems to help create macro-level content by
+    running simulations or emergent algorithms—and bring them under control with
+    systemic designs.  This includes digital extras and entire crowds that can interact
+    with their environment, as well as games that can provide highly immersive and 
+    replayable experiences!  Whether you're building technology for runtime or reusing
+    tools as part of a creative process, you'll learn the tricks and techniques to help
+    your scenes come to life and leverage the power of emergence and Artificial Intelligence.
   content: >
     <img src="/img/tracks/systems.jpg"/>
-    <p></p>
+    <p>Making a world believable almost always requires bringing it to life.  This
+    track focuses on using generative systems to help create macro-level content by
+    running simulations or emergent algorithms—and bring them under control with
+    systemic designs.  This includes digital extras and entire crowds that can interact
+    with their environment, as well as games that can provide highly immersive and 
+    replayable experiences!  Whether you're building technology for runtime or reusing
+    tools as part of a creative process, you'll learn the tricks and techniques to help
+    your scenes come to life and leverage the power of emergence and Artificial Intelligence.</p>
   keywords:
+    - systemic design
     - crowd simulation
-    - obstacle avoidance
-    - smart objects
-    - actor interaction
+    - emergence vs. control
+    - tools for testing
     - world annotation
   credit:
     title: Golaem Crowd
@@ -250,7 +268,6 @@
     - Bohemia Interactive
     - Unity Technologies
     - Epic Games
-    - Lionhead Studios
     - INRIA Research Lab
     - Iron Galaxy Studios
     - MASA Group
@@ -331,7 +348,6 @@
     - Unity Technologies
     - Epic Games
     - Pixar Animation Studios
-    - Lionhead Studios
     - Iron Galaxy Studios
     - CCP Games
 
@@ -375,7 +391,6 @@
     - Bohemia Interactive
     - Unity Technologies
     - Epic Games
-    - Lionhead Studios
     - INRIA Research Lab
     - Iron Galaxy Studios
     - University of Muenster
