@@ -176,31 +176,34 @@
   title: "Dynamic Dialog & Storytelling"
   subtitle: >
     Join experts from the games industry and interactive fiction for a day-long
-    course on industry-leading applications that balance emergent behaviors
-    (bottom-up) with designer control and narrative (top-down).  Learn how to use
-    AI techniques and design methodologies to control your simulations and guide
-    them to provide the desired results for your players — at runtime.
+    course on procedural narrative, dynamic dialog, text generation and interactive
+    storytelling.  Discover new tools and techniques that can help you manage 
+    the authoring process in a way that's compatible with runtime algorithms.  Find
+    out how to balance emergent individual behaviors (bottom-up) with designer control
+    and narrative (top-down).  Understand the kinds of things that will be possible in
+    the future.
   content: >
-    <img src="/img/tracks/storytelling.jpg"/>
-    <p>Creating emergent simulations that go beyond scripted linear experiences has
-    proven a great way of engaging audiences.  However, there are huge challenges
-    in both design and technology for implementing these.  How to combine top-down
-    control and bottom-up behaviors?  What's required to keep the player experience
-    entertaining?  Which design tools can be used to assist the process?  This
-    track will dig further into each of these topics.</p>
+    <img src="/img/tracks/KingdomCome_2.jpg"/>
+    <p>Creating dynamic and procedural stories that go beyond scripted linear experiences
+    has proven a great way of engaging audiences.  However, there are significant
+    challenges in both design and technology for implementing these.  How to combine
+    top-down narrative constraints with bottom-up emergence of individual dialog?
+    What's required to keep the player experience entertaining?  Which design tools and
+    open source libraries can be used to assist the process?  This day-long track will
+    dig further into each of these topics.</p>
   description: >
-    Creating emergent simulations that go beyond scripted linear experiences has
-    proven a great way of engaging audiences.  However, there are huge challenges
-    in both design and technology for implementing these.  How to combine top-down
-    control and bottom-up behaviors?  What's required to keep the player experience
-    entertaining?  Which design tools can be used to assist the process?  This
-    track will dig further into each of these topics.
+    Creating dynamic and procedural stories that go beyond scripted linear experiences
+    has proven a great way of engaging audiences.  However, there are significant
+    challenges in both design and technology for implementing these.  How to combine
+    top-down narrative constraints with bottom-up emergence of individual dialog?
+    What's required to keep the player experience entertaining?  Which design tools and
+    open source libraries can be used to assist the process?  This day-long track will
+    dig further into each of these topics.
   keywords:
-    - open world simulation
-    - ai directors
-    - emergent behavior
-    - complex systems
-    - design methodologies
+    - procedural narrative
+    - interactive storytelling
+    - text generation
+    - dynamic dialog
   credit:
     title: Far Cry 4
     url: http://far-cry.ubi.com/
