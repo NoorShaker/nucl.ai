@@ -3,21 +3,21 @@
   tracks:
     - day1
     - decisions
-    - procedural
-    - understanding
+    - storytelling
+    - recognition
 
 - title: "<span class='date-day'>Day #2: Tuesday, </span>July 19th"
   date: "2015/07/19"
   tracks:
     - day2
     - behavior
-    - systems
-    - recognition
+    - procedural
+    - analytics
 
 - title: "<span class='date-day'>Day #3: Wednesday, </span>July 20th"
   date: "2015/07/20"
   tracks:
     - day3
     - animation
-    - storytelling
-    - analytics
+    - systems
+    - understanding
