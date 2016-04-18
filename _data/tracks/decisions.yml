@@ -12,6 +12,17 @@
 #    start: "11:00"
 #    finish: "12:00"
 
+- title: "The How and Why of Server Validation for Mobile Simulation Games"
+  description: >
+    First we will discuss the how and the why of simple mobile simulation game economy, something that you 
+    might find in every farming game. Then, we will spice it up with some real time decision making and how 
+    it influences the challenge of server validation. We will have a look at how reusing code on server and 
+    client, by implementing deterministic simulations, can make our life much easier. We wrap it up with an 
+    extreme example where an economy and a battle is based on real time simulations. Expect to see technical 
+    details about efficient data serialisation, how to implement deterministic simulations and much more.
+  speakers:
+    - Maxim Zaks
+    
 - title: "Attacking Walled Cities in Total War: Warhammer"
   description: >
     A city siege battle is a complex machine of roles, responsibilities, and reactions on a large scale, 
