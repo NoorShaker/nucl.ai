@@ -28,3 +28,13 @@
 #  time:
 #    start: "??:??"
 #    finish: "??:??"
+
+#- title: "Creating Digital Doubles, The Character Pipeline in Quantum Break"
+#  description: >
+#    <p>In this talk we will guide you through the processes used to create the highly believable top tier digital doubles in Remedy's latest 3rd person action game, Quantum Break. We will discuss the character pipeline as a whole at Remedy and the challenges we faced during Quantum Break's development; focusing on the 4D Facial Surface Capture technology and an in-depth look in to the Runtime Pose Based deformation system and Animation pipeline.</p>
+#  speakers:
+#    - Kristof Minnaert
+#  room: ??
+#  time:
+#    start: "??:??"
+#    finish: "??:??"

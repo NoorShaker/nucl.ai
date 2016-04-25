@@ -233,6 +233,16 @@
 #  bio: >
 #   Laurent has been working in the game industry since 2001, and the past 13 years at Epic Games on games such as the Gears of War trilogy and Paragon, where he has specialized in real time Character Animation.
 
+#- name: Kristof Minnaert
+#  role: speaker
+#  confirmed: true
+#  affiliation: 
+#    position: Senior Character Technical Artist
+#    name: Remedy Entertainment
+#    url: http://www.remedygames.com/
+#  bio: >
+#   Kristof Minnaert is a Senior Character Technical Artist at Remedy Entertainment, where he focuses on the character and animation tools and pipelines. He has been part of Remedy Entertainment since 2013 and has been working in the games industry since 2006.
+
 - name: Memo Akten
   role: speaker
   confirmed: true
