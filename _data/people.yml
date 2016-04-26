@@ -203,6 +203,15 @@
     Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined 
     Creative Assembly in 2014 and is currently responsible for Battle AI on the Total War series of strategy games.
 
+- name: Andy Bray
+  role: speaker
+  confirmed: false
+  affiliation: 
+    position: Lead AI Programmer
+    name: Creative Assembly
+  bio: >
+    Andy is a Lead AI Programmer at Creative Assembly. He worked on the Xenomorph behavior for Alien: Isolation. 
+
 - name: Ali Helmy
   role: speaker
   confirmed: true
