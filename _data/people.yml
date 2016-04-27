@@ -203,6 +203,15 @@
     Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined 
     Creative Assembly in 2014 and is currently responsible for Battle AI on the Total War series of strategy games.
 
+- name: Andy Bray
+  role: speaker
+  confirmed: false
+  affiliation: 
+    position: Lead AI Programmer
+    name: Creative Assembly
+  bio: >
+    Andy is a Lead AI Programmer at Creative Assembly. He worked on the Xenomorph behavior for Alien: Isolation. 
+
 - name: Ali Helmy
   role: speaker
   confirmed: true
@@ -232,6 +241,16 @@
 #    url: https://www.epicgames.com/
 #  bio: >
 #   Laurent has been working in the game industry since 2001, and the past 13 years at Epic Games on games such as the Gears of War trilogy and Paragon, where he has specialized in real time Character Animation.
+
+#- name: Kristof Minnaert
+#  role: speaker
+#  confirmed: true
+#  affiliation: 
+#    position: Senior Character Technical Artist
+#    name: Remedy Entertainment
+#    url: http://www.remedygames.com/
+#  bio: >
+#   Kristof Minnaert is a Senior Character Technical Artist at Remedy Entertainment, where he focuses on the character and animation tools and pipelines. He has been part of Remedy Entertainment since 2013 and has been working in the games industry since 2006.
 
 - name: Memo Akten
   role: speaker
@@ -281,3 +300,13 @@
     url: http://blog.doppioslash.com
   bio: >
     Claudia Doppioslash is a Functional Programmer and a gamedev. Having learned many languages, she ended up preferring strongly typed functional languages, though she's still a moderately smug LISP weenie.
+
+- name: Maxim Zaks
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Software Developer
+    name: Wooga
+    url: https://www.wooga.com
+  bio: >
+    Maxim Zaks is a freelance Software developer with history in IDE, Web and Mobile development. Last 3.5 years he worked with Wooga/Black Anvil helping them develop mobile strategy games and a small ECS library called Entitas.
