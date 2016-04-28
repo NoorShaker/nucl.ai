@@ -28,9 +28,12 @@
         <div class="thumbnail-title-wrap">
             <h2> {{ d.name }} </h2>
             <div class="affiliation-wrap">
-            {% if d.affiliation.name %}
+            {% if d.affiliation %}
                 <p class="affiliation">
-                    <a href="{{d.affiliation.url}}" target="_blank">{{>d.affiliation.name}}</a>
+                    <a href="{{d.affiliation.url}}" target="_blank">
+                    {% if d.affiliation.name %}{{>d.affiliation.name}}
+                    {% else %} Website
+                    {% endif %}</a>
                 </p>
             {% endif %}
             </div>
