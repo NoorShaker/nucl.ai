@@ -1,4 +1,4 @@
-- title: "Procedural Level and Story Generation using Tag-Based Content Selection"
+- title: "Procedural Story & Level Generation using Tag-Based Content Selection"
   description: >
     Selecting the right bit of content based on what is happening is a key problem that appears in many parts of game development, be it NPC reactions, level generation, dynamic stories, or procedural text. It is at the core of interactive storytelling.
     Tag-based content selection is a powerful technique for solving this problem that was originally developed to pick AI barks in video games. It is still being used for that today, but it can also be used to generate levels, interactive fiction scenes, and more. It is easy to understand by both programmers and non-programmers, and is both powerful and practical.
