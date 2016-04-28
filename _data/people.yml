@@ -310,3 +310,10 @@
     url: https://www.wooga.com
   bio: >
     Maxim Zaks is a freelance Software developer with history in IDE, Web and Mobile development. Last 3.5 years he worked with Wooga/Black Anvil helping them develop mobile strategy games and a small ECS library called Entitas.
+
+- name: Paul Renvoisé
+  role: speaker
+  confirmed: true
+  bio: >
+    Paul Renvoise is NLP Lead Developer at Recast.AI, a French startup enabling developers to easily access conversational agents suiting their needs.
+    After a literature formation, he studied art history for a year and then enrolled into 42. This change of direction comes from his need to create tangible things and use his imagination to solve real problems. Fascinated by the way people’s minds work, he wanted to dive directly into artificial intelligence to analyse artificial minds.
