@@ -138,6 +138,7 @@
     - CCP Games
 
 - id: understanding
+  disabled: true
   title: "Cognition, Bots & Understanding"
   subtitle: >
     Apple Siri, IBM Watson, Amazon Alexa... More and more humans interacts with Intelligent Personal Assistants! 
@@ -173,6 +174,7 @@
   companies:
 
 - id: storytelling
+  disabled: true
   title: "Dynamic Dialog & Storytelling"
   subtitle: >
     Join experts from the games industry and interactive fiction for a day-long
@@ -225,6 +227,7 @@
     - CCP Games
 
 - id: systems
+  disabled: true
   title: "Generative Systems & Design"
   subtitle: >
     Join experts from Industrial Light & Magic and the VFX industry, Creative Assembly
@@ -310,6 +313,7 @@
     - CCP Games
 
 - id: procedural
+  disabled: true
   title: "Procedural Content Generation"
   subtitle: >
     Join professional developers in creative industries to learn more about algorithm-based
@@ -355,6 +359,7 @@
     - CCP Games
 
 - id: decisions
+  disabled: true
   title: "Real-time Decisions"
   subtitle: >
     Join experts from Microsoft Studios, Creative Assembly, Lionhead and the Universities
