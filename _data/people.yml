@@ -314,6 +314,10 @@
 - name: Paul Renvoisé
   role: speaker
   confirmed: true
+  affiliation:
+    position: NLP Lead Developer
+    name: Recast AI
+    url: https://recast.ai/
   bio: >
     Paul Renvoise is NLP Lead Developer at Recast.AI, a French startup enabling developers to easily access conversational agents suiting their needs.
     After a literature formation, he studied art history for a year and then enrolled into 42. This change of direction comes from his need to create tangible things and use his imagination to solve real problems. Fascinated by the way people’s minds work, he wanted to dive directly into artificial intelligence to analyse artificial minds.
