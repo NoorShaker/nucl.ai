@@ -332,3 +332,53 @@
   bio: >
     Jurie Horneman is a game designer and programmer who has been making games since 1991. He has worked at Rockstar Games, Blue Byte, Kalisto Entertainment, and Thalion Software. He was a co-founder of Mipumi Games, and has consulted for Arkane Studios, Moon Collider, Tequila Works, and Tale of Tales. He is passionate about combining narrative design, game design, and programming in order to create new experiences.
 
+- name: Sam Devlin
+  role: speaker
+  confirmed: true
+  affiliation:
+#    position: Transitional fellow
+    name: Digital Creativity Labs
+    url: http://www.digitalcreativity.ac.uk/
+  bio: >
+    Dr Sam Devlin (http://www-users.cs.york.ac.uk/~devlin/) received an MEng degree in Computer Systems and Software Engineering from the University of York, UK, in 2009. In 2013, he completed his PhD on multi-agent reinforcement learning at the University of York and visited Oregon State University funded by a Santander International Connections Award. His research interests are focussed on artificial intelligence, data mining and machine learning. He was a Research Associate on the EPSRC funded New Economic Models and Opportunities for digital Games (NEMOG) project from 2013-2015, working on data mining for collective game intelligence. He now holds a full academic role as a transitional fellow in the Digital Creativity Labs.
+
+- name: Pierre Gutierrez
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Data Scientist
+    name: Dataiku
+    url: http://www.dataiku.com/
+  bio: >
+    Pierre Gutierrez is a senior data scientist at Dataiku. As a data science expert and consultant, Pierre has worked in diverse sectors such as e­business, retail, banking, but also gaming. He has experience in various topics such as fraud detection, bot detection, recommender systems, or churn prediction.
+
+- name: Julian Runge
+  role: speaker
+  confirmed: true
+  affiliation:
+#    position: Researcher in residence
+    name: Wooga
+    url: https://www.wooga.com/
+  bio: >
+    Julian works for Wooga, the Berlin based developer of mobile games like Jelly Splash, Pearl's Peril, and most recently Futurama - Game of Drones. After heading analytics and data science for Wooga for a couple of years, he most recently moved to a ‘researcher in residence’ role. In this new capacity he focuses on the (rare, but sweet) projects that yield both tremendous business impact and meaningful scientific contributions. He also is a Ph.D. candidate at Humboldt University's school of business and economics in Berlin. He recently spent three months at Stanford University’s Graduate School of Business as a visiting researcher, deep diving on purchase decisions in the free-to-play and freemium business model. An economist by training, he developed a strong interest in machine learning in recent years, especially in its application to game design and marketing. His research in the field has been recognized by a best paper nomination at CIG 2014 and a best paper award at AIIDE 2015.
+
+- name: Santiago Murillo
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Data Scientist
+    name: Social Point
+    url: http://www.socialpoint.es/
+  bio: >
+    Santiago Murillo, Data Scientist at Social Point. He holds an Industrial Engineering Degree and a title of researcher in computer science from the Polytechnic University of Catalonia (UPC). He has more than 10 years’ experience working with technologic solutions and innovations in various industrial sectors. In the last years he has led the development of machine learning tools for marketing technology field and also a number of R&D projects supported by the Spanish Ministry of Science and Innovation, which focused in developing technology for data mining and artificial intelligent applied in digital advertising industry.
+
+- name: Christian Rothe
+  role: speaker
+  confirmed: true
+  affiliation:
+#    position: Data Scientist
+    name: Creative Assembly
+    url: http://www.creative-assembly.com/
+  bio: >
+    Christian is currently working at Creative Assembly on the upcoming Total War: Arena title. His main interest lies with highly scalable online systems, but he also enjoys all kinds of other challenges (which brings him to nucl.ai). Prior to joining Creative Assembly, Christian worked as a freelancer on a variety of game and non-game projects, co-founded a startup and worked at SAP.
+
