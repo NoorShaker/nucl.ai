@@ -317,3 +317,14 @@
   bio: >
     Paul Renvoise is NLP Lead Developer at Recast.AI, a French startup enabling developers to easily access conversational agents suiting their needs.
     After a literature formation, he studied art history for a year and then enrolled into 42. This change of direction comes from his need to create tangible things and use his imagination to solve real problems. Fascinated by the way people’s minds work, he wanted to dive directly into artificial intelligence to analyse artificial minds.
+
+- name: Jurie Horneman
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Designer / Programmer
+    name: Independent
+    url: http://www.intelligent-artifice.com/
+  bio: >
+    Jurie Horneman is a game designer and programmer who has been making games since 1991. He has worked at Rockstar Games, Blue Byte, Kalisto Entertainment, and Thalion Software. He was a co-founder of Mipumi Games, and has consulted for Arkane Studios, Moon Collider, Tequila Works, and Tale of Tales. He is passionate about combining narrative design, game design, and programming in order to create new experiences.
+
