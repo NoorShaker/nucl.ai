@@ -7,3 +7,13 @@
   time:
     start: "??:??"
     finish: "??:??"
+
+- title: Experiments in Augmenting the Performer with AI to Control Live Events
+  description: >
+    Real-time images, sound synthesizers and effects contain a massive array of parameters. Instead of branching and tuning every parameter between sensors and audiovisuals or using lots of hardware controllers, this is an experiment in using AI techniques to augment the performer's ability to "play" with his setup.
+  speakers:
+    - Gaspard Bucher
+  room: amphitheatre
+  time:
+    start: "??:??"
+    finish: "??:??"

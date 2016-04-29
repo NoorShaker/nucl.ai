@@ -1,6 +1,6 @@
 - name: Clodéric Mars
   role: track
-  tracks: [understanding]
+  tracks: [cognitive]
   twitter: clodericmars
   affiliation: 
     position: "CTO"
@@ -73,9 +73,7 @@
     name: Anglia Ruskin University
     url: http://www.anglia.ac.uk/
   bio: >
-    Tommy Thompson is a lecturer in computer science at the Anglia Ruskin University, Cambridge, UK.
-    He is an AI researcher focussed on machine learning applications in the areas of non-player character behaviour,
-    procedural content generation and relevant benchmarking of AI through games.
+    Tommy Thompson is a senior lecturer in computer game technology at Anglia Ruskin University, Cambridge, UK.  He is an AI researcher focussed on machine learning applications in the areas of non-player character behaviour, procedural content generation and relevant benchmarking of AI through games.  Tommy is also the host of the YouTube series 'AI and Games' (www.aiandgames.com/@AIandGames) - looking at interesting applications of AI for games in both academic research and commercial releases - and a game developer at Table Flip Games (@TableFlipGames) when time permits!
     
 - name: Mika Vehkala
   role: track
@@ -153,7 +151,7 @@
 - name: Verena Riedl
   role: org
   twitter: skittlesolives
-  tracks: [recognition, understanding, storytelling]
+  tracks: [recognition, cognitive, storytelling]
   affiliation:
     position: "Marketing Director"
     name: AiGameDev.com
@@ -263,6 +261,16 @@
     Memo Akten is an artist from Istanbul, based in London, UK. His work explores the harmonies and tensions between nature, science, technology, culture and tradition. Combining critical and conceptual approaches with investigations into form, movement and sound he creates data dramatizations of natural and anthropogenic processes. His primary tools include studying and working with complex systems, behaviour, algorithms and software; though he works and collaborates across many disciplines producing work spanning video, sound, light, dance, software, online works, large-scale installations and performances. Alongside his practice, he is currently working towards a PhD at Goldsmiths University of London in artificial intelligence and artistic, expressive human-machine interaction.
     Akten received the Prix Ars Electronic Golden Nica in 2013 for his collaboration with Quayola, ‘Forms’. Past exhibitions and performances include the Victoria & Albert Museum, London; Royal Opera House, London; Garage Center for Contemporary Culture, Moscow; La Gaîté lyrique, Paris; Holon Design Museum, Israel and the EYE Film Institute, Amsterdam. His work has also been featured in books, academic papers, magazines and websites such as Wallpaper*, Dazed, Eye magazine, Guardian, BBC, Financial Times, Wired and Dezeen.
 
+- name: Gaspard Bucher
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: "Programmer & Artist"
+    name: Ludicity
+    url: http://lucidity.io/
+  bio: >
+    I am a Swiss artist and programmer living in the mountains. As "Gaspard Buma", I created dance and performance projects. I am now focusing on interactive graphics with Lucidity and music creation with my band KEGAIS.
+
 - name: Alex Zook
   role: speaker
   confirmed: true
@@ -275,10 +283,10 @@
 
 - name: Jo Plaete
   role: speaker
-  confirmed: true
+  confirmed: false
   affiliation:
     position: Lead Crowd Technical Director
-    name: Industrial Light & Magic
+    name: "Industrial Light & Magic"
     url: http://www.ilm.com/
   bio: >
     Jo Plaete is ILM London's Crowd Simulation Supervisor. Prior to joining ILM Jo has worked in the visual effects and feature animation industry for several years for companies like Framestore, Animal Logic and MPC on projects like World War Z, The Lone Ranger, 300, Guardians Of the Galaxy and most recently Bond SPECTRE and Star Wars: Episode VII. Coming from a computer science, media and animation background Jo has always been passionate about crowd simulation and procedural ways of animating.
@@ -311,6 +319,17 @@
   bio: >
     Maxim Zaks is a freelance Software developer with history in IDE, Web and Mobile development. Last 3.5 years he worked with Wooga/Black Anvil helping them develop mobile strategy games and a small ECS library called Entitas.
 
+- name: Paul Renvoisé
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: NLP Lead Developer
+    name: Recast AI
+    url: https://recast.ai/
+  bio: >
+    Paul Renvoise is NLP Lead Developer at Recast.AI, a French startup enabling developers to easily access conversational agents suiting their needs.
+    After a literature formation, he studied art history for a year and then enrolled into 42. This change of direction comes from his need to create tangible things and use his imagination to solve real problems. Fascinated by the way people’s minds work, he wanted to dive directly into artificial intelligence to analyse artificial minds.
+
 - name: Jurie Horneman
   role: speaker
   confirmed: true
@@ -320,3 +339,12 @@
     url: http://www.intelligent-artifice.com/
   bio: >
     Jurie Horneman is a game designer and programmer who has been making games since 1991. He has worked at Rockstar Games, Blue Byte, Kalisto Entertainment, and Thalion Software. He was a co-founder of Mipumi Games, and has consulted for Arkane Studios, Moon Collider, Tequila Works, and Tale of Tales. He is passionate about combining narrative design, game design, and programming in order to create new experiences.
+
+- name: Kate Compton
+  role: speaker
+  confirmed: true
+  affiliation:
+    url: http://www.galaxykate.com/
+  bio: >
+    Kate Compton is a long-time Procedural Content Generation (PCG) practitioner.  She wrote the first paper on procedural platformer levels, generated the planets for Spore, and wrote the latest SimCity fire system.  She is now a PhD candidate at UC Santa Cruz developing artificial intelligence to augment human creativity with generative art.  She likes laser cutting, 3D printing, founding companies, and baking.
+    
