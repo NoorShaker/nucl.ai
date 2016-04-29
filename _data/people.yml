@@ -1,6 +1,6 @@
 - name: Clodéric Mars
   role: track
-  tracks: [understanding]
+  tracks: [cognitive]
   twitter: clodericmars
   affiliation: 
     position: "CTO"
@@ -153,7 +153,7 @@
 - name: Verena Riedl
   role: org
   twitter: skittlesolives
-  tracks: [recognition, understanding, storytelling]
+  tracks: [recognition, cognitive, storytelling]
   affiliation:
     position: "Marketing Director"
     name: AiGameDev.com
