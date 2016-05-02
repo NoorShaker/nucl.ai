@@ -1,15 +1,19 @@
-- id: uniwien
-  name: "Universität Wien"
-  homepage: http://www.univie.ac.at/
-
 - id: creativeAi
   name: "CreativeAi"
   homepage: http://www.creativeai.net/
 
+- id: Golaem
+  name: "Golaem"
+  homepage: http://golaem.com/
 
-#- id: craft_ai
-#  name: "craft ai"
-#  homepage: http://craft.ai/
+- id: uniwien
+  name: "Universität Wien"
+  homepage: http://www.univie.ac.at/
+
+- id: craft_ai
+  name: "craft ai"
+  homepage: http://craft.ai/
+
 
 #- id: ca
 #  name: "Creative Assembly"
