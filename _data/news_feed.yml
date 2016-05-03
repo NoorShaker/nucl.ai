@@ -4,19 +4,19 @@
   link: "/track/behavior/#four-pillars-to-building-a-solid-conversational-bot"
   picture: "/img/tracks/recastAI_pillars.jpg"
   
-  - title: "Experiments in Augmenting the Performer with AI to Control Live Events"
+- title: "Experiments in Augmenting the Performer with AI to Control Live Events"
   author: Gaspard Bucher (Ludicity)
   date: "May 2, 2016"
   link: "/track/behavior/#experiments-in-augmenting-the-performer-with-ai-to-control-live-events"
   picture: "/img/tracks/gaspardbuma.jpg"
   
-  - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
+- title: "Procedural Story & Level Generation using Tag-Based Content Selection"
   author: Jurie Horneman (Independent)
   date: "Apr 29, 2016"
   link: "/track/behavior/#procedural-story-and-level-generation-using-tag-based-content-selection"
   picture: "/img/tracks/mainframe.jpg"
   
-  - title: "Functional Reactive Programming, or the art of Time Travel(ling Debuggers)"
+- title: "Functional Reactive Programming, or the art of Time Travel(ling Debuggers)"
   author: Claudia Doppioslash (Independent)
   date: "Apr 28, 2016"
   link: "/track/behavior/#functional-reactive-programming,-or-the-art-of-time-travel(ling-debuggers)"

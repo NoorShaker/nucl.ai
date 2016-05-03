@@ -34,7 +34,7 @@
 #     - Andre Arsenault
     
     
-- title: "Online Evolution for Multi-Action Games"
+- title: "Online Evolution for Hero Academy and Multi-Action Games"
   description: >
     Tree-search algorithms are widely used for decision making in turn-based strategy games. These algorithms 
     do however not perform well for games with millions of possible moves each turn. This talk will explain 
@@ -43,6 +43,5 @@
     the space of possible action sequences that make up a single turn of the game using a genetic algorithm. 
     This approach looks very promising for this class of game and has been shown to outperform several 
     standard tree-search algorithms. 
-
   speakers:
     - Niels Justesen
