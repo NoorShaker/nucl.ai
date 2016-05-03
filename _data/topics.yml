@@ -380,10 +380,10 @@
   disabled: true
   title: "Real-time Decisions"
   subtitle: >
-    Join experts from Microsoft Studios, Creative Assembly, Lionhead and the Universities
-    of Essex and Dortmund for a day-long course on state-of-the-art techniques in decision making
-    from Monte-Carlo Tree Search to Deep Reinforcement Learning or neural networks, why and
-    how they can be applied in interactive applications.
+    Join experts from the games and mobile industry, leading researchers for a day-long
+    course on state-of-the-art techniques in decision making from evolutionary algorithms
+    to Deep Learning with neural networks, why and how they can be applied in interactive
+    applications.
   description: >
     How do you build your simulation to respond to user input at interactive rates,
     especially if it needs to make intelligent decisions?  Artificial intelligence
