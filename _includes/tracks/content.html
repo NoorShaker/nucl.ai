@@ -28,13 +28,13 @@
 <section class="none"></section>
 <section class="tracks-content tracks-text testimonials single-column-testimonials">
     <grid>
-        <h3>Regular Attendees</h3>
+        <h3>Regular &amp; Current Attendees</h3>
         <content>
             <div class="block">
                 <ul>
                 {% for company in track.companies %}
                     {% capture modulo %}{{ forloop.index | modulo:2}}{% endcapture %}
-                    {% if modulo != '0' %}
+                    {% if modulo == '0' %}
                     <li>{{ company }}</li>
                     {% else %}
                     {% endif%}
@@ -46,7 +46,7 @@
                 <ul>
                 {% for company in track.companies %}
                     {% capture modulo %}{{ forloop.index | modulo:2}}{% endcapture %}
-                    {% if modulo == '0' %}
+                    {% if modulo != '0' %}
                     <li>{{ company }}</li>
                     {% else %}
                     {% endif%}
