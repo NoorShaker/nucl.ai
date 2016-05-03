@@ -1,22 +1,35 @@
+- id: creative_ai
+  name: "CreativeAi"
+  homepage: http://www.creativeai.net/
+
+- id: Golaem
+  name: "Golaem"
+  homepage: http://golaem.com/
+
+- id: uniwien
+  name: "Universität Wien"
+  homepage: http://www.univie.ac.at/
+
 - id: craft_ai
   name: "craft ai"
   homepage: http://craft.ai/
 
-- id: ca
-  name: "Creative Assembly"
-  logo: ca.gif
-  homepage: http://www.creative-assembly.com/jobs/
-  lobby_logo: ca-lobby.png
 
-- id: sproing
-  name: "Sproing"
-  homepage: http://www.sproing.com/
+#- id: ca
+#  name: "Creative Assembly"
+#  logo: ca.gif
+#  homepage: http://www.creative-assembly.com/jobs/
+#  lobby_logo: ca-lobby.png
 
-- id: unity
-  name: "Unity"
-  homepage: https://unity3d.com/
+#- id: sproing
+#  name: "Sproing"
+#  homepage: http://www.sproing.com/
+
+#- id: unity
+#  name: "Unity"
+#  homepage: https://unity3d.com/
 
 
-- id: io_interactive
-  name: "Io-Interactive"
-  homepage: http://www.ioi.dk/
+#- id: io_interactive
+#  name: "Io-Interactive"
+#  homepage: http://www.ioi.dk/

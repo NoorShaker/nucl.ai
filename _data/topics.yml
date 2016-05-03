@@ -137,7 +137,7 @@
     - MASA Group
     - CCP Games
 
-- id: understanding
+- id: cognitive
   disabled: true
   title: "Cognition, Bots & Understanding"
   subtitle: >
@@ -172,6 +172,22 @@
     title: IBM Watson
     url: http://www.ibm.com/smarterplanet/us/en/ibmwatson/
   companies:
+    - Google Brain
+    - Recast.ai
+    - INRIA Research Lab
+    - Deep Mind
+    - University of Essex
+    - Siemens
+    - Microsoft Studios
+    - MASA Group
+    - XVR Simulation
+    - King.com
+    - University of York
+    - Craft.ai
+    - Scientific Revenue
+    - Jagex
+    - Zynga
+    - University of Amsterdam
 
 - id: storytelling
   disabled: true
