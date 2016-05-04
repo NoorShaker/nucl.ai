@@ -22,6 +22,7 @@
     details about efficient data serialisation, how to implement deterministic simulations and much more.
   speakers:
     - Maxim Zaks
+  room: masterclass
     
 # - title: "Attacking Walled Cities in Total War: Warhammer"
 #   description: >
@@ -45,3 +46,4 @@
     standard tree-search algorithms. 
   speakers:
     - Niels Justesen
+  room: masterclass

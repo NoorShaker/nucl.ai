@@ -46,7 +46,7 @@ $ ->
 
           talk_starttime = talks_order[$(@).attr("room")]
           talks_order[$(@).attr("room")]++
-          if $(@).attr("room") == "masterclass" then talks_order[$(@).attr("room")]++ # workshops higher
+          if $(@).attr("room") == "laboratories" then talks_order[$(@).attr("room")]++ # workshops higher
 
           h_start = if talks_order[$(@).attr("room")] < 10 then "0" + talk_starttime + ":00" else talk_starttime + ":00"
           h_end = if talks_order[$(@).attr("room")] < 10  then "0" + talks_order[$(@).attr("room")] + ":00" else talks_order[$(@).attr("room")] + ":00"
