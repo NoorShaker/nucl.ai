@@ -14,6 +14,10 @@
   name: "craft ai"
   homepage: http://craft.ai/
 
+- id: nvidia
+  name: "nvidia"
+  homepage: http://www.nvidia.com/
+
 
 #- id: ca
 #  name: "Creative Assembly"
