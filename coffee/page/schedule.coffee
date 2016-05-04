@@ -42,6 +42,7 @@ $ ->
           ## HARDCODED HACK FOR PUBLISHIN SCHEDULE WITH NOT COMPLETED DATA
           if $(@).attr("room") == "" || $(@).attr("room") == "??"
             $(@).attr("room", available_rooms[Math.floor(Math.random()*available_rooms.length)];)
+            $(@).addClass("noroomdefined")
           talks_order[$(@).attr("room")]++
           h_start = if talks_order[$(@).attr("room")] < 10 then "0" + (talks_order[$(@).attr("room")] - 1) + ":00" else (talks_order[$(@).attr("room")] - 1) + ":00"
           h_end = if talks_order[$(@).attr("room")] < 10  then "0" + talks_order[$(@).attr("room")] + ":00" else talks_order[$(@).attr("room")] + ":00"
