@@ -30,7 +30,7 @@
 
 - name: Michaël Rouillé
   role: track
-  tracks: [systems]
+  tracks: [systemic]
   twitter: michaelrouille
   affiliation: 
     position: "CTO"
@@ -128,7 +128,7 @@
 
 - name: Petra Champandard-Pail
   role: org
-  tracks: [decisions, behavior, animation, systems]
+  tracks: [decisions, behavior, animation, systemic]
   affiliation:
     position: "Conference Director & Co-Founder"
     name: AiGameDev.com
