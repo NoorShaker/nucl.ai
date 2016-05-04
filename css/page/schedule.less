@@ -6,7 +6,7 @@
 @COLOR_TRACK_DECISIONS: #9656d1;
 @COLOR_TRACK_STORYTELLING: #5cb214;
 @COLOR_TRACK_ANIMATION: #ff0031;
-@COLOR_TRACK_UNDERSTANDING: #e0e0e0;
+@COLOR_TRACK_COGNITIVE: #e0e0e0;
 @COLOR_TRACK_DEFAULT: #a18d75;
 
 @LIGHTEN_BLUE: lighten(@BLUE, 20%);
@@ -154,8 +154,8 @@ section.program-schedule {
             .track.decisions { .track-color( @COLOR_TRACK_DECISIONS); }
             .track.storytelling { .track-color(@COLOR_TRACK_STORYTELLING); }
             .track.animation { .track-color(@COLOR_TRACK_ANIMATION); }
-            .track.understanding { .track-color(@COLOR_TRACK_UNDERSTANDING); }
-            .track.break { .track-color(@COLOR_TRACK_UNDERSTANDING); }
+            .track.cognitive { .track-color(@COLOR_TRACK_COGNITIVE); }
+            .track.break { .track-color(@COLOR_TRACK_COGNITIVE); }
             .track.noroomdefined > a { background-color: red !important; }
 
         }
@@ -319,7 +319,7 @@ section.program-schedule {
                         &.track.decisions { .track-hovered(@COLOR_TRACK_DECISIONS, @WHITE); }
                         &.track.storytelling { .track-hovered(@COLOR_TRACK_STORYTELLING, @WHITE); }
                         &.track.animation { .track-hovered(@COLOR_TRACK_ANIMATION, @DARK_GREY); }
-                        &.track.understanding { .track-hovered(@COLOR_TRACK_UNDERSTANDING, @DARK_GREY); }
+                        &.track.cognitive { .track-hovered(@COLOR_TRACK_COGNITIVE, @DARK_GREY); }
                         &.track.day3, &.track.day2, &.track.day1 { .track-hovered(@COLOR_TRACK_DEFAULT, @DARK_GREY); }
                         &.track.break {
                             .track-hovered(@LIGHTEN_GREY, initial); 
