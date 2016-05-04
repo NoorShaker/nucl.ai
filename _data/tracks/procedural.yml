@@ -1,10 +1,7 @@
-#- title: "Building A Galaxy: Procedural Generation in No Man's Sky"
-#  description: >
-#    <p>No Man's Sky is a science-fiction game about exploration and survival set in a vast procedurally generated galaxy. This case study summarises the numerous challenges we have faced in creating a dynamic game world which is not only varied and interesting but also consistent and artist-driven.</p>
-#    <p>This talk will discuss our approach to on-the-fly procedural content generation, from the scale of a solar system down to tiny planetary details. We'll explain how overlapping systems can work in concert, demonstrating the effectiveness of straightforward generation techniques as well as highlighting areas where more tailored approaches have proved effective.</p>
-#  speakers:
-#    - Hazel McKendrick
-#  room: amphitheatre
-#  time:
-#    start: "15:00"
-#    finish: "15:45"
+- title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks [Workshop]"
+  description: >
+    In this hands-on workshop, you'll learn about and experiment with Sequence To Sequence transformations using recurrent neural networks. In particular, you'll see how LSTM (Long-Short Term Memory) work in practice to generate text, and how they can be used to model Seq2Seq.  You'll be provided with sample data from social media, specifically Twitter posts and their responses.  Whether you want to learn more about recurrent neural networks, predicting sequences, or just building cool and funny social media bots.
+  speakers:
+    - Noor Shaker
+    - Alex J. Champandard
+  room: laboratories

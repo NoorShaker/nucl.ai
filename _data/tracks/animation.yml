@@ -14,7 +14,7 @@
     <p>This talk will present how we, at Crytek, had to rethink everything we've learnt over the years, the systems we've had to create and, most importantly, the lessons we've learnt along the way that have come to form an internal "Guideline" of creating comfortable, and fun VR climbing experiences.</p>
   speakers:
     - Ali Helmy
-  room: ??
+  room: amphitheatre
   time:
     start: "??:??"
     finish: "??:??"
@@ -30,12 +30,12 @@
 #    start: "??:??"
 #    finish: "??:??"
 
-- title: "Programming an Animator's Brain"
-  description: >
-    <p>In this session Vegard Myklebust presents some of the results of their automatic character generation and animation processes developed for their game in production: Ludus. The results are reasonably high fidelity characters that are automatically generated, rigged, and animated at runtime from a relatively small amount of artist input, providing a high amount of flexibility, variation and good quality at a low production cost. By looking at what decisions an animator makes during the process of creating keyframed animation, and figuring out ways of making those decisions as a set of parameters up front, the method presented can take over the process of generating keyframes that create plausible, motivated motion in the same way that an animator would.</p>
-  speakers:
-    - Vegard Myklebust
-  room: masterclass
+# - title: "Programming an Animator's Brain"
+#   description: >
+#     <p>In this session Vegard Myklebust presents some of the results of their automatic character generation and animation processes developed for their game in production: Ludus. The results are reasonably high fidelity characters that are automatically generated, rigged, and animated at runtime from a relatively small amount of artist input, providing a high amount of flexibility, variation and good quality at a low production cost. By looking at what decisions an animator makes during the process of creating keyframed animation, and figuring out ways of making those decisions as a set of parameters up front, the method presented can take over the process of generating keyframes that create plausible, motivated motion in the same way that an animator would.</p>
+#   speakers:
+#     - Vegard Myklebust
+#   room: masterclass
 #  time:
 #    start: "??:??"
 #    finish: "??:??"
