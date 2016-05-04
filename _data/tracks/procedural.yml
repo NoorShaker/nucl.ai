@@ -1,6 +1,7 @@
-- title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks [Workshop]"
+- title: "Image Synthesis with Convolutional Neural Networks [Workshop]"
   description: >
-    In this hands-on workshop, you'll learn about and experiment with Sequence To Sequence transformations using recurrent neural networks. In particular, you'll see how LSTM (Long-Short Term Memory) work in practice to generate text, and how they can be used to model Seq2Seq.  You'll be provided with sample data from social media, specifically Twitter posts and their responses.  Whether you want to learn more about recurrent neural networks, predicting sequences, or just building cool and funny social media bots.
+    In this hands-on workshop, you'll learn about and experiment with algorithms that use convolutional neural networks to generate images: from photo-realistic textures, to style transfer on portraits, or even up-sampling pixel art. You'll learn about the underlying neural architectures,
+    how they are trained, and how you can modify them to get the results you want too!
   speakers:
     - Noor Shaker
     - Alex J. Champandard
