@@ -50,11 +50,11 @@
 #    start: "??:??"
 #    finish: "??:??"
 
-- title: "Using a Genetic Algorithm in 10 vs. 10 multiplayer matchmaking"
-  description: >
-    <p>Based on work on Total War: Arena, Christian Rothe will talk about his experience implementing a genetic algorithm to search for good solutions for 10 vs. 10 multiplayer matchmaking based on multidimensional optimization criteria. The talk will cover modelling the problem space to the GA approach and touch non­obvious pitfalls encountered during implementation and performance optimization.</p>
-  speakers:
-    - Christian Rothe
+# - title: "Using a Genetic Algorithm in 10 vs. 10 multiplayer matchmaking"
+#   description: >
+#     <p>Based on work on Total War: Arena, Christian Rothe will talk about his experience implementing a genetic algorithm to search for good solutions for 10 vs. 10 multiplayer matchmaking based on multidimensional optimization criteria. The talk will cover modelling the problem space to the GA approach and touch non­obvious pitfalls encountered during implementation and performance optimization.</p>
+#   speakers:
+#     - Christian Rothe
 #  room: amphitheatre
 #  time:
 #    start: "??:??"
