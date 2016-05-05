@@ -33,8 +33,7 @@
 #     of the attacking Siege Battle AI. Finally, we will share some hard-earned development advice for AI programmers.
 #   speakers:
 #     - Andre Arsenault
-    
-    
+
 - title: "Online Evolution for Hero Academy and Multi-Action Games"
   description: >
     Tree-search algorithms are widely used for decision making in turn-based strategy games. These algorithms 
