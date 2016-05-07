@@ -416,7 +416,8 @@
     url: http://bitdotgames.com/
   bio: >
      8+ years of game dev. Skills range from PHP dirty hacking to C++ servers coding. Walked a thorny path from an OOP zealot to an admirer of simple solutions for complicated problems.
-name: Johann Korndörfer
+
+- name: Johann Korndörfer
   role: speaker
   confirmed: true
   bio: >
