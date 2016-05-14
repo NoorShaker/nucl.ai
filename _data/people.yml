@@ -422,3 +422,15 @@
   confirmed: true
   bio: >
      Johann 'cupe' Korndörfer is a graphics coder for the demogroup mercury. Having done some kind of computer graphics since his childhood, he found the proper outlet for this drive in the demoscene, where he is active since 2008. While he works as a rendering engineer in VR for his day job, at night he codes mostly size-limited productions, as restrictions tend to stimulate his creativity.
+
+- name: Hannah Davis
+  role: speaker
+  confirmed: true
+  bio: >
+     Hannah Davis is a programmer/artist/musician based in New York. She is interested in everything, but at the moment is focused on data sonification, generative music, weird datasets, and possible futures. She is currently working on TransProse, a program that translates literature into music. She has a master's degree from NYU's ITP program and her work has been featured in TIME, Wired, Popular Science, and others.
+
+- name: Ensar Akkaya
+  role: speaker
+  confirmed: true
+  bio: >
+     Ensar Akkaya is an aspiring tools programmer with passion for games, currently finishing his study at the NHTV University in Breda, Netherlands. He has worked on various student game projects and game development related applications. Next to his student projects, he worked for the mailing and shipping industry as a software developer. He developed an integration with Houdini for Unreal Engine 4, which is being used by a student game project to procedurally set dress levels.
